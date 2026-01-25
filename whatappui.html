@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Checkout</title>
+  <link rel="stylesheet" href="whatappui.css" />
+</head>
+<body>
+
+  <div class="checkout_page">
+
+    <a href="cart.html" class="back_link">← Back to Cart</a>
+    <h1>Checkout</h1>
+
+    <div class="checkout_grid">
+
+      <!-- Order Summary -->
+      <div class="checkout_card">
+        <h3>Order Summary</h3>
+
+        <div id="checkout-items"></div>
+
+        <div class="summary_line">
+          <span>Subtotal</span>
+          <span id="subtotal">₦0</span>
+        </div>
+
+        <div class="summary_line">
+          <span>Shipping</span>
+          <span class="free">Free</span>
+        </div>
+
+        <div class="summary_total">
+          <span>Total</span>
+          <strong id="total">₦0</strong>
+        </div>
+      </div>
+<div class="customer_inputs">
+  <input
+    type="text"
+    id="customer-name"
+    placeholder="Your full name"
+    required
+  />
+
+  <input
+    type="text"
+    id="customer-location"
+    placeholder="Delivery location"
+    required
+  />
+
+  <textarea
+    id="customer-note"
+    placeholder="Optional note (e.g. delivery time)"
+    rows="3"
+  ></textarea>
+</div>
+
+      <!-- WhatsApp Order -->
+      <div class="checkout_card highlight">
+        <h3>Complete Your Order</h3>
+
+        <div class="wa_info">
+          <span class="wa_icon">🟢</span>
+          <div>
+            <strong>Order via WhatsApp</strong>
+            <p>
+              Click the button below to send your order directly to our WhatsApp.
+              Our team will confirm and arrange delivery.
+            </p>
+          </div>
+        </div>
+
+        <ul class="benefits">
+          <li>Fast response within minutes</li>
+          <li>Confirm availability instantly</li>
+          <li>Arrange convenient delivery</li>
+          <li>Multiple payment options</li>
+        </ul>
+
+        <button class="wa_btn" onclick="checkoutViaWhatsApp()">
+          Place Order via WhatsApp
+        </button>
+
+        <small class="terms">
+          By placing an order, you agree to our terms of service and privacy policy.
+        </small>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="cart.js"></script>
+  <script src="whatappui.js"></script>
+</body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone_Accessories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+<nav class="nav">
+    <div class="container">
+        <div class="container_flex">
+
+            <!-- Logo -->
+            <a href="#" class="nav_icon_txt" aria-label="Homepage">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(53, 114, 212)" d="M11 17.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z"/><path fill="rgb(53, 114, 212)" fill-rule="evenodd" d="M8 2a2.25 2.25 0 0 0-2.25 2.25v15.5A2.25 2.25 0 0 0 8 22h8a2.25 2.25 0 0 0 2.25-2.25V4.25A2.25 2.25 0 0 0 16 2zm-.75 2.25A.75.75 0 0 1 8 3.5h8a.75.75 0 0 1 .75.75v15.5a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75z" clip-rule="evenodd"/></svg>
+                <span>PhoneVault</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="header_context">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="phone.html">Phones</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <!-- Right icons -->
+            <div class="nav_actions">
+                <a href="cart.html" class="cart-icon" aria-label="Cart">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+                    <span id="cart-count" class="badge">0</span>
+                </a>
+
+                <!-- Hamburger -->
+                <button class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</nav>
+<!-- Home Display -->
+ <section class="Home_display">
+    <!-- <div class="home_display_div"></div> -->
+<div class="home_div">
+<div class="inline_flex">
+<span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(53, 114, 212)" d="M4.25 12a7.75 7.75 0 1 1 15.5 0a7.75 7.75 0 0 1-15.5 0" opacity="0.5"/></svg></span>
+<span>New Arrivals Available</span>
+</div>
+<h1>Premium Phones &
+<span>Accessories</span></h1>
+<p>Discover the latest smartphones and accessories from top brands. Quality guaranteed, prices unbeatable.</p>
+<div class="hero_actions">
+    <a href="#" class="btn_primary">
+        Shop Phones
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4z"/>
+        </svg>
+    </a>
+
+    <a href="#" class="btn_secondary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(242, 244, 247)" d="M12 4a8 8 0 0 0-8 8h3a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7C2 6.477 6.477 2 12 2s10 4.477 10 10v7a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h3a8 8 0 0 0-8-8M4 14v5h3v-5zm13 0v5h3v-5z"/></svg>
+        Shop Accessories
+    </a>
+</div>
+
+</div>
+ </section>
+ <!-- support section -->
+  <section class="support_section">
+<div class="support_grid">
+    <!-- Geniue Product -->
+    <div class="support_category">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(59, 130, 245)" d="M12 22q-3.475-.875-5.738-3.988T4 11.1V5l8-3l8 3v6.1q0 3.8-2.262 6.913T12 22m0-2.1q2.6-.825 4.3-3.3t1.7-5.5V6.375l-6-2.25l-6 2.25V11.1q0 3.025 1.7 5.5t4.3 3.3m0-7.9"/></svg>
+<h3>Genuine Products</h3>
+<p>100% Authentic</p>
+    </div>
+    <!-- Fast Delivery -->
+     <div class="support_category">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="rgb(59, 130, 245)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0-4 0m10 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0"/><path d="M5 17H3v-4M2 5h11v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5M3 9h4"/></g></svg>
+        <h3>Fast Delivery</h3>
+        <p>Nationwide Shipping</p>
+    </div>
+    <!-- 27/7 Support -->
+     <div class="support_category">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path stroke="rgb(59, 130, 245)" stroke-linecap="round" stroke-width="2.5" d="M21 15v-3a9 9 0 1 0-18 0v3"/><path fill="rgb(59, 130, 245)" d="M3 15v-1.25H1.75V15zm0 1.25h3v-2.5H3zM5.75 16v3h2.5v-3zm-1.5 3v-4h-2.5v4zm.75.75a.75.75 0 0 1-.75-.75h-2.5A3.25 3.25 0 0 0 5 22.25zm.75-.75a.75.75 0 0 1-.75.75v2.5A3.25 3.25 0 0 0 8.25 19zM6 16.25a.25.25 0 0 1-.25-.25h2.5A2.25 2.25 0 0 0 6 13.75zM21 15h1.25v-1.25H21zm-3 1.25h3v-2.5h-3zM19.75 15v4h2.5v-4zm-1.5 4v-3h-2.5v3zm.75.75a.75.75 0 0 1-.75-.75h-2.5A3.25 3.25 0 0 0 19 22.25zm.75-.75a.75.75 0 0 1-.75.75v2.5A3.25 3.25 0 0 0 22.25 19zM18 13.75A2.25 2.25 0 0 0 15.75 16h2.5a.25.25 0 0 1-.25.25z"/></g></svg>
+        <h3>24/7 Support</h3>
+        <p>Always Here to Help</p>
+    </div>
+    <!-- Warranty -->
+     <div class="support_category">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="rgb(59, 130, 245)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"><rect width="12.5" height="18.5" x="5.75" y="2.75" rx="3"/><path d="M11 17.75h2"/></g></svg>
+        <h3>Warranty</h3>
+        <p>Manufacturer Warranty</p>
+    </div>
+</div>
+  </section>
+  <!-- Product Display -->
+   <section class="product_display_section">
+<div class="feature_div">
+    <div class="feature_txt_div">
+        <h2>Featured Phones</h2>
+        <p>The latest and greatest smartphones</p>
+    </div>
+    <a href="#" class="display_view_all">
+        View All
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4z"/>
+        </svg>
+    </a>
+</div>
+<div class="items_display_grid">
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone-15-pro-max"><img src="images/iphone15.jfif" alt="iPhone 15 Pro Max"></a>
+        <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div>
+    </div>
+    <div class="phone_details"
+     data-id="iphone-15-pro-max"
+     data-name="iPhone 15 Pro Max"
+     data-brand="Apple"
+     data-price="799000"
+     data-image="images/photo-1695048133142-1a20484d2569.jfif">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone-15-pro-max">iPhone 15 Pro Max</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦799,000</span>
+                <span class="old">₦899,000</span>
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=samsung-s24-ultra"><img src="images/samsungs21.jfif" alt="Samsung Galaxy S24 Ultra"></a>
+           <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div>
+
+    </div>
+    <div class="phone_details"  data-id="samsung-s24-ultra"
+     data-name="Samsung Galaxy S24 Ultra"
+     data-brand="Samsung"
+     data-price="749000"
+     data-image="images/samsungs21.jfif">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=samsung-s24-ultra">Samsung Galaxy S24 Ultra</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦749,000</span>
+                <span class="old">₦849,000</span>
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone-15"><img src="images/iphone_15.jfif" alt="iPhone 15"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details" data-id="iphone-15"
+        data-name="iPhone 15"
+        data-brand="Apple"
+        data-price="749000"
+        data-image="images/iphone_15.jfif">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone-15">iPhone 15</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦749,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=google-pixel">
+  <img src="images/google_pixel.jfif" alt="Google Pixel 8 Pro">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="google-pixel"
+         data-name="Google Pixel"
+         data-brand="Google"
+         data-price="549000"
+         data-image="images/google_pixel.jfif">
+<div class="detail_txt">
+<p class="brand">Google</p>
+<h3>
+  <a href="product.html?id=google-pixel">Google Pixel 8 Pro</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦549,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+</div>
+   </section>
+   <!-- Offer Txt Section -->
+    <section class="offer_txt_section">
+<div class="offer_txt_div">
+    <div class="offer_txt">
+<span>LIMITED TIME OFFER</span>
+<h3>Up to 15% Off
+Premium Phones</h3>
+<p>Get amazing discounts on selected flagship smartphones. Don't miss out!</p>
+    </div>
+    <a href="#" class="btn_primary">
+        Shop Phones
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4z"/>
+        </svg>
+    </a>
+
+</div>
+    </section>
+    <!-- Best selling Section (Reusing Featured Phones Code ) -->
+       <section class="product_display_section">
+<div class="feature_div">
+    <div class="feature_txt_div">
+        <h2>Best Sellers</h2>
+        <p>Customer favorites you'll love</p>
+    </div>
+    <!-- <a href="#" class="display_view_all">
+        View All
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4z"/>
+        </svg>
+    </a> -->
+</div>
+<div class="items_display_grid">
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone-15-pro-max">
+            <img src="images/iphone15.jfif" alt="iPhone 15 Pro Max">
+        </a>
+        <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div>
+    </div>
+    <div class="phone_details" data-id="iphone-15-pro-max"
+     data-name="iPhone 15 Pro Max"
+     data-brand="Apple"
+     data-price="799000"
+     data-image="images/photo-1695048133142-1a20484d2569.jfif">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone-15-pro-max">iPhone 15 Pro Max</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦799,000</span>
+                <span class="old">₦899,000</span>
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=samsung-s24-ultra"><img src="images/samsungs21.jfif" alt="Samsung Galaxy S24 Ultra"></a>
+           <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div>
+
+    </div>
+    <div class="phone_details"  data-id="samsung-s24-ultra"
+     data-name="Samsung Galaxy S24 Ultra"
+     data-brand="Samsung"
+     data-price="749000"
+     data-image="images/samsungs21.jfif">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=samsung-s24-ultra">Samsung Galaxy S24 Ultra</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦749,000</span>
+                <span class="old">₦849,000</span>
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=oneplus_12"><img src="images/oneplus_12.jfif" alt="OnePlus 12"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <span class="badge best">Best Seller</span>
+        </div>
+    </div>
+    <div class="phone_details"  data-id="oneplus_12"
+     data-name="OnePlus 12"
+     data-brand="OnePlus"
+     data-price="449000"
+     data-image="images/oneplus_12.jfif">
+<div class="detail_txt">
+<p class="brand">OnePlus</p>
+<h3>
+    <a href="product.html?id=oneplus_12">OnePlus 12</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦449,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Airpods_Pro"><img src="images/Airpods Pro(2nd Gen).jfif" alt="AirPods Pro (2nd Gen)"></a>
+         <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <span class="badge best">Best Seller</span>
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Airpods_Pro"
+     data-name="AirPods Pro (2nd Gen)"
+     data-brand="Apple"
+     data-price="149000"
+     data-image="images/Airpods Pro(2nd Gen).jfif">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+    <a href="product.html?id=Airpods_Pro">AirPods Pro (2nd Gen)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦149,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+</div>
+<!-- Grid -->
+   </section>
+   <!-- Featured Accessories -->
+      <section class="product_display_section">
+<div class="feature_div">
+    <div class="feature_txt_div">
+        <h2>Featured Accessories</h2>
+        <p>Essential add-ons for your device</p>
+    </div>
+    <!-- <a href="#" class="display_view_all">
+        View All
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M14.707 7.293a1 1 0 1 0-1.414 1.414L15.586 11H6a1 1 0 1 0 0 2h9.586l-2.293 2.293a1 1 0 0 0 1.414 1.414l4-4z"/>
+        </svg>
+    </a> -->
+</div>
+<div class="items_display_grid">
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=AnkerPowerbank"><img src="images/AnkerPowerbank.jfif" alt="Anker PowerCore"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details" data-id="AnkerPowerbank"
+     data-name="Anker PowerCore 20000mAh"
+     data-brand="Anker"
+     data-price="35000"
+     data-image="images/AnkerPowerbank.jfif">
+<div class="detail_txt">
+<p class="brand">Anker</p>
+<h3>
+    <a href="product.html?id=AnkerPowerbank">Anker PowerCore 20000mAh</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦35,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=MagSafe"><img src="images/magsafeCharger.jfif" alt="MagSafe Charger"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="MagSafe"
+     data-name="MagSafe Charger"
+     data-brand="Apple"
+     data-price="29000"
+     data-image="images/magsafeCharger.jfif">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>MagSafe Charger</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦29,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<!-- <div class="item_display_product">
+    <div class="item_img">
+        <a href="#"><img src="images/iphone_15.jfif" alt=""></a>
+        <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div>
+    </div>
+    <div class="phone_details">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>iPhone 15</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦749,000</span>
+                <span class="old">₦899,000</span>
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div> -->
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Airpods_Pro"><img src="images/Airpods Pro(2nd Gen).jfif" alt="AirPods Pro (2nd Gen)"></a>
+         <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <span class="badge best">Best Seller</span>
+        </div>
+    </div>
+    <div class="phone_details">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+    <a href="product.html?id=Airpods_Pro">AirPods Pro (2nd Gen)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦149,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button  class="cart_btn " aria-label="Add to cart">
+<svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+</div>
+   </section>
+   <!-- Footer -->
+    <div class="footer_container">
+        <div class="grid_footer_container">
+            <div class="footer_logo_txt">
+  <a href="#" class="nav_icon_txt" aria-label="Homepage">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(53, 114, 212)" d="M11 17.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z"/><path fill="rgb(53, 114, 212)" fill-rule="evenodd" d="M8 2a2.25 2.25 0 0 0-2.25 2.25v15.5A2.25 2.25 0 0 0 8 22h8a2.25 2.25 0 0 0 2.25-2.25V4.25A2.25 2.25 0 0 0 16 2zm-.75 2.25A.75.75 0 0 1 8 3.5h8a.75.75 0 0 1 .75.75v15.5a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75z" clip-rule="evenodd"/></svg>
+                <span>PhoneVault</span>
+            </a>
+            <p>Your trusted destination for premium smartphones and accessories. Quality products, unbeatable prices.</p>
+            </div>
+            <div class="footer_link">
+<h4>Quick Links</h4>
+<ul class="footer_ul_link">
+    <li><a href="#">Phones</a></li>
+    <li><a href="#">Accessories</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+            </div>
+            <div class="footer_link">
+<h4>Categories</h4>
+<ul class="footer_ul_link">
+    <li><a href="#">Earphones</a></li>
+    <li><a href="#">Chargers</a></li>
+    <li><a href="#">Phone Cases</a></li>
+    <li><a href="#">Power Banks</a></li>
+</ul>
+            </div>
+            <div class="footer_contact">
+<h4>Contact Us</h4>
+<ul class="contact_footer">
+    <li class="flex_icon_txt">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(59, 130, 245)" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"/></svg>
+        <span>+234 801 234 5678</span>
+    </li>
+    <li class="flex_icon_txt">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(59, 130, 245)" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7l8-5V6l-8 5l-8-5v2z"/></svg>
+        <span>hello@phonevault.ng</span>
+    </li>
+    <li class="flex_icon_txt">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(59, 130, 245)" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>
+        <span>123 Tech Street, Lagos, Nigeria</span>
+    </li>
+</ul>
+            </div>
+        </div>
+        <div class="border_line">
+        <p class="reserved_txt">© 2026 PhoneVault. All rights reserved.</p>
+        </div>
+    </div>
+<script src="cart.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

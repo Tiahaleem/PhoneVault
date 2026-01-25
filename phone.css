@@ -1,0 +1,63 @@
+.phone_scetion{
+    margin: 27px 9px;
+}
+.smartphone_txt h1{
+color: rgb(248, 250, 252);
+font-family: "Space Grotesk", system-ui, sans-serif;
+font-size: 27px;
+font-weight: 700;
+line-height: 27px;
+font-variation-settings: normal;
+}
+.smartphone_txt p{
+    color: rgb(148, 163, 184);
+    font-size: 10.125px;
+    margin-top: 9px;
+    max-width:330px;
+    font-family: "Inter", system-ui, sans-serif;
+}
+.product_bth{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 18px;
+    gap: 6.75px;
+}
+.product_bth button {
+    align-items: center;
+    background-color: transparent;
+    padding: 4.5px 9px;
+    border-radius: 9999px;
+    border: 1px solid rgb(29, 40, 57);
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-size: 7.875px;
+    font-family: "Inter", system-ui, sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 11.25px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+
+.product_bth button:hover {
+    background-color: rgb(60, 131, 246);
+    color: rgb(29, 40, 57);
+}
+
+
+.product_bth button.active {
+    background-color: rgb(60, 131, 246);
+    color: rgb(29, 40, 57);
+    border-color: rgb(60, 131, 246);
+}
+
+.items_num{
+     color: rgb(148, 163, 184);
+    font-size: 10.125px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    max-width:330px;
+    font-family: "Inter", system-ui, sans-serif;
+}
