@@ -4,162 +4,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="service.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.css">
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-<Title>ArewaArtistry</Title>
+    <link rel="stylesheet" href="conatct.css">
 </head>
 <body>
-     <nav class="Header_section">
-    <a href="#" class="font">Arewa</a> 
-        <!-- <img src="" alt=""> -->
-<div class="header_cxt"  id="navLinks">
-<a href="index.html">Home</a>
-<a href="About.html">About</a>
-<a href="service.html">Service</a>
-<a href="portfolio.html">Portfolio</a>
-<a href="booking.html">Booking</a>
-<a href="Testimonials.html">Testmonials</a>
-<a href="contact.html">Contact</a>
-</div>
-<a href="booking.html" class="book_btn">Book Now</a>
- <div class="hamburger" id="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-    </nav>
-    <!-- Contact Heading Section -->
-      <section class="bout_service_section">
-        <div class="service_div">
-     <p class="p_story">Get in Touch</p>
-     <h2>Contact Us</h2>
-     <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
-        </div>
-     </section>
-     <!-- Section Contact Us Section -->
-      <section class="contact_section">
-<div class="contact_div">
-    <div class="contact_div_grid">
-       <form class="contact_request" action="https://formspree.io/f/XXXXXXX" method="POST">
+    <nav class="nav">
+    <div class="container">
+        <div class="container_flex">
 
-  <div class="input_text">
-    <div>
-      <label>Full Name *</label>
-      <input type="text" name="full_name" placeholder="Enter your full name" required>
-    </div>
+            <!-- Logo -->
+            <a href="#" class="nav_icon_txt" aria-label="Homepage">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(53, 114, 212)" d="M11 17.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z"/><path fill="rgb(53, 114, 212)" fill-rule="evenodd" d="M8 2a2.25 2.25 0 0 0-2.25 2.25v15.5A2.25 2.25 0 0 0 8 22h8a2.25 2.25 0 0 0 2.25-2.25V4.25A2.25 2.25 0 0 0 16 2zm-.75 2.25A.75.75 0 0 1 8 3.5h8a.75.75 0 0 1 .75.75v15.5a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75z" clip-rule="evenodd"/></svg>
+                <span>PhoneVault</span>
+            </a>
 
-    <div>
-      <label>Email Address *</label>
-      <input type="email" name="email" placeholder="Enter your email address" required>
-    </div>
+            <!-- Navigation Links -->
+            <ul class="header_context">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="phone.html">Phones</a></li>
+                <li><a href="accessories.html">Accessories</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
 
-    <div>
-      <label>Subject *</label>
-      <input type="text" name="subject" placeholder="What is this about?" required>
-    </div>
+            <!-- Right icons -->
+            <div class="nav_actions">
+                <a href="cart.html" class="cart-icon" aria-label="Cart">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+                    <span id="cart-count" class="badge">0</span>
+                </a>
 
-    <div>
-      <label>Message *</label>
-      <textarea name="message" placeholder="Your message..." required></textarea>
-    </div>
-  </div>
-
-  <button type="submit">Send Message</button>
-
-  <input type="hidden" name="_subject" value="New Contact Message">
-</form>
-        <div class="more_info">
-            <div>
-                <h3>Contact Information</h3>
-                <!-- Email div -->
-               <div class="flex_icon_txt_moreinfo">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">...</svg>
-
-  <div class="info_text">
-    <p>Email</p>
-    <a href="mailto:abdulhaleemtiamiyu@gmail.com">abdulhaleemtiamiyu@gmail.com</a>
-  </div>
-</div>
-
-                <!-- Phone div -->
-<div class="flex_icon_txt_moreinfo">
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">...</svg>
-
-  <div class="info_text">
-    <p>Phone</p>
-    <a href="tel:+12345678900">+1 (234) 567-8900</a>
-  </div>
-</div>
-
-                <div>
-                    <h3>Follow Us</h3>
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path stroke="rgb(166, 123, 63)" stroke-width="2" d="M3 11c0-3.771 0-5.657 1.172-6.828S7.229 3 11 3h2c3.771 0 5.657 0 6.828 1.172S21 7.229 21 11v2c0 3.771 0 5.657-1.172 6.828S16.771 21 13 21h-2c-3.771 0-5.657 0-6.828-1.172S3 16.771 3 13z"/><circle cx="16.5" cy="7.5" r="1.5" fill="rgb(166, 123, 63)"/><circle cx="12" cy="12" r="3" stroke="rgb(166, 123, 63)" stroke-width="2"/></g></svg></a>
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(166, 123, 63)" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a>
-                </div>
-                <div class="map_container">
-  <iframe
-    src="https://www.google.com/maps?q=New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</div>
-
+                <!-- Hamburger -->
+                <button class="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
+
         </div>
     </div>
-</div>
-      </section>
-        <!-- Footer -->
-         <footer class="footer">
-            <!-- <div class="footer_heading_txt">
-                <h2>Ready to Feel Beautiful?</h2>
-                <p>Let's create something beautiful together. Book your consultation today and discover the BelleArtistry difference.</p>
-                 <a href="#" class="book">Book Your Appointment<svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24"><path fill="rgb(255, 255, 255)" fill-rule="evenodd" d="M10.157 12.711L4.5 18.368l-1.414-1.414l4.95-4.95l-4.95-4.95L4.5 5.64l5.657 5.657a1 1 0 0 1 0 1.414"/></svg></a>
-            </div> -->
-            <div class="footer_links">
-<div class="grid_link">
-    <div class="logo_div_footer">
-<a href="#" class="font_footer">Arewa</a> 
-<p>Elevating beauty through artistry. Specializing in bridal, editorial, and event hair & makeup services.</p>
-<div class="footer_icon">
-    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(219, 196, 162)" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a>
-    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(219, 196, 162)" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg></a>
-</div>
+</nav>
+<section class="about_container_section">
+    <div class="about_heading_txt">
+        <h1>Get in <span>Touch</span></h1>
+        <p>Have questions about our products or need help with an order? We're here to help! Reach out to us through any of the channels below.</p>
     </div>
-    <!-- Quick Link -->
-    <div class="general_footer">
-        <h4>Quick Link</h4>
-        <a href="About.html">About</a>
-        <a href="service.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="Testimonials.html">Testimonials</a>
-        <a href="booking.html">Booking</a>
-    </div>
-    <!-- Service -->
-      <div class="general_footer">
-        <h4>Services</h4>
-        <a href="#">Bridal Beauty</a>
-        <a href="#">Nail Tech, Pedicure & Manicure</a>
-        <a href="#">Tattoo</a>
-        <a href="#">Lash Extension</a>
-    </div>
-    <!-- Contact -->
-     <div class="general_footer">
-    <h4>Contact</h4>
-    <ul>
-        <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(219, 196, 162)" d="m20 8l-8 5l-8-5V6l8 5l8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg> <a href="#">motunrayomary20@gmail.com</a></li>
-        <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(219, 196, 162)" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"/></svg><a href="#">+1 (234) 567-890</a></li>
-        <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(219, 196, 162)" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg><p class="la">Shop 6 egbe omo Otun shopping complex. Otun Ekiti Ekiti state</p></li>
-    </ul>
-     </div>
+<div class="about_grid_div">
+    <div class="grid_container_div">
+<div class="icon_about">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="rgb(38, 212, 102)" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.25 12a9.23 9.23 0 0 1-2.705 6.54A9.25 9.25 0 0 1 12 21.25a9.2 9.2 0 0 1-3.795-.81l-3.867.572a1.195 1.195 0 0 1-1.361-1.43l.537-3.923A8.9 8.9 0 0 1 2.75 12a9.23 9.23 0 0 1 2.705-6.54A9.25 9.25 0 0 1 12 2.75a9.26 9.26 0 0 1 6.545 2.71A9.24 9.24 0 0 1 21.25 12"/></svg>
 </div>
+<div class="about_txt">
+<h3>WhatsApp</h3>
+<p>Fastest way to reach us! Get instant responses to your questions.</p>
+</div>
+<button class="cnt_bth"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.25 12a9.23 9.23 0 0 1-2.705 6.54A9.25 9.25 0 0 1 12 21.25a9.2 9.2 0 0 1-3.795-.81l-3.867.572a1.195 1.195 0 0 1-1.361-1.43l.537-3.923A8.9 8.9 0 0 1 2.75 12a9.23 9.23 0 0 1 2.705-6.54A9.25 9.25 0 0 1 12 2.75a9.26 9.26 0 0 1 6.545 2.71A9.24 9.24 0 0 1 21.25 12"/></svg>Chat on WhatsApp</button>
+    </div>
+    <!--  -->
+     <div class="grid_container_div">
+<div class="icon_about" style="background-color: rgb(19, 33, 61);">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(59, 130, 245)" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"/></svg>
+</div>
+<div class="about_txt">
+<h3>Phone</h3>
+<p>Prefer to talk? Give us a call during business hours.</p>
+</div>
+<a href="#" class="cnt_link">+2348136828054</a>
+<!-- <button class="cnt_bth"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.25 12a9.23 9.23 0 0 1-2.705 6.54A9.25 9.25 0 0 1 12 21.25a9.2 9.2 0 0 1-3.795-.81l-3.867.572a1.195 1.195 0 0 1-1.361-1.43l.537-3.923A8.9 8.9 0 0 1 2.75 12a9.23 9.23 0 0 1 2.705-6.54A9.25 9.25 0 0 1 12 2.75a9.26 9.26 0 0 1 6.545 2.71A9.24 9.24 0 0 1 21.25 12"/></svg>Chat on WhatsApp</button> -->
+    </div>
+    <!--  -->
+     <div class="grid_container_div">
+<div class="icon_about" style="background-color: rgb(19, 33, 61);">
+ <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path fill="rgb(59, 130, 245)" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7l8-5V6l-8 5l-8-5v2z"/>
+</svg>
+</div>
+<div class="about_txt">
+<h3>Email</h3>
+<p>For detailed inquiries, send us an 
+<br>
+email.</p>
+</div>
+<a href="#" class="cnt_link">hello@phonevault.ng</a>
+<!-- <button class="cnt_bth"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.25 12a9.23 9.23 0 0 1-2.705 6.54A9.25 9.25 0 0 1 12 21.25a9.2 9.2 0 0 1-3.795-.81l-3.867.572a1.195 1.195 0 0 1-1.361-1.43l.537-3.923A8.9 8.9 0 0 1 2.75 12a9.23 9.23 0 0 1 2.705-6.54A9.25 9.25 0 0 1 12 2.75a9.26 9.26 0 0 1 6.545 2.71A9.24 9.24 0 0 1 21.25 12"/></svg>Chat on WhatsApp</button> -->
+    </div>
+</div>
+<section class="schedules_wording_days_grid">
+<div class="schedule">
+    <div class="schedule_icon_txt">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#000" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 2a1 1 0 0 1 .993.883L13 7v4.586l2.707 2.707a1 1 0 0 1-1.32 1.497l-.094-.083l-3-3a1 1 0 0 1-.284-.576L11 12V7a1 1 0 0 1 1-1"/></g></svg>
+        <h3>Business Hours</h3>
+    </div>
+    <div class="flex_schedule">
+        <div class="flex_li">
+            <span>Monday - Friday</span>
+            <span>9:00 AM - 7:00 PM</span>
+        </div>
+        <!--  -->
+        <div class="flex_li">
+            <span>Saturday</span>
+            <span>10:00 AM - 6:00 PM</span>
+        </div>
+        <!--  -->
+        <div class="flex_li">
+            <span>Sunday</span>
+            <span>12:00 PM - 5:00 PM</span>
+        </div>
+        <p>* WhatsApp support is available 24/7 for order inquiries</p>
+    </div>
+</div>
+<!--  -->
+<div class="schedule">
+    <div class="schedule_icon_txt">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#000" d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 2a1 1 0 0 1 .993.883L13 7v4.586l2.707 2.707a1 1 0 0 1-1.32 1.497l-.094-.083l-3-3a1 1 0 0 1-.284-.576L11 12V7a1 1 0 0 1 1-1"/></g></svg>
+        <h3>Our Location</h3>
+    </div>
+    <div class="space_txt_div">
+      <p>123 Tech Street
+Computer Village, Ikeja
+Lagos, Nigeria</p>
+<p>Located in the heart of Lagos's premier tech hub, we're easily accessible and ready to serve you with the best mobile products.</p>
+<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="#000" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg> Get Direction</a>
+    </div>
+</div>
+</section>
+</section>
+<!-- Footer -->
+    <div class="footer_container">
+        <div class="grid_footer_container">
+            <div class="footer_logo_txt">
+                <a href="index.html" class="nav_icon_txt" aria-label="Homepage">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="rgb(53, 114, 212)" d="M11 17.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z"/>
+                        <path fill="rgb(53, 114, 212)" fill-rule="evenodd" d="M8 2a2.25 2.25 0 0 0-2.25 2.25v15.5A2.25 2.25 0 0 0 8 22h8a2.25 2.25 0 0 0 2.25-2.25V4.25A2.25 2.25 0 0 0 16 2zm-.75 2.25A.75.75 0 0 1 8 3.5h8a.75.75 0 0 1 .75.75v15.5a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>PhoneVault</span>
+                </a>
+                <p>Your trusted destination for premium smartphones and accessories. Quality products, unbeatable prices.</p>
             </div>
-         </footer>
+            <div class="footer_link">
+                <h4>Quick Links</h4>
+                <ul class="footer_ul_link">
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_link">
+                <h4>Categories</h4>
+                <ul class="footer_ul_link">
+                    <li><a href="#">Earphones</a></li>
+                    <li><a href="#">Chargers</a></li>
+                    <li><a href="#">Phone Cases</a></li>
+                    <li><a href="#">Power Banks</a></li>
+                </ul>
+            </div>
+            <div class="footer_contact">
+                <h4>Contact Us</h4>
+                <ul class="contact_footer">
+                    <li class="flex_icon_txt">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+                            <path fill="rgb(59, 130, 245)" d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"/>
+                        </svg>
+                        <span>+234 801 234 5678</span>
+                    </li>
+                    <li class="flex_icon_txt">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+                            <path fill="rgb(59, 130, 245)" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20zm8-7l8-5V6l-8 5l-8-5v2z"/>
+                        </svg>
+                        <span>hello@phonevault.ng</span>
+                    </li>
+                    <li class="flex_icon_txt">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+                            <path fill="rgb(59, 130, 245)" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/>
+                        </svg>
+                        <span>123 Tech Street, Lagos, Nigeria</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="border_line">
+            <p class="reserved_txt">© 2026 PhoneVault. All rights reserved.</p>
+        </div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

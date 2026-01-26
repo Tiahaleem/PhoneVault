@@ -1,43 +1,27 @@
-//  Hambuger Icon Mobile
- const hamburger = document.getElementById("hamburger");
-  const navLinks = document.getElementById("navLinks");
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector(".header_context");
 
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
-  // On click Portfolio Section
-  const buttons = document.querySelectorAll('.portfolio_category_flex button');
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".cart_btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const productEl = btn.closest(".phone_details");
+      if (!productEl) return;
 
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
+      const product = {
+        id: productEl.dataset.id,
+        name: productEl.dataset.name,
+        brand: productEl.dataset.brand,
+        price: Number(productEl.dataset.price),
+        image: productEl.dataset.image
+      };
+
+      addItemToCart(product, 1);
+
+      btn.innerHTML = "✔";
+      setTimeout(() => (btn.innerHTML = "🛒"), 800);
     });
   });
-  // Image Filter
-  //  const buttons = document.querySelectorAll('.portfolio_category_flex .cart');
-  const images = document.querySelectorAll('.img_portfolio_display_inner_div');
-
-  buttons.forEach(button => {
-    button.addEventListener('click', () => {
-
-      // ✅ Active button toggle
-      buttons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-
-      const filter = button.getAttribute('data-filter');
-
-      // ✅ Filter images
-      images.forEach(image => {
-        const category = image.getAttribute('data-category');
-
-        if (filter === 'all' || category === filter) {
-          image.style.display = 'block';
-        } else {
-          image.style.display = 'none';
-        }
-      });
-
-    });
-  });
-
+});

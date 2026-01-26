@@ -140,6 +140,36 @@ specs:[
 "90W charging",
 "256GB Storage"
 ]
+},
+"Xiaomi15T":{
+ brand:"Xiaomi",
+name:"Xiaomi15T",
+price:399000,
+image:"xiaomi/114eaa3c703c5b5cd9ae491b74204914.webp",
+description:"The Xiaomi 15T is here to carry the T-series torch for late 2025, and while it's technically the vanilla entry of the duo, it is anything but stripped down. Xiaomi's T-models have long been about offering a balance of performance and features that approach flagship territory without demanding full flagship pricing, and the 15T follows that formula closely.",
+specs:[
+"Snapdragon 8 Gen 3",
+"AMOLED, 68B colors, 120Hz, 3840Hz PWM, Dolby Vision, HDR10+, 3200 nits (peak)",
+"50 MP, f/1.7, 23mm (wide), 1/1.55, 1.0µm, PDAF, OIS",
+"67W wired, PD3.0, 100% in 50 min",
+"Glass front (Gorilla Glass 7i), plastic frame, fiber-reinforced plastic back",
+"256GB 12GB RAM, 512GB 12GB RAM"
+]
+},
+"XiaomiMIX":{
+  brand:"Xiaomi",
+name:"XiaomiMIX",
+price:599000,
+image:"xiaomi/dbd8ab2e47beb33c1e0b9aa96287b35c.webp",
+description:"The Xiaomi 15T is here to carry the T-series torch for late 2025, and while it's technically the vanilla entry of the duo, it is anything but stripped down. Xiaomi's T-models have long been about offering a balance of performance and features that approach flagship territory without demanding full flagship pricing, and the 15T follows that formula closely.",
+specs:[
+"Qualcomm SM8650-AB Snapdragon 8 Gen 3 (4 nm)",
+"Foldable LTPO AMOLED, 1B colors, Dolby Vision, HDR10+, 120Hz, 3000 nits (peak)",
+"50 MP, f/1.7, 23mm (wide), 1/1.55, 1.0µm, PDAF, OIS",
+"67W wired",
+"	Plastic front (unfolded), glass front (folded), glass back, aluminum frame, hinge (stainless steel)",
+"256GB 12GB RAM, 512GB 12GB RAM, 1TB 16GB RAM"
+]
 }
 };
 
