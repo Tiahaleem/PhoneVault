@@ -8,43 +8,42 @@
     <link rel="stylesheet" href="phone.css">
 </head>
 <body>
-    <nav class="nav">
-    <div class="container">
-        <div class="container_flex">
-
-            <!-- Logo -->
-            <a href="#" class="nav_icon_txt" aria-label="Homepage">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(53, 114, 212)" d="M11 17.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z"/><path fill="rgb(53, 114, 212)" fill-rule="evenodd" d="M8 2a2.25 2.25 0 0 0-2.25 2.25v15.5A2.25 2.25 0 0 0 8 22h8a2.25 2.25 0 0 0 2.25-2.25V4.25A2.25 2.25 0 0 0 16 2zm-.75 2.25A.75.75 0 0 1 8 3.5h8a.75.75 0 0 1 .75.75v15.5a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75z" clip-rule="evenodd"/></svg>
-                <span>PhoneVault</span>
-            </a>
-
-            <!-- Navigation Links -->
-            <ul class="header_context">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="phone.html">Phones</a></li>
-                <li><a href="#">Accessories</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-
-            <!-- Right icons -->
-            <div class="nav_actions">
-                <a href="cart.html" aria-label="Cart">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
-                    <span class="badge">0</span>
+ <nav class="nav">
+        <div class="container">
+            <div class="container_flex">
+                <a href="index.html" class="nav_icon_txt" aria-label="Homepage">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="rgb(53, 114, 212)" d="M11 17.5a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5z"/>
+                        <path fill="rgb(53, 114, 212)" fill-rule="evenodd" d="M8 2a2.25 2.25 0 0 0-2.25 2.25v15.5A2.25 2.25 0 0 0 8 22h8a2.25 2.25 0 0 0 2.25-2.25V4.25A2.25 2.25 0 0 0 16 2zm-.75 2.25A.75.75 0 0 1 8 3.5h8a.75.75 0 0 1 .75.75v15.5a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75z" clip-rule="evenodd"/>
+                    </svg>
+                    <span>PhoneVault</span>
                 </a>
 
-                <!-- Hamburger -->
-                <button class="hamburger" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
+                <ul class="header_context">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="phone.html">Phones</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
 
+                <div class="nav_actions">
+                    <a href="cart.html" aria-label="Cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24">
+                            <path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/>
+                        </svg>
+                        <span class="badge" id="cart-count">0</span>
+                    </a>
+
+                    <button class="hamburger" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 <!-- Phone Section -->
  <section class="phone_scetion">
 <div class="smartphone_txt">
@@ -55,102 +54,55 @@
     <button class="active" data-brand="all">All Brands</button>
     <button data-brand="apple">Apple</button>
     <button data-brand="samsung">Samsung</button>
-    <button data-brand="google">Google</button>
-    <button data-brand="oneplus">OnePlus</button>
-    <button data-brand="xiaomi">Xiaomi</button>
-    <button data-brand="poco">Poco</button>
+    <button data-brand="itel">Itel</button>
     <button data-brand="redmi">Redmi</button>
     <button data-brand="tecno">Tecno</button>
     <button data-brand="infinix">Infinix</button>
 </div>
-<p class="items_num">Showing 8 products</p>
+<div class="items_top_bar">
+  <p class="items_num">Showing <span id="items-count">0</span> products</p>
+
+  <input
+    type="text"
+    id="searchProducts"
+    placeholder="Search phones…"
+    class="search_input"
+  />
+
+  <select id="sortProducts" class="sort_select">
+    <option value="default">Sort</option>
+    <option value="low-high">Price: Low → High</option>
+    <option value="high-low">Price: High → Low</option>
+  </select>
+</div>
+
 <div class="items_display_grid">
+    <p class="no_results" hidden>
+  No products found for this brand.
+</p>
 <div class="item_display_product">
     <div class="item_img">
         <a href="product.html?id=iphone-15-pro-max"><img src="images/iphone15.jfif" alt="iPhone 15 Pro Max"></a>
-        <div class="product_badges">
-            <span class="badge sale">Sale</span>
-            <span class="badge best">Best Seller</span>
-        </div>
-    </div>
-    <div class="phone_details"
-     data-id="iphone-15-pro-max"
-     data-name="iPhone 15 Pro Max"
-     data-brand="Apple"
-     data-price="799000"
-     data-image="images/photo-1695048133142-1a20484d2569.jfif">
-<div class="detail_txt">
-<p class="brand">APPLE</p>
-<h3>
-    <a href="product.html?id=iphone-15-pro-max">iPhone 15 Pro Max</a>
-</h3>
-</div>
-<div class="price_cart_flex">
-<div class="price">
-                <span class="current">₦799,000</span>
-                <span class="old">₦899,000</span>
-            </div>
- <button class="cart_btn" aria-label="Add to cart">
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
-            </button>
-</div>
-    </div>
-</div>
-<!--  -->
-<div class="item_display_product">
-    <div class="item_img">
-        <a href="product.html?id=samsung-s24-ultra"><img src="images/samsungs21.jfif" alt="Samsung Galaxy S24 Ultra"></a>
-           <div class="product_badges">
-            <span class="badge sale">Sale</span>
-            <span class="badge best">Best Seller</span>
-        </div>
-
-    </div>
-    <div class="phone_details"  data-id="samsung-s24-ultra"
-     data-name="Samsung Galaxy S24 Ultra"
-     data-brand="Samsung"
-     data-price="749000"
-     data-image="images/samsungs21.jfif">
-<div class="detail_txt">
-<p class="brand">Samsung</p>
-<h3>
-    <a href="product.html?id=samsung-s24-ultra">Samsung Galaxy S24 Ultra</a>
-</h3>
-</div>
-<div class="price_cart_flex">
-<div class="price">
-                <span class="current">₦749,000</span>
-                <span class="old">₦849,000</span>
-            </div>
- <button class="cart_btn" aria-label="Add to cart">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
-            </button>
-</div>
-    </div>
-</div>
-<!--  -->
-<div class="item_display_product">
-    <div class="item_img">
-        <a href="product.html?id=iphone-15"><img src="images/iphone_15.jfif" alt="iPhone 15"></a>
         <!-- <div class="product_badges">
             <span class="badge sale">Sale</span>
             <span class="badge best">Best Seller</span>
         </div> -->
     </div>
-    <div class="phone_details" data-id="iphone-15"
-        data-name="iPhone 15"
-        data-brand="Apple"
-        data-price="749000"
-        data-image="images/iphone_15.jfif">
+    <div class="phone_details"
+     data-id="iphone-15-pro-max"
+     data-name="iPhone 15 Pro Max (256)"
+     data-brand="Apple"
+     data-price="1000000"
+     data-image="images/photo-1695048133142-1a20484d2569.jfif">
 <div class="detail_txt">
 <p class="brand">APPLE</p>
 <h3>
-    <a href="product.html?id=iphone-15">iPhone 15</a>
+    <a href="product.html?id=iphone-15-pro-max">iPhone 15 Pro Max (256)</a>
 </h3>
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦749,000</span>
+                <span class="current">₦1,000,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -162,29 +114,92 @@
 <!--  -->
 <div class="item_display_product">
     <div class="item_img">
-     <a href="product.html?id=google-pixel">
-  <img src="images/google_pixel.jfif" alt="Google Pixel 8 Pro">
+        <a href="product.html?id=Samsung-s21"><img src="images/samsungs21.jfif" alt="Samsung Galaxy S21"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="samsung s21"
+     data-name="Samsung Galaxy S21 (8+256)"
+     data-brand="Samsung"
+     data-price="240000"
+     data-image="images/samsungs21.jfif">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Samsung-s21">Samsung Galaxy S21 (8+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦240,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone-15"><img src="iphone/Iph 15.webp" alt="iPhone 15"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details" data-id="iphone-15"
+        data-name="iPhone 15 (128)"
+        data-brand="Apple"
+        data-price="705000"
+        data-image="images/iphone_15.jfif">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone-15">iPhone 15 (128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦705,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=redmi_15c">
+  <img src="redmi/redmi_15c_epto_it_1752845765260.webp" alt="Redmi15C (8+256gb)">
 </a>
          <!-- <div class="product_badges">
             <span class="badge sale">Sale</span>
             <span class="badge best">Best Seller</span>
         </div> -->
     </div>
-    <div class="phone_details"  data-id="google-pixel"
-         data-name="Google Pixel"
-         data-brand="Google"
-         data-price="549000"
-         data-image="images/google_pixel.jfif">
+    <div class="phone_details"  data-id="Redmi15C (8+256gb)"
+         data-name="Redmi15C (8+256gb)"
+         data-brand="Redmi"
+         data-price="177000"
+         data-image="redmi/redmi_15c_epto_it_1752845765260.webp">
 <div class="detail_txt">
-<p class="brand">Google</p>
+<p class="brand">Redmi</p>
 <h3>
-  <a href="product.html?id=google-pixel">Google Pixel 8 Pro</a>
+  <a href="product.html?id=redmi_15c">Redmi 15C (8+256gb)</a>
 </h3>
 
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦549,000</span>
+                <span class="current">₦177,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -197,28 +212,28 @@
 <div class="item_display_product">
     <div class="item_img">
      <a href="product.html?id=Iphone14">
-  <img src="images/Iphone14.jfif" alt="Iphone14">
+  <img src="iphone/iph14.webp" alt="Iphone14">
 </a>
          <!-- <div class="product_badges">
             <span class="badge sale">Sale</span>
             <span class="badge best">Best Seller</span>
         </div> -->
     </div>
-    <div class="phone_details"  data-id="Iphone14"
-         data-name="Iphone14"
+    <div class="phone_details"  data-id="iPhone 14 (256)"
+         data-name="iPhone 14 (256)"
          data-brand="Apple"
-         data-price="499000"
-         data-image="images/Iphone14.jfif">
+         data-price="522000"
+         data-image="iphone/iph14.webp">
 <div class="detail_txt">
 <p class="brand">Apple</p>
 <h3>
-  <a href="product.html?id=Iphone14">iPhone 14</a>
+  <a href="product.html?id=Iphone14">iPhone 14 (256)</a>
 </h3>
 
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦499,000</span>
+                <span class="current">₦522,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -230,29 +245,29 @@
 <!--  -->
 <div class="item_display_product">
     <div class="item_img">
-     <a href="product.html?id=Xiaomi14">
-  <img src="images/Xiaomi14.jfif" alt="Google Pixel 8 Pro">
+     <a href="product.html?id=Note10plus_512">
+  <img src="samsung/Note10plus.webp" alt="Note10plus">
 </a>
          <!-- <div class="product_badges">
             <span class="badge sale">Sale</span>
             <span class="badge best">Best Seller</span>
         </div> -->
     </div>
-    <div class="phone_details"  data-id="Xiaomi14"
-         data-name="Xiaomi 14 Ultra"
-         data-brand="Xiaomi"
-         data-price="399000"
-         data-image="images/google_pixel.jfif">
+    <div class="phone_details"  data-id="Samsung Note10 plus (12+512)"
+         data-name="Samsung Note10 plus (12+512)"
+         data-brand="samsung"
+         data-price="307000"
+         data-image="samsung/Note10plus.webp">
 <div class="detail_txt">
-<p class="brand">Xiaomi</p>
+<p class="brand">Samsung</p>
 <h3>
-  <a href="product.html?id=Xiaomi14">Xiaomi 14 Ultra</a>
+  <a href="product.html?id=Note10plus">Samsung Note10 plus (12+512)</a>
 </h3>
 
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦399,000</span>
+                <span class="current">₦307,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -264,26 +279,393 @@
 <!--  -->
 <div class="item_display_product">
     <div class="item_img">
-        <a href="product.html?id=oneplus_12"><img src="images/oneplus_12.jfif" alt="OnePlus 12"></a>
+     <a href="product.html?id=Note10plus">
+  <img src="samsung/Note10plus.webp" alt="Note10plus">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="Samsung Note10 plus (12+256)"
+         data-name="Samsung Note10 plus (12+256)"
+         data-brand="samsung"
+         data-price="200000"
+         data-image="samsung/Note10plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+  <a href="product.html?id=Note10plus">Samsung Note10 plus (12+256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦200,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Note10">
+            <img src="samsung/Note10.webp" alt="Note10"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Note10"
+     data-name="Samsung Note10 (12+256)"
+     data-brand="samsung"
+     data-price="207000"
+     data-image="samsung/Note10.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Note10">Samsung Note10 (12+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦207,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Note10_512">
+            <img src="samsung/Note10.webp" alt="Note10"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Note10_512"
+     data-name="Samsung Note10 (12+512)"
+     data-brand="samsung"
+     data-price="207000"
+     data-image="samsung/Note10.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Note10_512">Samsung Note10 (12+512)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦207,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=itel-s26-ultra">
+  <img src="itel/itel-s26-ultra-resize_.webp" alt="itel-s26-ultra">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="S26ultra(8+256)"
+         data-name="Itel s26 ultra (8+256) "
+         data-brand="Itel"
+         data-price="282000"
+         data-image="itel/itel-s26-ultra-resize_.webp">
+<div class="detail_txt">
+<p class="brand">Itel</p>
+<h3>
+  <a href="product.html?id=itel-s26-ultra">itel S26ultra (8+256) </a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦282,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=itel-s26-ultra_128ram">
+  <img src="itel/itel-s26-ultra-resize_.webp" alt="itel-s26-ultra">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="S26ultra(8+128)"
+         data-name="itel S26ultra (8+128) "
+         data-brand="Itel"
+         data-price="237000"
+         data-image="itel/itel-s26-ultra-resize_.webp">
+<div class="detail_txt">
+<p class="brand">Itel</p>
+<h3>
+  <a href="product.html?id=itel-s26-ultra_128ram">itel S26ultra (8+128) </a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦237,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=itelA06_32ram">
+  <img src="itel/itelA06.webp" alt="Itel A06 (2+32)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="Itel A06 (2+32)+"
+         data-name="Itel A06 (2+32)"
+         data-brand="Itel"
+         data-price="80000"
+         data-image="itel/itelA06.webp">
+<div class="detail_txt">
+<p class="brand">Itel</p>
+<h3>
+  <a href="product.html?id=itelA06_32ram">Itel A06 (2+32)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦80,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Hot60proplus">
+  <img src="infinix/Hot60pro+.webp" alt="Infinix Hot60pro+ (8+256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="Hot60pro+"
+         data-name="Infinix Hot60pro+ (8+256) "
+         data-brand="Infinix"
+         data-price="315000"
+         data-image="infinix/Hot60pro+.webp">
+<div class="detail_txt">
+<p class="brand">Infinix</p>
+<h3>
+  <a href="product.html?id=Hot60proplus">Infinix Hot60pro+ (8+256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦315,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone_17pro">
+            <img src="iphone/iphone_17pro__0s6piftg70ym_large.jpeg" alt="iPhone 17 Pro"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iphone-17-pro"
+     data-name="iPhone 17 Pro (256gb)"
+     data-brand="Apple"
+     data-price="1000000"
+     data-image="iphone/iphone_17pro__0s6piftg70ym_large.jpeg">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone_17pro">iPhone 17 Pro (256gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,950,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=S25ultra">
+            <img src="samsung/S24ultra.webp" alt="Samsung Galaxy S25 Ultra"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="samsung-s24-ultra"
+     data-name="Samsung Galaxy S24 Ultra (12+256)"
+     data-brand="Samsung"
+     data-price="970000"
+     data-image="samsung/S24ultra.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=S25ultra">Samsung Galaxy S24 Ultra (12+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦970,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Redmi-Note-15">
+            <img src="redmi/Redmi-Note-15.webp" alt="Redmi Note 15"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details" data-id="Redmi Note 15 (8+256)"
+        data-name="Redmi Note 15 (8+256)"
+        data-brand="Redmi"
+        data-price="314000"
+        data-image="redmi/Redmi-Note-15.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=Redmi-Note-15">Redmi Note 15 (8+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦314,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Tecno-Camon-40-Pro-5G">
+  <img src="Tecno/Tecno-Camon-40-Pro-5G_featured-image-packshot-review.jpg" alt="Tecno Camon 40 Pro 5G">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="Tecno-Camon-40-Pro-5G"
+         data-name="Tecno Camon 40 Pro 5G (8+256)"
+         data-brand="Tecno"
+         data-price="396000"
+         data-image="Tecno/Tecno-Camon-40-Pro-5G_featured-image-packshot-review.jpg">
+<div class="detail_txt">
+<p class="brand">Tecno</p>
+<h3>
+  <a href="product.html?id=Tecno-Camon-40-Pro-5G">Tecno Camon 40 Pro 5G (8+256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦396,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A065G">
+            <img src="samsung/A065G.webp" alt="A065G"></a>
         <div class="product_badges">
             <!-- <span class="badge sale">Sale</span> -->
             <span class="badge best">Best Seller</span>
         </div>
     </div>
-    <div class="phone_details"  data-id="oneplus_12"
-     data-name="OnePlus 12"
-     data-brand="OnePlus"
-     data-price="449000"
-     data-image="images/oneplus_12.jfif">
+    <div class="phone_details"  data-id="Samsung-A065G"
+     data-name="Samsung A06 5G (4+64)"
+     data-brand="Samsung"
+     data-price="190000"
+     data-image="samsung/A065G.webp">
 <div class="detail_txt">
-<p class="brand">OnePlus</p>
+<p class="brand">Samsung</p>
 <h3>
-    <a href="product.html?id=oneplus_12">OnePlus 12</a>
+    <a href="product.html?id=A065G">Samsung A06 5G (4+64)</a>
 </h3>
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦449,000</span>
+                <span class="current">₦190,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -295,29 +677,27 @@
 <!--  -->
 <div class="item_display_product">
     <div class="item_img">
-     <a href="product.html?id=Xiaomi15T">
-  <img src="xiaomi/114eaa3c703c5b5cd9ae491b74204914.webp" alt="Xiaomi 15T">
-</a>
-         <!-- <div class="product_badges">
-            <span class="badge sale">Sale</span>
-            <span class="badge best">Best Seller</span>
-        </div> -->
+        <a href="product.html?id=RedmiNote14">
+            <img src="redmi/RedmiNote14.webp" alt="Redmi Note14"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
     </div>
-    <div class="phone_details"  data-id="Xiaomi15T"
-         data-name="Xiaomi 15T"
-         data-brand="Xiaomi"
-         data-price="399000"
-         data-image="xiaomi/4c093687512b2acfcdecca0f41d6c81c.webp">
+    <div class="phone_details"  data-id="Redmi Note14 (8+256g)"
+     data-name="Redmi Note14 (8+256g)"
+     data-brand="Redmi"
+     data-price="275000"
+     data-image="redmi/RedmiNote14.webp">
 <div class="detail_txt">
-<p class="brand">Xiaomi</p>
+<p class="brand">Redmi</p>
 <h3>
-  <a href="product.html?id=Xiaomi15T">Xiaomi 15T</a>
+    <a href="product.html?id=RedmiNote14">Redmi Note14 (8+256g)</a>
 </h3>
-
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦399,000</span>
+                <span class="current">₦275,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -329,29 +709,27 @@
 <!--  -->
 <div class="item_display_product">
     <div class="item_img">
-     <a href="product.html?id=XiaomiMIX">
-  <img src="xiaomi/dbd8ab2e47beb33c1e0b9aa96287b35c.webp" alt="Xiaomi MIX Flip">
-</a>
-         <!-- <div class="product_badges">
-            <span class="badge sale">Sale</span>
-            <span class="badge best">Best Seller</span>
-        </div> -->
+        <a href="product.html?id=Fold4">
+            <img src="samsung/Fold4.webp" alt="Samsung Fold4 (12+256)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
     </div>
-    <div class="phone_details"  data-id="XiaomiMIX"
-         data-name="Xiaomi MIX Flip"
-         data-brand="Xiaomi"
-         data-price="599000"
-         data-image="xiaomi/4c093687512b2acfcdecca0f41d6c81c.webp">
+    <div class="phone_details"  data-id="Samsung Fold4 (12+256)"
+     data-name="Samsung Fold4 (12+256)"
+     data-brand="samsung"
+     data-price="610000"
+     data-image="samsung/Fold4.webp">
 <div class="detail_txt">
-<p class="brand">Xiaomi</p>
+<p class="brand">Samsung</p>
 <h3>
-  <a href="product.html?id=XiaomiMIX">Xiaomi MIX Flip</a>
+    <a href="product.html?id=Fold4">Samsung Fold4 (12+256)</a>
 </h3>
-
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦599,000</span>
+                <span class="current">₦610,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -363,29 +741,27 @@
 <!--  -->
 <div class="item_display_product">
     <div class="item_img">
-     <a href="product.html?id=XiaomiMIX">
-  <img src="xiaomi/dbd8ab2e47beb33c1e0b9aa96287b35c.webp" alt="Xiaomi MIX Flip">
-</a>
-         <!-- <div class="product_badges">
-            <span class="badge sale">Sale</span>
-            <span class="badge best">Best Seller</span>
-        </div> -->
+        <a href="product.html?id=Fold5">
+            <img src="samsung/Fold5.jpeg" alt="Samsung Fold5 (12+256)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
     </div>
-    <div class="phone_details"  data-id="XiaomiMIX"
-         data-name="Xiaomi MIX Flip"
-         data-brand="Xiaomi"
-         data-price="599000"
-         data-image="xiaomi/4c093687512b2acfcdecca0f41d6c81c.webp">
+    <div class="phone_details"  data-id="Samsung Fold5 (12+256)"
+     data-name="Samsung Fold5 (12+256)"
+     data-brand="samsung"
+     data-price="710000"
+     data-image="samsung/Fold5.webp">
 <div class="detail_txt">
-<p class="brand">Xiaomi</p>
+<p class="brand">Samsung</p>
 <h3>
-  <a href="product.html?id=XiaomiMIX">Xiaomi MIX Flip</a>
+    <a href="product.html?id=Fold5">Samsung Fold5 (12+256)</a>
 </h3>
-
 </div>
 <div class="price_cart_flex">
 <div class="price">
-                <span class="current">₦599,000</span>
+                <span class="current">₦710,000</span>
                 <!-- <span class="old">₦899,000</span> -->
             </div>
  <button class="cart_btn" aria-label="Add to cart">
@@ -394,6 +770,2290 @@
 </div>
     </div>
 </div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Fold6">
+            <img src="samsung/Fold6.webp" alt="Samsung Fold6 (12+256)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung Fold6 (12+256)"
+     data-name="Samsung Fold6 (12+256)"
+     data-brand="samsung"
+     data-price="810000"
+     data-image="samsung/Fold6.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Fold5">Samsung Fold6 (12+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦810,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=S22_256ram">
+            <img src="samsung/Samsung GalaxyS22.webp" alt="Samsung Galaxy S22 (8+256)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S22 (8+256)"
+     data-name="Samsung Galaxy S22 (8+256)"
+     data-brand="samsung"
+     data-price="318000"
+     data-image="samsung/Samsung GalaxyS22.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=S22_256ram">Samsung Galaxy S22 (8+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦318,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=S22_128ram">
+            <img src="samsung/Samsung GalaxyS22.webp" alt="Samsung Galaxy S22 (8+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S22 (8+128)"
+     data-name="Samsung Galaxy S22 (8+128)"
+     data-brand="samsung"
+     data-price="298000"
+     data-image="samsung/Samsung GalaxyS22.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=S22_128ram">Samsung Galaxy S22 (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦298,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Samsung-s21_128"><img src="images/samsungs21.jfif" alt="Samsung Galaxy S21"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="samsung s21"
+     data-name="Samsung Galaxy S21 (8+128)"
+     data-brand="Samsung"
+     data-price=" 233000"
+     data-image="images/samsungs21.jfif">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Samsung-s21_128">Samsung Galaxy S21 (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦233,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Samsung-s21_plus_128">
+            <img src="samsung/S21plus.webp" alt="Samsung Galaxy S21 Plus (8+128)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="samsung s21 plus"
+     data-name="Samsung Galaxy S21 Plus (8+128)"
+     data-brand="Samsung"
+     data-price=" 260000"
+     data-image="samsung/S21plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Samsung-s21_plus_128">Samsung Galaxy S21 Plus (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦260,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Samsung-s21_plus_256">
+            <img src="samsung/S21plus.webp" alt="Samsung Galaxy S21 Plus (8+256)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="samsung s21 plus"
+     data-name="Samsung Galaxy S21 Plus (8+256)"
+     data-brand="Samsung"
+     data-price=" 270000"
+     data-image="samsung/S21plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Samsung-s21_plus_256">Samsung Galaxy S21 Plus (8+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦270,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Note20ultra">
+            <img src="samsung/Note20ultra.webp" alt="Samsung Note20 Ultra (12+256)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Note20 Ultra (12+256)"
+     data-name="Samsung Note20 Ultra (12+256)"
+     data-brand="Samsung"
+     data-price=" 430000"
+     data-image="samsung/Note20ultra.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Note20ultra">Samsung Note20 Ultra (12+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦430,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Note20_256">
+            <img src="samsung/Note20.webp" alt="Samsung Note20 (8+256)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Note20 (8+256)"
+     data-name="Samsung Note20 (8+256)"
+     data-brand="Samsung"
+     data-price=" 275000"
+     data-image="samsung/Note20.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Note20_256">Samsung Note20 (8+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦275,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Note20_512">
+            <img src="samsung/Note20.webp" alt="Samsung Note20 (12+512)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Note20 (12+512)"
+     data-name="Samsung Note20 (12+512)"
+     data-brand="Samsung"
+     data-price=" 375000"
+     data-image="samsung/Note20.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=Note20_256">Samsung Note20 (12+512)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦null</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=s20plus_128">
+            <img src="samsung/S20plus.webp" alt="Samsung Galaxy S20+ (8+128)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S20+ (8+128)"
+     data-name="Samsung Galaxy S20+ (8+128)"
+     data-brand="Samsung"
+     data-price=" 240000"
+     data-image="samsung/S20plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=s20plus_128">Samsung Galaxy S20+ (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦240,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=s20plus_256">
+            <img src="samsung/S20plus.webp" alt="Samsung Galaxy S20+ (8+256)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S20+ (8+256)"
+     data-name="Samsung Galaxy S20+ (8+256)"
+     data-brand="Samsung"
+     data-price=" 245000"
+     data-image="samsung/S20plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=s20plus_256">Samsung Galaxy S20+ (8+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦245,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=s20_128">
+            <img src="samsung/S20.jfif" alt="Samsung Galaxy S20+ (8+256)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S20 (8+128)"
+     data-name="Samsung Galaxy S20 (8+128)"
+     data-brand="Samsung"
+     data-price=" 215000"
+     data-image="samsung/S20plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=s20_128">Samsung Galaxy S20 (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦215,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=s20_12ram">
+            <img src="samsung/S20.jfif" alt="Samsung Galaxy S20 (12+128)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S20 (12+128)"
+     data-name="Samsung Galaxy S20 (12+128)"
+     data-brand="Samsung"
+     data-price=" 215000"
+     data-image="samsung/S20plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=s20_12ram">Samsung Galaxy S20 (12+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦220,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=s10plus">
+            <img src="samsung/S10plus.webp" alt="Samsung Galaxy S10+ (8+128)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S10+ (8+128)"
+     data-name="Samsung Galaxy S10+ (8+128)"
+     data-brand="Samsung"
+     data-price=" 255000"
+     data-image="samsung/S10plus.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=s10plus">Samsung Galaxy S10+ (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦255,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=s10">
+            <img src="samsung/S10.jfif" alt="Samsung Galaxy S10 (8+128)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S10 (8+128)"
+     data-name="Samsung Galaxy S10 (8+128)"
+     data-brand="Samsung"
+     data-price=" 220000"
+     data-image="samsung/S10.jfif">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=s10">Samsung Galaxy S10 (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦220,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=galaxy-s8">
+            <img src="samsung/samsung-galaxy-s8-plus-g955fd-4g-64gb-dual-noxxpb.jpg" alt="Samsung Galaxy S8 (4+64gb)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Samsung Galaxy S8 (4+64gb)"
+     data-name="Samsung Galaxy S8 (4+64gb)"
+     data-brand="Samsung"
+     data-price=" 137000"
+     data-image="samsung/samsung-galaxy-s8-plus-g955fd-4g-64gb-dual-noxxpb.jpg">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=galaxy-s8">Samsung Galaxy S8 (4+64gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦137,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iph15pro_128">
+            <img src="iphone/Iph 15pro.webp" alt="Iphone 15 Pro (128)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Iphone 15 Pro (128)"
+     data-name="Iphone 15 Pro (128)"
+     data-brand="apple"
+     data-price=" 905000"
+     data-image="iphone/Iph 15pro.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+    <a href="product.html?id=iph15pro_128">Iphone 15 Pro (128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦905,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iph15pro_256">
+            <img src="iphone/Iph 15pro.webp" alt="Iphone 15 Pro (256)"></a>
+           <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+
+    </div>
+    <div class="phone_details"  data-id="Iphone 15 Pro (256)"
+     data-name="Iphone 15 Pro (256)"
+     data-brand="apple"
+     data-price=" 905000"
+     data-image="iphone/Iph 15pro.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+    <a href="product.html?id=iph15pro_256">Iphone 15 Pro (256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦905,000</span>
+                <!-- <span class="old">₦849,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Iphone14_128">
+  <img src="iphone/iph14.webp" alt="Iphone14">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 14 (128)"
+         data-name="iPhone 14 (128)"
+         data-brand="Apple"
+         data-price="492000"
+         data-image="iphone/iph14.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Iphone14_128">iPhone 14 (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦492,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip14promax_256">
+  <img src="iphone/iph14promax.jpg" alt="iPhone 14 Pro Max (256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 14 Pro Max (256)"
+         data-name="iPhone 14 Pro Max (256)"
+         data-brand="Apple"
+         data-price="865000"
+         data-image="iphone/iph14promax.jpg">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip14promax_256">iPhone 14 Pro Max (256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦865,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip14promax_128">
+  <img src="iphone/iph14promax.jpg" alt="iPhone 14 Pro Max (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 14 Pro Max (128)"
+         data-name="iPhone 14 Pro Max (128)"
+         data-brand="Apple"
+         data-price="830000"
+         data-image="iphone/iph14promax.jpg">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip14promax_128">iPhone 14 Pro Max (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦830,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip14pro_128">
+  <img src="iphone/iPhone 14 Pro.webp" alt="iPhone 14 Pro (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 14 Pro (128)"
+         data-name="iPhone 14 Pro (128)"
+         data-brand="Apple"
+         data-price="705000"
+         data-image="iphone/iPhone 14 Pro.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip14pro_128">iPhone 14 Pro (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦705,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip14pro_256">
+  <img src="iphone/iPhone 14 Pro.webp" alt="iPhone 14 Pro (256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 14 Pro (256)"
+         data-name="iPhone 14 Pro (256)"
+         data-brand="Apple"
+         data-price="740000"
+         data-image="iphone/iPhone 14 Pro.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip14pro_256">iPhone 14 Pro (256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦740,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip13pro_128">
+  <img src="iphone/iph13pro.jpg" alt="iPhone 13 Pro (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 13 Pro (128)"
+         data-name="iPhone 13 Pro (128)"
+         data-brand="Apple"
+         data-price="510000"
+         data-image="iphone/iph13pro.jpg">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip13pro_128">iPhone 13 Pro (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦510,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip13pro_256">
+  <img src="iphone/iph13pro.jpg" alt="iPhone 13 Pro (256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 13 Pro (256)"
+         data-name="iPhone 13 Pro (256)"
+         data-brand="Apple"
+         data-price="540000"
+         data-image="iphone/iph13pro.jpg">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip13pro_256">iPhone 13 Pro (256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦540,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip13_128">
+  <img src="iphone/iPhone 13 (128).webp" alt="iPhone 13 (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 13 (128)"
+         data-name="iPhone 13 (128)"
+         data-brand="Apple"
+         data-price="400000"
+         data-image="iphone/iPhone 13 (128).webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip13_128">iPhone 13 (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦400,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip12_promax_128">
+  <img src="iphone/iph12promax.png" alt="iPhone 12 Pro Max (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 12 Pro Max (128)"
+         data-name="iPhone 12 Pro Max (128)"
+         data-brand="Apple"
+         data-price="454000"
+         data-image="iphone/iph12promax.png">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip12_promax_128">iPhone 12 Pro Max (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦454,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip12_promax_256">
+  <img src="iphone/iph12promax.png" alt="iPhone 12 Pro Max (256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 12 Pro Max (256)"
+         data-name="iPhone 12 Pro Max (256)"
+         data-brand="Apple"
+         data-price="497000"
+         data-image="iphone/iph12promax.png">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip12_promax_256">iPhone 12 Pro Max (256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦497,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip12_pro_256">
+  <img src="iphone/iPhone 12 Pro.webp" alt="iPhone 12 Pro (256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 12 Pro (256)"
+         data-name="iPhone 12 Pro (256)"
+         data-brand="Apple"
+         data-price="395000"
+         data-image="iphone/iPhone 12 Pro.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip12_pro_256">iPhone 12 Pro (256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦395,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip12_pro_128">
+  <img src="iphone/iPhone 12 Pro.webp" alt="iPhone 12 Pro (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 12 Pro (128)"
+         data-name="iPhone 12 Pro (128)"
+         data-brand="Apple"
+         data-price="375000"
+         data-image="iphone/iPhone 12 Pro.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip12_pro_128">iPhone 12 Pro (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦375,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip12_128">
+  <img src="iphone/iPhone 12.webp" alt="iPhone 12 (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 12 (128)"
+         data-name="iPhone 12 (128)"
+         data-brand="Apple"
+         data-price="305000"
+         data-image="iphone/iPhone 12.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip12_128">iPhone 12 (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦305,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip12_64">
+  <img src="iphone/iPhone 12.webp" alt="iPhone 12 (64)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 12 (64)"
+         data-name="iPhone 12 (64)"
+         data-brand="Apple"
+         data-price="265000"
+         data-image="iphone/iPhone 12.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip12_64">iPhone 12 (64)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦265,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip11_promax_256">
+  <img src="iphone/iph11promax.webp" alt="iPhone 11 Pro Max (256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 11 Pro Max (256)"
+         data-name="iPhone 11 Pro Max (256)"
+         data-brand="Apple"
+         data-price="365000"
+         data-image="iphone/iph11promax.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip11_promax_256">iPhone 11 Pro Max (256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦365,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip11_promax_64">
+  <img src="iphone/iph11promax.webp" alt="iPhone 11 Pro Max (64)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 11 Pro Max (64)"
+         data-name="iPhone 11 Pro Max (64)"
+         data-brand="Apple"
+         data-price="310000"
+         data-image="iphone/iph11promax.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip11_promax_64">iPhone 11 Pro Max (64)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦310,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip11_pro_64">
+  <img src="iphone/iph11pro1.webp" alt="iPhone 11 Pro (64)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 11 Pro (64)"
+         data-name="iPhone 11 Pro (64)"
+         data-brand="Apple"
+         data-price="290000"
+         data-image="iphone/iph11pro1.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip11_pro_64">iPhone 11 Pro (64)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦290,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip11_pro_256">
+  <img src="iphone/iph11pro1.webp" alt="iPhone 11 Pro (256)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 11 Pro (256)"
+         data-name="iPhone 11 Pro (256)"
+         data-brand="Apple"
+         data-price="330000"
+         data-image="iphone/iph11pro1.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip11_pro_256">iPhone 11 Pro (256)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦330,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip11_128">
+  <img src="iphone/iph11.webp" alt="iPhone 11 (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 11 (128)"
+         data-name="iPhone 11 (128)"
+         data-brand="Apple"
+         data-price="265000"
+         data-image="iphone/iph11.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip11_128">iPhone 11 (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦265,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Ip11_64">
+  <img src="iphone/iph11.webp" alt="iPhone 11 (64)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone 11 (64)"
+         data-name="iPhone 11 (64)"
+         data-brand="Apple"
+         data-price="230000"
+         data-image="iphone/iph11.webp">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Ip11_64">iPhone 11 (64)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦230,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Iphxr_64">
+  <img src="iphone/iphxr.jfif" alt="iPhone Xr (64)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone Xr (64)"
+         data-name="iPhone Xr (64)"
+         data-brand="Apple"
+         data-price="190000"
+         data-image="iphone/iphxr.jfif">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Iphxr_64">iPhone Xr (64)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦190,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=Iphxr_128">
+  <img src="iphone/iphxr.jfif" alt="iPhone Xr (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone Xr (128)"
+         data-name="iPhone Xr (128)"
+         data-brand="Apple"
+         data-price="225000"
+         data-image="iphone/iphxr.jfif">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=Iphxr_128">iPhone Xr (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦225,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=iphse_128">
+  <img src="iphone/iphse2020.jfif" alt="iPhone SE (128)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone SE (128)"
+         data-name="iPhone SE (128)"
+         data-brand="Apple"
+         data-price="160000"
+         data-image="iphone/iphse2020.jfif">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=iphse_128">iPhone SE (128)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦160,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=iphse_64">
+  <img src="iphone/iphse2020.jfif" alt="iPhone SE (64)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="iPhone SE (64)"
+         data-name="iPhone SE (64)"
+         data-brand="Apple"
+         data-price="150000"
+         data-image="iphone/iphse2020.jfif">
+<div class="detail_txt">
+<p class="brand">Apple</p>
+<h3>
+  <a href="product.html?id=iphse_64">iPhone SE (64)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦150,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A064G_4_64">
+            <img src="samsung/A064G.jpg" alt="Samsung A06 4G (4+64)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A06 4G (4+64)"
+     data-name="Samsung A06 4G (4+64)"
+     data-brand="Samsung"
+     data-price="122500"
+     data-image="samsung/A064G.jpg">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A064G_4_64">Samsung A06 4G (4+64)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦122,500</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A064G_4_128">
+            <img src="samsung/A064G.jpg" alt="Samsung A06 4G (4+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A06 4G (4+128)"
+     data-name="Samsung A06 4G (4+128)"
+     data-brand="Samsung"
+     data-price="144000"
+     data-image="samsung/A064G.jpg">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A064G_4_128">Samsung A06 4G (4+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦144,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A174G_4_128">
+            <img src="samsung/A174G.webp" alt="Samsung A17 4G (4+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A17 4G (4+128)"
+     data-name="Samsung A17 4G (4+128)"
+     data-brand="Samsung"
+     data-price="222000"
+     data-image="samsung/A174G.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A174G_4_128">Samsung A17 4G (4+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦222,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A174G_6_128">
+            <img src="samsung/A174G.webp" alt="Samsung A17 4G (6+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A17 4G (6+128)"
+     data-name="Samsung A17 4G (6+128)"
+     data-brand="Samsung"
+     data-price="240000"
+     data-image="samsung/A174G.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A174G_6_128">Samsung A17 4G (6+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦240,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A174G_8_128">
+            <img src="samsung/A174G.webp" alt="Samsung A17 4G (8+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A17 4G (8+128)"
+     data-name="Samsung A17 4G (8+128)"
+     data-brand="Samsung"
+     data-price="295000"
+     data-image="samsung/A174G.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A174G_8_128">Samsung A17 4G (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦295,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A175G_4_128">
+            <img src="samsung/A175G.webp" alt="Samsung A17 5G (4+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A17 5G (4+128)"
+     data-name="Samsung A17 5G (4+128)"
+     data-brand="Samsung"
+     data-price="248000"
+     data-image="samsung/A174G.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A175G_4_128">Samsung A17 5G (4+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦248,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A265G_6_128">
+            <img src="samsung/samsung-a36-600x600.webp" alt="Samsung A26 5G (6+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A26 5G (6+128)"
+     data-name="Samsung A26 5G (6+128)"
+     data-brand="Samsung"
+     data-price="380000"
+     data-image="samsung/samsung-a36-600x600.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A265G_6_128">Samsung A26 5G (6+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦380,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A265G_8_128">
+            <img src="samsung/samsung-a36-600x600.webp" alt="Samsung A26 5G (8+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Samsung A26 5G (8+128)"
+     data-name="Samsung A26 5G (8+128)"
+     data-brand="Samsung"
+     data-price="427000"
+     data-image="samsung/samsung-a36-600x600.webp">
+<div class="detail_txt">
+<p class="brand">Samsung</p>
+<h3>
+    <a href="product.html?id=A265G_8_128">Samsung A26 5G (8+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦427,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Redmi-Note-15_6_128">
+            <img src="redmi/Redmi-Note-15.webp" alt="Redmi Note 15"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details" data-id="Redmi Note 15 (6+128)"
+        data-name="Redmi Note 15 (6+128)"
+        data-brand="Redmi"
+        data-price="273000"
+        data-image="redmi/Redmi-Note-15.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=Redmi-Note-15_6_128">Redmi Note 15 (6+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦273,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=redmi_15c_6_128">
+  <img src="redmi/redmi_15c_epto_it_1752845765260.webp" alt="Redmi15C (6+128gb)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="Redmi15C (6+128gb)"
+         data-name="Redmi15C (6+128gb)"
+         data-brand="Redmi"
+         data-price="151000"
+         data-image="redmi/redmi_15c_epto_it_1752845765260.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+  <a href="product.html?id=redmi_15c_6_128">Redmi 15C (6+128gb)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦151,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+     <a href="product.html?id=redmi_15c_4_128">
+  <img src="redmi/redmi_15c_epto_it_1752845765260.webp" alt="Redmi15C (4+128gb)">
+</a>
+         <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"  data-id="Redmi15C (4+128gb)"
+         data-name="Redmi15C (4+128gb)"
+         data-brand="Redmi"
+         data-price="141000"
+         data-image="redmi/redmi_15c_epto_it_1752845765260.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+  <a href="product.html?id=redmi_15c_4_128">Redmi15C (4+128gb)</a>
+</h3>
+
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦141,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=RedmiNote14_6_128">
+            <img src="redmi/RedmiNote14.webp" alt="Redmi Note14 (6+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Redmi Note14 (6+128)"
+     data-name="Redmi Note14 (6+128)"
+     data-brand="Redmi"
+     data-price="237000"
+     data-image="redmi/RedmiNote14.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=RedmiNote14_6_128">Redmi Note14 (6+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦237,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Redmi-15C-5G">
+            <img src="redmi/Xiaomi-Redmi-15C-5G-launched-kv-2.jpg" alt="Redmi 15C 5GLITE (4+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Redmi 15C 5GLITE (4+128)"
+     data-name="Redmi 15C 5GLITE (4+128)"
+     data-brand="Redmi"
+     data-price="184000"
+     data-image="redmi/Xiaomi-Redmi-15C-5G-launched-kv-2.jpg">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=Redmi-15C-5G">Redmi 15C 5GLITE (4+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦184,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Redmi-15_8_256">
+            <img src="redmi/Redmi15.webp" alt="Redmi 15 (8+256)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Redmi 15 (8+256)"
+     data-name="Redmi 15 (8+256)"
+     data-brand="Redmi"
+     data-price="219000"
+     data-image="redmi/Redmi15.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=Redmi-15_8_256">Redmi 15 (8+256)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦219,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=Redmi-15_6_128">
+            <img src="redmi/Redmi15.webp" alt="Redmi 15 (6+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Redmi 15 (6+128)"
+     data-name="Redmi 15 (6+128)"
+     data-brand="Redmi"
+     data-price="192000"
+     data-image="redmi/Redmi15.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=Redmi-15_6_128">Redmi 15 (6+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦192,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A3x">
+            <img src="redmi/A3x.jpg" alt="Redmi A3x (4+64)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Redmi A3x (4+64)"
+     data-name="Redmi A3x (4+64)"
+     data-brand="Redmi"
+     data-price="100000"
+     data-image="redmi/A3x.jpg">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=A3x">Redmi A3x (4+64)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦100,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A5_3_64">
+            <img src="redmi/Redmi A5.webp" alt="Redmi A5 (3+64)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Redmi A5 (3+64)"
+     data-name="Redmi A5 (3+64)"
+     data-brand="Redmi"
+     data-price="105400"
+     data-image="redmi/Redmi A5.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=A5_3_64">Redmi A5 (3+64)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦105,400</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=A5_4_128">
+            <img src="redmi/Redmi A5.webp" alt="Redmi A5 (4+128)"></a>
+        <div class="product_badges">
+            <!-- <span class="badge sale">Sale</span> -->
+            <!-- <span class="badge best">Best Seller</span> -->
+        </div>
+    </div>
+    <div class="phone_details"  data-id="Redmi A5 (4+128)"
+     data-name="Redmi A5 (4+128)"
+     data-brand="Redmi"
+     data-price="123000"
+     data-image="redmi/Redmi A5.webp">
+<div class="detail_txt">
+<p class="brand">Redmi</p>
+<h3>
+    <a href="product.html?id=A3x">Redmi A5 (4+128)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦123,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone_17pro-max-256">
+            <img src="iphone/iPhone 17 Pro Max.webp" alt="iPhone 17 Pro Max (256gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iphone-17-pro-max"
+     data-name="iPhone 17 Pro Max (256gb)"
+     data-brand="Apple"
+     data-price="2150000"
+     data-image="iphone/iPhone 17 Pro Max.webp">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone_17pro-max-256">iPhone 17 Pro Max (256gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦2,150,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone_17Air-256">
+            <img src="iphone/iphone_air__f0t56fef3oey_large.jpeg" alt="iPhone 17 Air (256gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 17 Air (256gb)"
+     data-name="iPhone 17 Air (256gb)"
+     data-brand="Apple"
+     data-price="1500000"
+     data-image="iphone/iphone_air__f0t56fef3oey_large.jpeg">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone_17Air-256">iPhone 17 Air (256gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,500,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone_16-128">
+            <img src="iphone/iphone_16__drr03yfz644m_large.jpeg" alt="iPhone 16 (128gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 16 (128gb)"
+     data-name="iPhone 16 (128gb)"
+     data-brand="Apple"
+     data-price="1020000"
+     data-image="iphone/iphone_16__drr03yfz644m_large.jpeg">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone_16-128">iPhone 16 (128gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,020,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone_16-256">
+            <img src="iphone/iphone_16__drr03yfz644m_large.jpeg" alt="iPhone 16 (256gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 16 (256gb)"
+     data-name="iPhone 16 (256gb)"
+     data-brand="Apple"
+     data-price="1600000"
+     data-image="iphone/iphone_16__drr03yfz644m_large.jpeg">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone_16-256">iPhone 16 (256gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,600,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone_16plus-128">
+            <img src="iphone/iPhone 16 pluss.webp" alt="iPhone 16 plus (128gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 16 plus (128gb)"
+     data-name="iPhone 16 Plus Blue (128gb)"
+     data-brand="Apple"
+     data-price="1070000"
+     data-image="iphone/iPhone 16 pluss.webp">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone_16plus-128">iPhone 16 Plus Blue (128gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,070,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iphone_16plus-white-128">
+            <img src="iphone/iPhone 16 plus white.webp" alt="iPhone 16 Plus White (128gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 16 Plus White (128gb)"
+     data-name="iPhone 16 Plus White (128gb)"
+     data-brand="Apple"
+     data-price="1070000"
+     data-image="iphone/iPhone 16 plus white.webp">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=iphone_16plus-white-128">iPhone 16 Plus White (128gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,070,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=natural titanium_16pro">
+            <img src="iphone/natural titanium_16pro.webp" alt="iPhone 16 Pro Natural Titanium (128gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 16 Pro Natural Titanium (128gb)"
+     data-name="iPhone 16 Pro Natural Titanium (128gb)"
+     data-brand="Apple"
+     data-price="1590000"
+     data-image="iphone/natural titanium_16pro.webp">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=natural titanium_16pro">iPhone 16 Pro Natural Titanium (128gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,590,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=desert-16pro">
+            <img src="iphone/desert-16pro.avif" alt="iPhone 16 Pro Desert (128gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 16 Pro Desert (128gb)"
+     data-name="iPhone 16 Pro Desert (128gb)"
+     data-brand="Apple"
+     data-price="1280000"
+     data-image="iphone/desert-16pro.avif">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+    <a href="product.html?id=desert-16pro">iPhone 16 Pro Desert (128gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,280,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
+<div class="item_display_product">
+    <div class="item_img">
+        <a href="product.html?id=iPhone-16-Pro-Max-Natural-Titanium">
+            <img src="iphone/iPhone 16 Pro Max Natural Titanium.webp" alt="iPhone 16 Pro Max Natural Titanium (256gb)"></a>
+        <!-- <div class="product_badges">
+            <span class="badge sale">Sale</span>
+            <span class="badge best">Best Seller</span>
+        </div> -->
+    </div>
+    <div class="phone_details"
+     data-id="iPhone 16 Pro Max Natural Titanium (256gb)"
+     data-name="iPhone 16 Pro Max Natural Titanium (256gb)"
+     data-brand="Apple"
+     data-price="1800000"
+     data-image="iphone/iPhone 16 Pro Max Natural Titanium.webp">
+<div class="detail_txt">
+<p class="brand">APPLE</p>
+<h3>
+<a href="product.html?id=iPhone-16-Pro-Max-Natural-Titanium">iPhone 16 Pro Max Natural Titanium (256gb)</a>
+</h3>
+</div>
+<div class="price_cart_flex">
+<div class="price">
+                <span class="current">₦1,800,000</span>
+                <!-- <span class="old">₦899,000</span> -->
+            </div>
+ <button class="cart_btn" aria-label="Add to cart">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="rgb(168, 172, 181)" d="M17 18a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2M1 2h3.27l.94 2H20a1 1 0 0 1 1 1c0 .17-.05.34-.12.5l-3.58 6.47c-.34.61-1 1.03-1.75 1.03H8.1l-.9 1.63l-.03.12a.25.25 0 0 0 .25.25H19v2H7a2 2 0 0 1-2-2c0-.35.09-.68.24-.96l1.36-2.45L3 4H1zm6 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2c0-1.11.89-2 2-2m9-7l2.78-5H6.14l2.36 5z"/></svg>
+            </button>
+</div>
+    </div>
+</div>
+<!--  -->
 </div>
  </section>
  <script src="index.js"></script>

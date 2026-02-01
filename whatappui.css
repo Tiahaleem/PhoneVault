@@ -123,6 +123,10 @@ h1 {
   cursor: pointer;
   font-size: 11px;
 }
+.wa_btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 
 .terms {
   display: block;
@@ -161,7 +165,46 @@ h1 {
 
 /* Responsive */
 @media (max-width: 768px) {
-  .checkout_grid {
-    grid-template-columns: 1fr;
+  .checkout_card {
+    padding: 16px; /* was 24px */
   }
 }
+
+
+@media (max-width: 768px) {
+  .checkout_page {
+    margin: 60px auto;
+    padding: 0 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .checkout_card {
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .checkout_card h3 {
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+
+  .summary_line {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  .summary_total {
+    font-size: 15px;
+  }
+
+  .wa_btn {
+    font-size: 13px;
+    padding: 16px;
+    border-radius: 12px;
+  }
+}
+
