@@ -1580,6 +1580,458 @@ specs:[
 "Titanium frame, textured matte glass back with IP68 water/dust resistance — premium and durable.",
 "iOS 18 (upgradable)",
 ]
+},
+"itelA100c_2_64":{
+  brand:"Itel",
+name:"Itel A100c (2+64)",
+price:88500,
+image:"itel/itelA100c.webp",
+description:"A budget entry-level Android smartphone with a big smooth display, long battery life, and solid everyday basics — great as a first phone, backup device, or for simple daily use like social apps, browsing, and media.",
+specs:[
+"Unisoc T7100 octa-core",
+"6.6″ HD+ IPS LCD, 90 Hz refresh",
+"8 MP rear + 5 MP front",
+"Up to 128 GB storage with 2/3/4 GB RAM (plus virtual RAM) and microSD expansion.",
+"5000 mAh — long everyday endurance with 15 W charging.",
+"Android 15 (Go Edition) with itel OS — efficient for entry-level devices.",
+"Side-mounted fingerprint sensor, face unlock, USB-C, 3.5 mm jack, and MIL-STD-810H durability (drop-resistant).",
+]
+},
+"itelA100c_3_64":{
+  brand:"Itel",
+name:"Itel A100c (3+64)",
+price:95500,
+image:"itel/itelA100c.webp",
+description:"A budget entry-level Android smartphone with a big smooth display, long battery life, and solid everyday basics — great as a first phone, backup device, or for simple daily use like social apps, browsing, and media.",
+specs:[
+"Unisoc T7100 octa-core",
+"6.6″ HD+ IPS LCD, 90 Hz refresh",
+"8 MP rear + 5 MP front",
+"Up to 128 GB storage with 2/3/4 GB RAM (plus virtual RAM) and microSD expansion.",
+"5000 mAh — long everyday endurance with 15 W charging.",
+"Android 15 (Go Edition) with itel OS — efficient for entry-level devices.",
+"Side-mounted fingerprint sensor, face unlock, USB-C, 3.5 mm jack, and MIL-STD-810H durability (drop-resistant).",
+]
+},
+"itelA100_3_128":{
+    brand:"Itel",
+name:"Itel A100 (3+128)",
+price:104500,
+image:"itel/itel-a100-fresh-green-official-image.webp",
+description:"A budget-friendly entry smartphone with a large smooth display, long battery life, and practical everyday features — great for browsing, social apps, video, and general use without heavy gaming or flagship-level performance.",
+specs:[
+"Unisoc T7250 octa-core",
+"6.75″ IPS LCD, 90 Hz",
+"8 MP rear + 8 MP front",
+"128 GB storage + options for 3 GB / 4 GB / 8 GB RAM (with extended RAM).",
+"5000 mAh — long everyday endurance with 15 W charging.",
+"IP65 dust/water resistance & MIL-STD-810H durability",
+"Android 15 (Go edition) with itel OS 15 — modern software for budget devices",
+]
+},
+"itelA100_4_128":{
+    brand:"Itel",
+name:"Itel A100 (4+128)",
+price:120000,
+image:"itel/itel-a100-fresh-green-official-image.webp",
+description:"A budget-friendly entry smartphone with a large smooth display, long battery life, and practical everyday features — great for browsing, social apps, video, and general use without heavy gaming or flagship-level performance.",
+specs:[
+"Unisoc T7250 octa-core",
+"6.75″ IPS LCD, 90 Hz",
+"8 MP rear + 8 MP front",
+"128 GB storage + options for 3 GB / 4 GB / 8 GB RAM (with extended RAM).",
+"5000 mAh — long everyday endurance with 15 W charging.",
+"IP65 dust/water resistance & MIL-STD-810H durability",
+"Android 15 (Go edition) with itel OS 15 — modern software for budget devices",
+]
+},
+"city-100-4_128":{
+    brand:"Itel",
+name:"Itel City100 (4+128)",
+price:118000,
+image:"itel/itel-city-100-front-back.png",
+description:": A budget-friendly everyday smartphone with a large smooth display, long battery life, and solid basics — great for messaging, social media, videos, and everyday apps without a high price.",
+specs:[
+"6.75″ HD+ IPS LCD, 90 Hz",
+"Unisoc T7250 octa-core",
+"4 GB / 6 GB / 8 GB RAM with 128 GB / 256 GB storage (expandable via microSD).",
+"13 MP main",
+"8 MP selfie",
+"5200 mAh with 18 W fast charging",
+"Android 14 with itel OS 14.5",
+"IP64 dust/splash resistance, side fingerprint sensor, USB-C — durable everyday usability."
+]
+},
+"city-100-6_128":{
+      brand:"Itel",
+name:"Itel City100 (6+128)",
+price:123000,
+image:"itel/itel-city-100-front-back.png",
+description:": A budget-friendly everyday smartphone with a large smooth display, long battery life, and solid basics — great for messaging, social media, videos, and everyday apps without a high price.",
+specs:[
+"6.75″ HD+ IPS LCD, 90 Hz",
+"Unisoc T7250 octa-core",
+"4 GB / 6 GB / 8 GB RAM with 128 GB / 256 GB storage (expandable via microSD).",
+"13 MP main",
+"8 MP selfie",
+"5200 mAh with 18 W fast charging",
+"Android 14 with itel OS 14.5",
+"IP64 dust/splash resistance, side fingerprint sensor, USB-C — durable everyday usability."
+]
+},
+"Hot60proplus_8_128":{
+  brand:"Infinix",
+name:"Infinix Hot60pro+ (8+128)",
+price:286000,
+image:"infinix/Hot60pro+.webp",
+description:"A sleek mid-range smartphone with a large curved AMOLED screen, capable cameras, long battery life, and modern software — excellent value for everyday use and media.",
+specs:[
+"6.78″ AMOLED with 144 Hz refresh rate, 1.5K physical resolution, and Gorilla Glass 7i protection — large, bright, and smooth visuals.",
+"MediaTek Helio G200 (6 nm) — good for daily apps, social media, and light gaming.",
+"8 GB RAM (expandable via virtual RAM) + 256 GB storage — plenty of space for apps, photos, and files.",
+"50 MP main (Sony IMX882) + auxiliary lens — versatile photos and decent performance in good light.",
+"13 MP selfie camera — clear selfies and video calls.",
+"5160 mAh with 45 W fast charging — long usage and quick refills.",
+"Android 15 with XOS 15.1 — modern UI with Android’s latest features.",
+"Under-display fingerprint sensor, stereo speakers tuned by JBL, NFC, IP65 water/dust resistance, USB-C, FM radio."
+]
+},
+"Hot60pro_8_128":{
+    brand:"Infinix",
+name:"Infinix Hot60pro (8+128)",
+price:238000,
+image:"infinix/Hot60pro.webp",
+description:"A mid-range Android phone with a large smooth AMOLED display, solid everyday performance, capable cameras, and long battery life — great value in its price segment.",
+specs:[
+"MediaTek Helio G200",
+"6.78″ 1.5K AMOLED, 144 Hz",
+"8 GB RAM + 128 GB / 256 GB storage (expandable via microSD).",
+"50 MP main + auxiliary",
+"13 MP",
+"5160 mAh with 45 W fast charging and 10 W reverse charging — long endurance.",
+"Android 15 with XOS 15.1",
+"IP64 water/dust resistance, in-display fingerprint sensor, NFC, stereo speakers, Bluetooth 5.4."
+]
+},
+"hot_60i_4_128":{
+      brand:"Infinix",
+name:"Infinix Hot60i (4+128)",
+price:153000,
+image:"infinix/infinix_hot_60i_1751115154958.webp",
+description:"A budget-friendly everyday Android phone with a large smooth screen, long battery life, and a solid 50 MP camera — great for social apps, media, browsing, and basic gaming.",
+specs:[
+"MediaTek Helio G81 Ultimate",
+"6.7″ IPS LCD, 720×1600, 120 Hz",
+"50 MP main + 8 MP front",
+"4 GB / 6 GB / 8 GB RAM with 128 GB / 256 GB storage (expandable via microSD).",
+"5160 mAh with 45 W fast charging",
+"Android 15 with XOS 15.1",
+"Side-mounted fingerprint sensor, 3.5 mm headphone jack, USB-C, IP64 dust/splash resistance.",
+]
+},
+"Smart10_3_64":{
+        brand:"Infinix",
+name:"Infinix Smart 10 (3+64)",
+price:113000,
+image:"infinix/Smart10.webp",
+description:"A budget everyday Android smartphone with a large smooth display, long battery life, and decent basics — ideal for simple daily use like social media, browsing, video, and messaging.",
+specs:[
+"Unisoc T7250 octa-core",
+"6.67″ IPS LCD, 120 Hz, HD+",
+"8 MP rear + 8 MP front",
+"Up to 8 GB RAM + 256 GB storage (expandable via microSD).",
+"5000 mAh with 15 W charging",
+"Android 15 with XOS 15.1",
+"Side-mounted fingerprint sensor, USB-C, 3.5 mm jack, IP64 dust/splash resistance.",
+]
+},
+"Smart10_hd_2_64":{
+          brand:"Infinix",
+name:"Infinix Smart Hd (2+64)",
+price:108200,
+image:"infinix/Smart10hd.webp",
+description:"A budget entry-level Android smartphone focused on everyday basics like browsing, social apps, messaging, and long battery life — not a high-performance device, but solid for simple daily use.",
+specs:[
+"MediaTek Helio A20 (Quad-core 1.8 GHz)",
+"6.1″ IPS LCD, 720×1560 (HD+)",
+"2 GB RAM + 32 GB storage (expandable via microSD).",
+"8 MP rear + 5 MP front",
+"5000 mAh",
+"Android 10 (Go edition) with XOS 6.2",
+"Dual SIM, FM radio, Wi-Fi, Bluetooth; rear fingerprint sensor.",
+]
+},
+"Smart10_plus_4_128":{
+            brand:"Infinix",
+name:"Infinix Smart + (4+128)",
+price:141500,
+image:"infinix/Smart10plus.webp",
+description:"a budget-friendly smartphone in the Infinix Smart lineup that focuses on a large smooth display, long battery life, and everyday usability.",
+specs:[
+"Unisoc T7250 octa-core",
+"6.67″ IPS LCD, 120 Hz",
+"Typically 4 GB or 8 GB RAM with 128 GB storage (expandable via microSD).",
+"8 MP rear + 8 MP front",
+"6000 mAh with 18 W fast charging — long battery life.",
+"Android 15 with XOS 15.1",
+"Side fingerprint sensor, IP64 dust/water resistance, dual speakers, USB-C, Dual SIM.",
+]
+},
+"InfinixNote50_8_256":{
+              brand:"Infinix",
+name:"Infinix Note 50 (8+256)",
+price: 334000,
+image:"infinix/InfinixNote50.webp",
+description:"A mid-range smartphone that’s great for big-screen media, everyday apps, long battery life, and capable cameras — one of Infinix’s strongest Note series phones in the affordable segment.",
+specs:[
+"6.78″ FHD+ AMOLED, 144 Hz refresh, 1300 nits peak",
+"MediaTek Helio G100 Ultimate",
+"8 GB RAM + 128 GB / 256 GB storage (expandable via microSD)",
+"50 MP main (OIS) + 2 MP macro rear + 13 MP front",
+"5200 mAh with 45 W wired charging + 30 W wireless MagCharge + reverse charging",
+"Android 15 with XOS 15",
+"IP64 dust/water resistance, in-display fingerprint sensor, stereo speakers, NFC (region dependent).",
+]
+},
+"InfinixNote50_pro_8_256":{
+                brand:"Infinix",
+name:"Infinix Note 50 Pro (8+256)",
+price: 394000,
+image:"infinix/infinix-note-50-pro-enchanted-purple-official-image.webp",
+description:"A mid-range performance phone with a big AMOLED display, capable cameras, long battery life, and modern Android, perfect if you want strong everyday use and good entertainment value without paying flagship prices.",
+specs:[
+"6.78″ FHD+ AMOLED, 144 Hz, ~1300 nits",
+"MediaTek Helio G100 Ultimate (6 nm)",
+"8 GB / 12 GB RAM with 256 GB storage (UFS 2.2) — plenty of space and fast responsiveness.",
+"50 MP main + 8 MP ultra-wide",
+"32 MP",
+"5200 mAh with 90 W fast charging, 30 W wireless MagCharge, reverse wired & wireless charging — long battery life and flexible charging.",
+"Android 15 with XOS 15",
+"Under-display fingerprint sensor, JBL-tuned stereo speakers, IP64 splash resistance, NFC (region dependent)",
+]
+},
+"Tecno-Camon-40-8-256":{
+     brand:"Tecno",
+name:"Tecno Camon 40 (8+256)",
+price:339000,
+image:"Tecno/Tecno Camon 40.webp",
+description:"A value‑oriented Android smartphone with a large AMOLED 120 Hz display, capable cameras, long battery life, and modern Android 15 — great for everyday use, media, and photos without flagship pricing.",
+specs:[
+"6.78″ FHD+ AMOLED, 120 Hz.",
+"MediaTek Helio G100 Ultimate",
+"8 GB / 12 GB RAM + 128 GB / 256 GB storage (plus extended RAM tech).",
+"50 MP main (with OIS) + 8 MP wide",
+"32 MP",
+"5200 mAh with 45 W fast charging",
+"Android 15 with HiOS 15",
+"Under‑display fingerprint sensor, dual speakers, NFC, Dolby Atmos, USB‑C, FM radio, water/dust resistance."
+]
+},
+"Tecno-Camon-40-8-128":{
+       brand:"Tecno",
+name:"Tecno Camon 40 (8+128)",
+price:308000,
+image:"Tecno/Tecno Camon 40.webp",
+description:"A value‑oriented Android smartphone with a large AMOLED 120 Hz display, capable cameras, long battery life, and modern Android 15 — great for everyday use, media, and photos without flagship pricing.",
+specs:[
+"6.78″ FHD+ AMOLED, 120 Hz.",
+"MediaTek Helio G100 Ultimate",
+"8 GB / 12 GB RAM + 128 GB / 256 GB storage (plus extended RAM tech).",
+"50 MP main (with OIS) + 8 MP wide",
+"32 MP",
+"5200 mAh with 45 W fast charging",
+"Android 15 with HiOS 15",
+"Under‑display fingerprint sensor, dual speakers, NFC, Dolby Atmos, USB‑C, FM radio, water/dust resistance."
+]
+},
+"Tecno-Spark-Slim-8-256":{
+         brand:"Tecno",
+name:"Tecno Spark Slim (8+256)",
+price:345000,
+image:"Tecno/SparkSlim.webp",
+description:"A slim and stylish mid‑range Android smartphone with a large smooth AMOLED display, capable everyday performance, long battery life, and modern software — one of Tecno’s notable phones for users who want a sleek look plus reliable daily use.",
+specs:[
+"6.78″ 1.5K 3D AMOLED, 144 Hz",
+"MediaTek Helio G200",
+"8 GB RAM (with extended RAM) + 256 GB Storage — roomy space and smooth multitasking.",
+"50 MP",
+"13 MP",
+"5160 mAh with 45 W fast charging",
+"Android 15 with HiOS 15",
+"Ultra‑slim 5.93 mm body, IP64 water/dust resistance, dual speakers with Dolby Atmos, NFC, infrared remote, side gyro sensor — premium feel and useful extras."
+]
+},
+"Tecno-Spark-40-Pro-plus-8-256":{
+           brand:"Tecno",
+name:"Tecno Spark 40 Pro + (8+256)",
+price:315000,
+image:"Tecno/Spark40pro+.webp",
+description:"A feature‑rich mid‑range Android smartphone with a large high‑quality AMOLED display, versatile cameras, long battery life with wired and wireless charging, and modern software — great for media, everyday use, and creative shooting without flagship pricing.",
+specs:[
+"6.78″ 1.5K 3D AMOLED, 144 Hz",
+"MediaTek Helio G200",
+"8 GB RAM (with extended RAM) + 256 GB Storage — roomy space and smooth multitasking.",
+"50 MP",
+"13 MP",
+"5200 mAh with 45 W wired, 30 W magnetic wireless, and 5 W reverse wireless charging — flexible and fast charging options.",
+"Android 15 with HiOS 15",
+"Under‑display fingerprint sensor, Dolby Atmos stereo speakers, NFC (market‑dependent), IR blaster, FM radio, IP64 water/dust resistance."
+]
+},
+"Tecno-Spark-40-Pro-plus-8-128":{
+             brand:"Tecno",
+name:"Tecno Spark 40 Pro + (8+128)",
+price:278000,
+image:"Tecno/Spark40pro+.webp",
+description:"A feature‑rich mid‑range Android smartphone with a large high‑quality AMOLED display, versatile cameras, long battery life with wired and wireless charging, and modern software — great for media, everyday use, and creative shooting without flagship pricing.",
+specs:[
+"6.78″ 1.5K 3D AMOLED, 144 Hz",
+"MediaTek Helio G200",
+"8 GB RAM (with extended RAM) + 256 GB Storage — roomy space and smooth multitasking.",
+"50 MP",
+"13 MP",
+"5200 mAh with 45 W wired, 30 W magnetic wireless, and 5 W reverse wireless charging — flexible and fast charging options.",
+"Android 15 with HiOS 15",
+"Under‑display fingerprint sensor, Dolby Atmos stereo speakers, NFC (market‑dependent), IR blaster, FM radio, IP64 water/dust resistance."
+]
+},
+"Tecno-Spark-40-Pro-8-128":{
+               brand:"Tecno",
+name:"Tecno Spark 40 Pro (8+128)",
+price:264000,
+image:"Tecno/Spark40pro.webp",
+description:"A mid‑range Android phone with a large smooth AMOLED display, solid everyday performance, long battery life, and capable cameras — great value for the price without flagship pricing.",
+specs:[
+"6.78″ AMOLED, 144 Hz",
+"MediaTek Helio G100 Ultimate",
+"8 GB RAM + 128 GB / 256 GB storage (expandable via microSD).",
+"50 MP main rear + 13 MP front",
+"5200 mAh with 45 W fast charging",
+"Android 15 with HiOS 15.1",
+"Under‑display fingerprint sensor, stereo speakers with Dolby Atmos, NFC, IR blaster, IP64 dust/splash resistance, USB‑C, FM radio."
+]
+},
+"Tecno-Spark-40-Pro-8-256":{
+                 brand:"Tecno",
+name:"Tecno Spark 40 Pro (8+256)",
+price:278000,
+image:"Tecno/Spark40pro.webp",
+description:"A mid‑range Android phone with a large smooth AMOLED display, solid everyday performance, long battery life, and capable cameras — great value for the price without flagship pricing.",
+specs:[
+"6.78″ AMOLED, 144 Hz",
+"MediaTek Helio G100 Ultimate",
+"8 GB RAM + 128 GB / 256 GB storage (expandable via microSD).",
+"50 MP main rear + 13 MP front",
+"5200 mAh with 45 W fast charging",
+"Android 15 with HiOS 15.1",
+"Under‑display fingerprint sensor, stereo speakers with Dolby Atmos, NFC, IR blaster, IP64 dust/splash resistance, USB‑C, FM radio."
+]
+},
+"Tecno-Spark-40-8-256":{
+  name:"Tecno Spark 40 (8+256)",
+price:195000,
+image:"Tecno/Spark40.webp",
+description:"A value‑oriented mid‑range Android smartphone with a large smooth display, long battery life, basic but capable cameras, and modern software — great for everyday use, social apps, media, and general tasks without premium pricing.",
+specs:[
+"6.67″ IPS LCD, 120 Hz",
+"MediaTek Helio G81",
+"Up to 8 GB RAM + 256 GB storage (plus extended RAM tech)",
+"50 MP main + 8 MP front selfie",
+"5200 mAh with 45 W fast charging",
+"Android 15 with HiOS 15.1",
+"IP64 dust/water resistance, side fingerprint sensor, infrared remote control, dual speakers, USB‑C, FM radio."
+]
+},
+"Tecno-Spark-40-8-128":{
+    name:"Tecno Spark 40 (8+128)",
+price:155200,
+image:"Tecno/Spark40.webp",
+description:"A value‑oriented mid‑range Android smartphone with a large smooth display, long battery life, basic but capable cameras, and modern software — great for everyday use, social apps, media, and general tasks without premium pricing.",
+specs:[
+"6.67″ IPS LCD, 120 Hz",
+"MediaTek Helio G81",
+"Up to 8 GB RAM + 256 GB storage (plus extended RAM tech)",
+"50 MP main + 8 MP front selfie",
+"5200 mAh with 45 W fast charging",
+"Android 15 with HiOS 15.1",
+"IP64 dust/water resistance, side fingerprint sensor, infrared remote control, dual speakers, USB‑C, FM radio."
+]
+},
+"Tecno-Spark-40-C-4-128":{
+      name:"Tecno Spark 40 C (4+128)",
+price:143000,
+image:"Tecno/Spark40C.webp",
+description:"A budget‑friendly Android smartphone with a large smooth screen, long battery life, simple cameras, and modern software — a solid pick for social apps, media, browsing, and everyday basics without a high price tag.",
+specs:[
+"6.67″ IPS LCD, 120 Hz",
+"MediaTek Helio G81",
+"128 GB / 256 GB storage + 4 GB / 8 GB RAM (with extended RAM up to 16 GB).",
+"13 MP rear + 8 MP front",
+"6000 mAh with 18 W fast charging",
+"Android 15 + HiOS",
+"Side‑mounted fingerprint sensor, dual speakers with DTS sound, infrared remote control, GPS, Wi‑Fi, Bluetooth, FM radio."
+]
+},
+"Tecno-Pop-10-Pro-4-128":{
+        name:"Tecno Pop 10 Pro (4+128)",
+price:141500,
+image:"Tecno/Tecno-Pop-10-Pro-Noir_1024x1024.webp",
+description:"A budget‑friendly everyday Android smartphone with a large smooth display, long battery life, basic but capable cameras, and modern software — ideal for social apps, media, browsing, and daily tasks without paying premium flagship prices.",
+specs:[
+"6.67″ IPS LCD, 120 Hz",
+"MediaTek Helio G81",
+"Configurations up to 8 GB RAM (with extended RAM) + 256 GB storage (expandable via microSD).",
+"13 MP rear + 8 MP front",
+"6000 mAh with 18 W fast charging",
+"Android 15 with HiOS",
+"Side‑mounted fingerprint sensor, dual speakers, IP64 dust/water resistance, infrared remote control, FreeLink call features."
+]
+},
+"Tecno-Pop-10-3-128":{
+          name:"Tecno Pop 10 (3+128)",
+price:130500,
+image:"Tecno/tecno-pop-10-green-official-image.webp",
+description:"A budget‑friendly Android smartphone with a big display, solid battery, and basic cameras — ideal for everyday use like social media, browsing, videos, and messaging without spending much.",
+specs:[
+"6.67″ HD+ IPS LCD, 120 Hz",
+"Unisoc T7250 / T606 octa‑core",
+"3 GB / 4 GB RAM with 64 GB / 128 GB storage (expandable via microSD).",
+"13 MP rear + 8 MP front",
+"5000 mAh with 15 W fast charging",
+"Android 15 with HiOS",
+"Side‑mounted fingerprint sensor, Dual SIM, IP64 dust/water resistance, FM radio, USB‑C."
+]
+},
+"Tecno-Pop-10-3-64":{
+            name:"Tecno Pop 10 (3+64)",
+price:114400,
+image:"Tecno/tecno-pop-10-green-official-image.webp",
+description:"A budget‑friendly Android smartphone with a big display, solid battery, and basic cameras — ideal for everyday use like social media, browsing, videos, and messaging without spending much.",
+specs:[
+"6.67″ HD+ IPS LCD, 120 Hz",
+"Unisoc T7250 / T606 octa‑core",
+"3 GB / 4 GB RAM with 64 GB / 128 GB storage (expandable via microSD).",
+"13 MP rear + 8 MP front",
+"5000 mAh with 15 W fast charging",
+"Android 15 with HiOS",
+"Side‑mounted fingerprint sensor, Dual SIM, IP64 dust/water resistance, FM radio, USB‑C."
+]
+},
+"Tecno-Pop-10-C-2-64":{
+              name:"Tecno Pop 10 C (2+64)",
+price:108500,
+image:"Tecno/pop10c.jpg",
+description:"A budget‑friendly Android smartphone with a large smooth display, long battery life, basic cameras, and essential everyday features — ideal if you want a simple reliable phone for calls, social apps, browsing, and media without spending much.",
+specs:[
+"6.67″ HD+ IPS LCD, 90 Hz",
+"Unisoc Tiger T606 octa‑core",
+"2 GB RAM + 64 GB storage (plus 2 GB extended RAM) — expandable via microSD.",
+"16 MP Dual AI with flash",
+"8 MP with flash",
+"5000 mAh with 18 W fast charging",
+"Android 13 with HiOS",
+"Side‑mounted fingerprint sensor, face unlock, Dual SIM, 4G LTE, Wi‑Fi, Bluetooth, GPS."
+]
 }
 };
 
