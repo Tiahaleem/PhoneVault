@@ -110,9 +110,9 @@ brand:"itel",
 },
 "Airpods_Pro":{
     brand:"Apple",
-    name:"AirPods Pro (2nd Gen)",
-    price:149000,
-    image:"images/Airpods Pro(2nd Gen).jfif",
+    name:"AirPods Pro",
+    price:12,
+    image:"accessories/AirPod pro.webp",
     description:"Active Noise Cancellation, Adaptive Audio, and USB-C charging case.",
     specs:[
 "Active Noise Cancellation",
@@ -2018,7 +2018,7 @@ specs:[
 ]
 },
 "Tecno-Pop-10-C-2-64":{
-              name:"Tecno Pop 10 C (2+64)",
+name:"Tecno Pop 10 C (2+64)",
 price:108500,
 image:"Tecno/pop10c.jpg",
 description:"A budget‑friendly Android smartphone with a large smooth display, long battery life, basic cameras, and essential everyday features — ideal if you want a simple reliable phone for calls, social apps, browsing, and media without spending much.",
@@ -2032,6 +2032,715 @@ specs:[
 "Android 13 with HiOS",
 "Side‑mounted fingerprint sensor, face unlock, Dual SIM, 4G LTE, Wi‑Fi, Bluetooth, GPS."
 ]
+},
+"mortal-combat-Ps3":{
+brand: "Games",
+name:"Mortal Combat",
+price:12,
+image:"accessories/MORTAL COMBAT Ps3.jpg",
+description:"A PS3 disc game based on the popular Mortal Kombat 9 (2011) fighting title, released as the Komplete Edition with all major DLC included — extra characters, skins, and more.",
+specs:[
+"Genre: Fighting / Action",
+"DLC: Skarlet, Rain, additional Klassic skins & characters, and more content from the original release.",
+"Originally released on PS3 in 2012.",
+"You’ll play as iconic kombatants like Scorpion, Sub-Zero, and many others while battling across multiple modes."
+]
+},
+"mortal-combat-Ps4":{
+brand: "Games",
+name:"Mortal Combat Play Station 4",
+price:12,
+image:"accessories/mortal_combat ps4.webp",
+description:"One of the most popular fighting games in the franchise with great graphics, deep story mode, and tons of characters. There’s also an Ultimate edition that includes all DLC characters and expansions like Aftermath and Kombat Packs — giving you the fullest PS4 Mortal Kombat experience.",
+specs:[
+"Genre: Fighting / Action",
+"Classic 1-on-1 fighting action with brutal combos & Fatalities",
+"Story mode + Towers of Time + Online multiplayer"
+]
+},
+"mortal-combat-Ps5":{
+  brand: "Games",
+name:"Mortal Combat Play Station 5",
+price:12,
+image:"accessories/MORTAL COMBAT Ps5.webp",
+description:"A brutal next-gen fighting game with stunning graphics, fast gameplay, iconic characters, and over-the-top Fatalities. Built to take advantage of PS5 performance for smoother combat and faster loading.",
+specs:[
+"Genre: Fighting / Action",
+// "Classic 1-on-1 fighting action with brutal combos & Fatalities",
+"DualSense support: Vibration + trigger effects enhance the fighting feel in newer titles like Mortal Kombat 1 and MK11.",
+"Enhanced graphics/performance: PS5 versions often run in higher resolution and smoother frame rates than PS4 versions.",
+"Online play: Most games support online multiplayer with PS Plus (for games that require it)."
+]
+},
+"play-station-5-pad":{
+    brand: "Games",
+name:"Play Station 5 Pad",
+price:12,
+image:"accessories/ps_5pad.webp",
+description:"Official PS5 controller with haptic feedback, adaptive triggers, motion sensors, built-in mic & speaker, touchpad, and smooth wireless play. Works natively with all PS5 games — great all-around choice.",
+specs:[
+"Haptic feedback & adaptive triggers for immersive gameplay.",
+"Built-in mic & speaker, motion controls, and touchpad.",
+"Works with wired (USB-C) or wireless (Bluetooth 5.1).",
+"Some focus on precision (like Hall effect sticks) but may not support adaptive triggers or haptics fully in PS5 games."
+]
+},
+"play-station-4-pad":{
+      brand: "Games",
+name:"Play Station 4 Pad",
+price:12,
+image:"accessories/ps4_pad.webp",
+description:"The official PS4 pad with classic PlayStation layout",
+specs:[
+"Wireless Bluetooth gamepad with motion sensors and vibration feedback.",
+"Built-in touchpad, light bar, speaker, and 3.5 mm headphone jack.",
+"Good comfort and control for all PS4 games.",
+// "Some focus on precision (like Hall effect sticks) but may not support adaptive triggers or haptics fully in PS5 games."
+]
+},
+"play-station-3-pad":{
+        brand: "Games",
+name:"Play Station 3 Pad Wired",
+price:12,
+image:"accessories/PS3 pad_wired.webp",
+description:"A budget replacement wired controller with analog sticks, D-pad and vibration — work straight on PS3 via USB. Great for casual players and gaming sessions without charging hassles.",
+specs:[
+"A budget replacement wired controller with analog sticks, D-pad and vibration — work straight on PS3 via USB. Great for casual players and gaming sessions without charging hassles.",
+"DualShock features: Some wired pads include vibration feedback, which adds rumble during gameplay.",
+"Motion/Sixaxis: Many budget wired controllers may not include motion/Sixaxis support, but core button & stick functions still work well in most PS3 games.",
+// "Motion/Sixaxis: Many budget wired controllers may not include motion/Sixaxis support, but core button & stick functions still work well in most PS3 games."
+// "Some focus on precision (like Hall effect sticks) but may not support adaptive triggers or haptics fully in PS5 games."
+]
+},
+"jbl-boombox3":{
+brand: "Earphones-Headphones",
+name:"JBL Boombox3",
+price:12,
+image:"accessories/Boombox3.avif",
+description:"A premium portable Bluetooth speaker with big, powerful sound, long battery life, and rugged outdoor durability — perfect for parties, outdoor hangouts, and all-day music.",
+specs:[
+"Massive JBL Original Pro Sound with deep bass and clear audio from a 3-way speaker system (subwoofer + midrange + tweeters).",
+"Up to ~24 hours battery life on a single charge — great for all-day music without plugging in.",
+"Bluetooth 5.3 wireless streaming — stable connection and easy pairing with phones/tablets.",
+"IP67 waterproof & dustproof rating",
+"PartyBoost support",
+"Built-in powerbank (USB-A)",
+"3.5 mm AUX input",
+"Portable design"
+// "Some focus on precision (like Hall effect sticks) but may not support adaptive triggers or haptics fully in PS5 games."
+]
+},
+"jbl-xtreme4":{
+  brand: "Earphones-Headphones",
+name:"JBL Xtreme4",
+price:12,
+image:"accessories/Xtreme4.webp",
+description:"A powerful portable Bluetooth speaker with big JBL sound, long battery life, and rugged outdoor durability — perfect for parties, beach days, backyard fun, and all-around listening.",
+specs:[
+"Sound: Massive JBL Pro Sound with dual woofers and tweeters for deep bass and clear highs — great for big rooms or outdoor spaces.",
+"Up to ~24 hours battery life on a single charge — great for all-day music without plugging in.",
+"Bluetooth 5.3 wireless streaming — stable connection and easy pairing with phones/tablets.",
+"IP67 waterproof & dustproof rating — safe to take to the pool, beach, or outdoors.",
+"PartyBoost support — connect other JBL PartyBoost speakers for bigger stereo sound.",
+"Built-in powerbank (USB-A) — can charge phones/devices on the go.",
+"3.5 mm AUX input — also works with wired audio sources.",
+"Portable design with sturdy metal handle — easy to carry to outdoor events."
+// "Some focus on precision (like Hall effect sticks) but may not support adaptive triggers or haptics fully in PS5 games."
+]
+},
+"jbl-Charge6":{
+    brand: "Earphones-Headphones",
+name:"JBL Charge 6",
+price:12,
+image:"accessories/Charge 6 Jbl.webp",
+description:"A powerful portable Bluetooth speaker with big JBL sound, long battery life, and rugged outdoor durability — perfect for parties, beach days, backyard fun, and all-around listening.",
+specs:[
+"Sound: Massive JBL Pro Sound with dual woofers and tweeters for deep bass and clear highs — great for big rooms or outdoor spaces.",
+"Battery Life: Up to ~24 hrs of playtime (can extend up to +6 hrs with Playtime Boost), and fast-charge support (10 min = ~2 hrs).",
+"Bluetooth: Bluetooth 5.3 for stable wireless streaming and multi-speaker pairing with Auracast / PartyBoost.",
+"Durability: IP67 waterproof & dustproof — safe for poolside, beach, or outdoor use.",
+"Powerbank: Built-in USB-C powerbank to charge your phone or device on the go.",
+"Extras: Replaceable battery option, AI Sound Boost for enhanced audio performance, shoulder strap for portability, JBL Portable app support for EQ customization.",
+]
+},
+"jbl-Pulse5":{
+      brand: "Earphones-Headphones",
+name:"JBL Pulse5",
+price:12,
+image:"accessories/JBL_PULSE_5.jpg",
+description:"A portable Bluetooth speaker with an eye-catching 360° light show and bold JBL sound — perfect for parties, outdoor fun, or mood lighting with music",
+specs:[
+"360° Light Show: Customisable LED lighting that syncs to your music via the JBL Portable app.",
+"Sound: JBL Original Pro Sound with deep bass and clear audio all around.",
+"Battery Life: Up to ~12 hrs playtime on a single charge.",
+"Bluetooth: Bluetooth 5.3 wireless streaming from phones or tablets.",
+"Durability: IP67 waterproof & dustproof — great for poolside or outdoor use.",
+"PartyBoost: Pair with other JBL PartyBoost speakers for bigger sound.",
+]
+},
+"jbl-Pulse4":{
+      brand: "Earphones-Headphones",
+name:"JBL Pulse4",
+price:12,
+image:"accessories/JBL-Pulse-4-Black.jpg",
+description:"A portable Bluetooth speaker with an eye-catching 360° light show and bold JBL sound — perfect for parties, outdoor fun, or mood lighting with music",
+specs:[
+"360° LED Light Show",
+"Sound: JBL Signature 20 W",
+"Battery Life: Up to ~12 hrs playtime on a single charge.",
+"Bluetooth: Wireless streaming (Bluetooth 4.2) from phones/tablets.",
+"Durability: IPX7 waterproof",
+"PartyBoost: Pair with other PartyBoost‑compatible JBL speakers for bigger sound.",
+"Portable: Includes USB‑C charging cable and quick setup out of the box.",
+]
+},
+"jbl-Flip6":{
+        brand: "Earphones-Headphones",
+name:"JBL Flip6",
+price:12,
+image:"accessories/Flip6 Jbl.webp",
+description:"A portable Bluetooth speaker with bold JBL sound, rugged waterproof build, and all‑day playtime — perfect for music anywhere you go.",
+specs:[
+"Sound: JBL’s 2‑way speaker with racetrack woofer + tweeter for clear, powerful audio.",
+"Connectivity: Bluetooth 5.1 wireless streaming.",
+"Battery: Up to ~12 hrs playtime on a single charge.",
+"Durability: IP67 waterproof & dustproof",
+"Extras: JBL PartyBoost",
+"Portable: Compact and lightweight — easy to carry anywhere.",
+]
+},
+"zealots-S-98":{
+          brand: "Earphones-Headphones",
+name:"Zealots S.98",
+price:12,
+image:"accessories/Zealots_S98.jpg",
+description:"A large portable Bluetooth speaker from Zealot designed for powerful sound, long battery life, and outdoor/party use — not earbuds or a small accessory, but a big audio system.",
+specs:[
+"160 W output.",
+"36,000 mAh battery",
+"Bluetooth (5.2/5.3) + AUX/USB/TF card support",
+"IPX6 waterproof",
+"Portable with handle & strap for easy carrying.",
+"Extra features: True Wireless Stereo (pair two S98s), EQ modes (bass/vocal/balanced), and even powerbank function to charge devices.",
+]
+},
+"zealots-S-85":{
+            brand: "Earphones-Headphones",
+name:"Zealots S.85",
+price:12,
+image:"accessories/Zealots S.85.jpg",
+description:"A portable Bluetooth speaker from Zealot with powerful sound, RGB lighting, long battery life, and outdoor durability — built for music at home, parties, or outdoors.",
+specs:[
+"Sound Power: ~50 W output",
+"Bluetooth: v5.3",
+"Battery: 8000 mAh",
+"Lighting: RGB lights",
+"Waterproof: IPX6 splash‑proof",
+"Play Modes: Bluetooth, AUX, USB, TF card",
+]
+},
+"zealots-S-97":{
+              brand: "Earphones-Headphones",
+name:"Zealots S.97",
+price:12,
+image:"accessories/S.97 Zealots.webp",
+description:"A portable Bluetooth party speaker with powerful sound, long battery life, and versatile playback — great for indoor/outdoor music, gatherings, and parties.",
+specs:[
+"Sound: ~80 W output",
+"Battery: 16,000 mAh",
+"Bluetooth: Bluetooth 5.2",
+"Durability: IPX6 waterproof",
+"Playback Modes: Bluetooth, AUX, USB, TF card",
+"Extras: RGB lighting effects, built‑in mic for hands‑free calls, detachable strap, and TWS pairing (two speakers together).",
+]
+},
+"zealots-S-66m":{
+               brand: "Earphones-Headphones",
+name:"Zealots S.66m",
+price:12,
+image:"accessories/S.66m Zealots.jpg",
+description:"A portable Bluetooth party speaker with lights and karaoke features — designed for loud sound, fun light effects, and versatile playback for home or outdoor music.",
+specs:[
+"Sound: ~20 W output with 360° surround sound & strong bass from a 77 mm driver.",
+"Battery: ~3600 mAh",
+"Bluetooth 5.2",
+"Water resistance: IPX5 splash‑proof",
+"Lighting: 11 LED light modes that react while music plays.",
+"Playback options: Bluetooth, AUX, USB, TF card for versatile music sources.",
+"Extras: Comes with a wireless microphone for karaoke and supports TWS pairing (two units together).",
+]
+},
+"zealots-S-75":{
+                 brand: "Earphones-Headphones",
+name:"Zealots S.75",
+price:12,
+image:"accessories/S.75Zealots.webp",
+description:"A compact portable Bluetooth speaker from Zealot with solid sound, wireless play, and everyday convenience — perfect for music at home, outdoors, or travel.",
+specs:[
+"Bluetooth: v5.2",
+"Power: ~10 W speaker",
+"Battery: ~3000 mAh",
+"Playtime: ~6–8 hrs depending on volume.",
+"Range: Wireless up to ~10 m",
+"Sound Range: 20 Hz–20 kHz frequency for balanced audio.",
+"Durability: IPX6 splash‑proof",
+"Extras: AUX/USB/TF card playback, built‑in strap for easy carry.",
+]
+},
+"mini-starlink":{
+                   brand: "Stralinks",
+name:"Mini starlink ",
+price:12,
+image:"accessories/starlink-mini-now-widely-available-in-us-with-roam-download_ecr3.3840.webp",
+description:"A compact portable satellite internet terminal from SpaceX’s Starlink — designed to give you high‑speed internet anywhere there’s a clear view of the sky, especially in remote/off‑grid locations.",
+specs:[
+"Portable design: ~11.75″ × 10.2″ × 1.45″, ~1.1 kg (fits in a backpack).",
+"High‑speed internet: Often 100 Mbps+ download speeds with low latency (good for streaming, video calls, browsing).",
+"Wi‑Fi & networking: Integrated Wi‑Fi (5) router with dual‑band support — connects many devices.",
+"Battery & power: Efficient 25–40 W draw — can run from portable battery packs or solar setups with proper power delivery (100 W USB‑PD).",
+"Durability: IP67 waterproof/dustproof and rugged weather resistance for outdoor use.",
+"Easy setup: Plug‑and‑play with Starlink app guidance — no motorized base; manual alignment with software help.",
+]
+},
+"camera-starlink":{
+brand: "Stralinks",
+name:"Cameras Starlink",
+price:12,
+image:"accessories/Cameras Starlink.webp",
+description:"Starlink has outdoor security cameras (Starlink Cameras) designed to work with your Starlink internet setup — ideal for home or property surveillance, easy installation, and remote monitoring.",
+specs:[
+"Wireless connectivity: Works over Wi‑Fi with Starlink internet — no separate router needed.",
+"Outdoor‑ready: Designed for weather‑resistant outdoor use (IP‑rated housing).",
+"Video quality: Typically 1080p or higher for clear live view and recordings.",
+"Night vision: Infrared/low‑light support for nighttime monitoring.",
+"App control: View live feed, playback, and alerts from the Starlink/Starlink‑compatible camera app.",
+"Motion detection: Sends alerts and records when motion is detected.",
+"Power: Usually wired or PoE (Power over Ethernet) options for reliable outdoor power."
+]
+},
+"ai-solar-camera":{
+brand: "Stralinks",
+name:"Ai solar camera",
+price:12,
+image:"accessories/Ai solar camera.webp",
+description:"A solar‑powered smart outdoor security camera that uses artificial intelligence (AI) to detect real activity (like people, vehicles, or pets), send smart alerts, and record video — all without needing mains power.",
+specs:[
+"Solar power: Runs on sunlight only — no wiring needed, ideal for remote/outdoor spots.",
+"AI motion detection: Smartly identifies humans/vehicles and reduces false alerts.",
+"Wireless & app control: Connects via Wi‑Fi/4G and lets you watch live video and get alerts on your phone.",
+"Night vision: Infrared/low‑light support for nighttime monitoring.",
+"Outdoor durability: Weatherproof design built to withstand rain and dust.",
+"Two‑way audio (optional): Some models let you talk through the camera.",
+]  
+},
+"mtn-router-5G":{
+brand: "Routers",
+name:"MTN router 5G",
+price:12,
+image:"accessories/MTN router 5G.jpeg",
+description:"A home/office broadband router that uses MTN’s 5G network to deliver super‑fast internet over Wi‑Fi.",
+specs:[
+"5G Internet: Uses MTN’s 5G network for much faster speeds than 4G — great for streaming, downloads, gaming, and browsing.",
+"Connect Many Devices: Supports up to ~32–64 devices at once (phones, laptops, TVs, etc.).",
+"Fallback Networks: Works on 4G/3G where 5G isn’t available.",
+"Wi‑Fi: Dual‑band Wi‑Fi (2.4 GHz & 5 GHz) — good range and speeds for home use.",
+"Plug‑and‑Play: Insert your MTN SIM, power it up, and connect via Wi‑Fi or LAN.",
+"Data Bonus: Often includes free data (e.g., 100 GB) on activation.",
+"Typical Speeds: Up to hundreds of Mbps (depends on network coverage)."
+] 
+},
+"airtel-router-5G":{
+  brand: "Routers",
+name:"Airtel router 5G ",
+price:12,
+image:"accessories/Airtel router 5G.webp",
+description:"A 5G broadband Wi‑Fi router from Airtel (often called SmartConnect 5G ODU Router) that turns Airtel’s mobile network into fast home/office internet — great where fibre or fixed broadband isn’t available.",
+specs:[
+"5G + 4G/3G support — uses Airtel’s 5G where available, falls back to 4G/3G.",
+"Wi‑Fi: Dual‑band (2.4 GHz & 5 GHz) Wi‑Fi — good range & speeds.",
+"Multi‑device: Connects up to ~64 devices simultaneously.",
+"Backup: Some models include built‑in power backup (5–6 hrs) during power cuts.",
+"Outdoor design (ODU): Some Airtel routers are mounted outside for stronger signals.",
+"Extras: Parental controls & usage management.",
+] 
+},
+"mtn-router-(cat4)":{
+   brand: "Routers",
+name:"MTN router (cat4)",
+price:12,
+image:"accessories/MTN router (cat4).webp",
+description:"A 4G LTE broadband Wi‑Fi router that uses an MTN SIM to share mobile internet over Wi‑Fi — great for homes, offices, or small setups where fixed broadband isn’t available.",
+specs:[
+"4G LTE Cat4 connectivity: Supports LTE and 3G/2G networks with up to ~300 Mbps download and ~50 Mbps upload speeds.",
+"Dual‑band Wi‑Fi: 2.4 GHz + 5 GHz Wi‑Fi for multiple device connections.",
+"Connect multiple devices: Can support ~30+ devices on Wi‑Fi at once.",
+"Backup power (optional): Some models include a 4,000–5,000 mAh battery for hours of internet during power outages.",
+"Plug‑and‑play: Just insert your MTN SIM and power on — no complex setup needed.",
+"Extra features: VoLTE calling support and broad band coverage range.",
+]  
+},
+"itel-pb-30000mah":{
+     brand: "Power Banks",
+name:"Itel Power Bank 30000mah",
+price:12,
+image:"accessories/Itel pb 30000mah.webp",
+description:"A high‑capacity portable charger that keeps your phones, tablets, and devices powered for days without frequent recharging.",
+specs:[
+"Capacity: 30000 mAh — charges most phones ~6–8 times or tablets multiple times.",
+"Ports: Dual USB outputs + USB‑C — charge multiple devices together.",
+"Input: Micro‑USB / USB‑C charging support.",
+"Fast Charging: Supports fast charging on compatible devices (varies by model/brand).",
+"LED Indicators: Battery level indicators to show remaining power.",
+"Compatibility: Works with Android/iPhone/ tablets/earbuds and other USB‑powered devices.",
+]  
+},
+"itel-pb-20000mah":{
+brand: "Power Banks",
+name:"Itel Power Bank 20000mah",
+price:12,
+image:"accessories/itel 20000mah.webp",
+description:"A large‑capacity portable charger that’s great for phones, tablets, and other USB devices — perfect for travel, long days out, or emergencies.",
+specs:[
+"Capacity: 20000 mAh — enough to charge most smartphones ~4–6 times.",
+"Ports: Dual USB output (and sometimes USB‑C input/output) — charge 2 devices at once.",
+"Inputs: USB‑C / Micro‑USB charging support.",
+"LED Indicators: Show remaining battery level.",
+"Compatibility: Works with Android, iPhone (with cable), tablets, earbuds, and other USB devices.",
+] 
+},
+"itel-pb-27000mah":{
+  brand: "Power Banks",
+name:"Itel Power Bank 27000mah",
+price:12,
+image:"accessories/itel 27000mah.jpg",
+description:"A high‑capacity portable charger that keeps your phone, tablet, and USB devices powered through long days, travel, or power outages.",
+specs:[
+"Capacity: 27000 mAh — provides many full charges (e.g., phones multiple times).",
+"Ports: Multiple USB output ports — can charge 2+ devices at once.",
+"Inputs: USB‑C and/or Micro‑USB for recharging the power bank.",
+"LED Indicators: Battery level display so you know how much power is left.",
+"Compatibility: Works with Android, iPhone (with cable), tablets, speakers, earbuds, etc.",
+] 
+},
+"tecno-pb-30000mah":{
+brand: "Power Banks",
+name:"Tecno Power Bank 30000mah",
+price:12,
+image:"accessories/Tecno pb 30000mah.jpg",
+description:"A high‑capacity portable charger with LED display and fast charging — great for phones, tablets, earbuds, and multiple devices on long trips or power outages",
+specs:[
+"Capacity: 30000 mAh — huge power for multiple full phone charges.",
+"Fast Charging: Up to 15 W output with Type‑C + dual USB‑A ports.",
+"Inputs: USB‑C & Micro‑USB 5 V/3 A & 5 V/2 A for recharging the bank.",
+"Ports: 3 output ports — charge 2–3 devices at once.",
+"Safety: Built‑in protections vs. overcharge, short‑circuit, and overheating.",
+"LED Display: Shows battery percentage accurately.",
+] 
+},
+"tecno-pb-20000mah":{
+brand: "Power Banks",
+name:"Tecno Power Bank 20000mah",
+price:12,
+image:"accessories/Tecno Power Bank 20000mah.webp",
+description:"A high-capacity portable charger from Tecno that’s great for phones, tablets, and other USB gadgets on the go.",
+specs:[
+"Capacity: 20000 mAh / ~74 Wh — multiple full phone charges.",
+"Ports: USB-A + Type-C + built-in Lightning/Type-C cables (varies by model) — can charge several devices at once.",
+"Fast Charging: Supports fast charging output for quicker top-ups.",
+"Portable: Compact, travel-friendly design (~424 g).",
+"Safety: Smart protection against overcharge, overcurrent, short-circuit, etc.",
+"LED Indicator: Shows battery level.",
+]   
+},
+"infinix-pb-30000mah":{
+brand: "Power Banks",
+name:"Infinix Power Bank 30000mah",
+price:12,
+image:"accessories/Infinix pb30000mah.webp",
+description:"A big-capacity portable charger that’s perfect for travel, long days out, emergencies, and powering multiple gadgets without frequent wall charging.",
+specs:[
+"Capacity: 30000 mAh — charges phones and tablets many times over.",
+"Ports: Three USB-A + Type-C input/output — can charge up to four devices at once.",
+"Charging: 15 W fast charging on compatible devices.",
+"LED Display: Shows exact battery percentage so you know how much power is left.",
+"Extras: Built-in torch/flashlight — handy for outdoor or emergency use.",
+"Safety: Smart protection vs. overcharge, over-discharge, short circuits, and overheating.",
+]    
+},
+"infinix-pb-20000mah":{
+  brand: "Power Banks",
+name:"Infinix Power Bank 20000mah",
+price:12,
+image:"accessories/Infinix pb 20000mah.jpg",
+description:"A large-capacity portable charger that’s great for phones, tablets, earbuds, and other USB devices — ideal for travel, work, long outings, or when power’s scarce.",
+specs:[
+"Capacity: 20000 mAh — enough for multiple full charges on most smartphones.",
+"Ports: Dual USB-A + Type-C input/output — charge multiple devices at once.",
+"Fast Charging: Supports up to ~15 W (varies by model/phone).",
+"LED Indicator: Shows remaining battery level.",
+"Safety: Built-in protections against overcharging, short circuits, and overheating.",
+] 
+},
+"newage-pb-55000mah":{
+    brand: "Power Banks",
+name:"New age Power Bank 55000mah",
+price:12,
+image:"accessories/New age pb 55000mah.webp",
+description:"A very high-capacity portable charger great for powering multiple phones, tablets, and USB devices on long trips, emergencies, or extended outages.",
+specs:[
+"Capacity: 55 000 mAh — huge battery for many charges.",
+"Ports: USB-A + USB-A + Type-C output — charge multiple devices at once.",
+"Fast Charging: Up to 22.5 W outputs and 20 W Type-C — faster charge on compatible devices.",
+"Inputs: Type-C, Lightning, and micro-USB inputs for recharging the power bank.",
+"Display & Features: Digital battery display + built-in torch light on some models.",
+"Protection: Multi-protect safety (overcharge, short circuit, overheating).",
+] 
+},
+"newage-pb-44000mah":{
+      brand: "Power Banks",
+name:"New age Power Bank 44000mah",
+price:12,
+image:"accessories/New age pb 44000mah.webp",
+description:"A very high-capacity portable charger that’s built to keep multiple devices powered for days — great for long trips, power outages, or charging several gadgets at once.",
+specs:[
+"Capacity: 44 000 mAh — huge power for many full phone/tablet charges.",
+"Fast Charging: Up to 22.5 W output via USB-A & Type-C — faster top-ups on supported devices.",
+"Multiple Ports: 2× USB-A + Type-C output — charge 2–3 devices at once.",
+"Inputs: Micro USB + Type-C for recharging the power bank itself.",
+"LED Display: Shows battery level so you know remaining charge.",
+"Extras: Built-in flashlight/torch and multi-protection safety (overcharge, short circuit, overheating).",
+] 
+},
+"newage-pb-33000mah":{
+      brand: "Power Banks",
+name:"New age Power Bank 33000mah",
+price:12,
+image:"accessories/New age pb 33000mah.webp",
+description:"A high-capacity portable charger that keeps your phone, tablet, earbuds, and other USB-powered devices running through long days, travel, or outages.",
+specs:[
+"Capacity: 33 000 mAh — lots of power for multiple full smartphone charges.",
+"Ports: Dual USB-A + Type-C outputs — charge 2–3 devices at once.",
+"Fast Charging: Up to ~22.5 W output (varies by model/device support).",
+"Inputs: USB-C & Micro-USB for recharging the power bank.",
+"LED Display: Shows battery level in % for easy monitoring.",
+"Safety: Built-in protections (overcharge, short circuit, overheating).",
+]   
+},
+"newage-pb-22500mah":{
+brand: "Power Banks",
+name:"New age Power Bank 22500mah",
+price:12,
+image:"accessories/New age pb 22500mah.webp",
+description:"A large-capacity portable charger perfect for phones, tablets, earbuds, and other USB devices — ideal for travel, long days out, or power outages.",
+specs:[
+"Capacity: 22 500 mAh — enough for multiple full smartphone charges.",
+"Ports: Dual USB-A + Type-C output — charge 2–3 devices at once.",
+"Fast Charging: Up to ~22.5 W on compatible devices.",
+"Inputs: USB-C + Micro-USB for recharging the bank itself.",
+"LED Display: Battery level % display so you know exactly how much is left.",
+"Safety: Multi-protection against overcharge, short circuits, overheating.",
+]  
+},
+"tecno-airPod":{
+  brand: "Airpod",
+name:"Tecno Buds 2",
+price:12,
+image:"accessories/Tecno AirPod.jpg",
+description:"A simple Tecno wireless earbud for calls, music, and daily use — affordable and reliable, AirPods-style but not Apple.",
+specs:[
+"True wireless (TWS) earbuds with charging case",
+"Bluetooth connectivity for music & calls",
+"Compact in-ear design with touch controls",
+"Good battery life with extra charges from the case",
+"Clear sound & mic for everyday use",
+// "Safety: Multi-protection against overcharge, short circuits, overheating.",
+] 
+},
+"oriamo-airPod":{
+brand: "Airpod",
+name:"Oraimo AirPod Pro",
+price:12,
+image:"accessories/Oraimo AirPod.webp",
+description:"Stylish true wireless earbuds from Oraimo with features similar to premium earbuds — great for music, calls, and everyday use.",
+specs:[
+"True Wireless (TWS) earbuds — no cables.",
+"Bluetooth: Stable wireless pairing with phones/tablets.",
+"Sound: Clear audio with decent bass and balanced mid/high tones.",
+"Mic: Built-in mic for calls & voice assistants.",
+"Battery: Several hours playtime per charge + extra from charging case.",
+"Comfort: In-ear design with silicone tips for snug fit.",
+] 
+},
+"infinix-smartwatch":{
+  brand: "Infinix",
+name:"Infinix Smartwatch",
+price:12,
+image:"accessories/Infinix smartwatch.webp",
+description:"A stylish, budget-friendly smartwatch made for daily fitness tracking and smart notifications.",
+specs:[
+"Display: Color touchscreen",
+"Health: Heart rate, sleep & activity tracking",
+"Sports Modes: Multiple workout options",
+"Notifications: Calls, messages & app alerts",
+"Battery: Long-lasting for everyday use",
+"Design: Lightweight, modern look",
+] 
+},
+"itel-smartwatch":{
+    brand: "Itel",
+name:"Itel Smartwatch",
+price:12,
+image:"accessories/Itel smartwatch.webp",
+description:"A budget-friendly wearable that tracks your health, fitness, and notifications in a sleek, everyday style — perfect if you want smartwatch features without high cost.",
+specs:[
+"Display: Color touchscreen",
+"Health Tracking: Heart rate, sleep, steps",
+"Sports Modes: Multiple activity options",
+"Notifications: Calls, messages & app alerts",
+"Battery: Long-lasting daily use",
+"Extras: Watch faces & lightweight design",
+] 
+},
+"tecno-smartwatch":{
+      brand: "Tecno",
+name:"Tecno Smartwatch",
+price:12,
+image:"accessories/Tecno smartwatch.png",
+description:"A budget-friendly wearable that tracks your health, fitness, and notifications in a sleek, everyday style — perfect if you want smartwatch features without high cost.",
+specs:[
+"Display: Color touchscreen",
+"Health Tracking: Heart rate, sleep, steps",
+"Sports Modes: Multiple activity options",
+"Notifications: Calls, messages & app alerts",
+"Battery: Long-lasting daily use",
+"Extras: Watch faces & lightweight design",
+] 
+},
+"iPad-11gen-pouch-glass":{
+        brand: "Ipad",
+name:"iPad 11gen Pouch & Glass",
+price:12,
+image:"accessories/iPad 11gen pouch & glass.webp",
+description:"A protective accessory set for your iPad 11th generation — keeps the tablet safe from drops, scratches, and daily wear.",
+specs:[
+"Pouch / Sleeve: Soft internal lining + durable exterior — protects from bumps and dust",
+"Tempered Glass Screen Protector: 9H hardness — resists scratches, smudges, and minor impacts",
+"Precision Fit: Designed specifically for iPad 11th Gen dimensions",
+"Easy Installation: Bubble-free glass with included cleaning kit",
+"Slim & Lightweight: Adds protection without bulk",
+// "Extras: Watch faces & lightweight design",
+] 
+},
+"fold6-pouch":{
+          brand: "Samsung",
+name:"Fold6 Pouch",
+price:12,
+image:"accessories/Fold6 pouch.webp",
+description:"A protective sleeve/case made to fit the Fold6 — guards against scratches, bumps, and daily wear while keeping the foldable slim and stylish.",
+specs:[
+"Precise Fit: Designed specifically for Galaxy Z Fold6 dimensions and hinge.",
+"Protection: Shields front/back from scratches and dust.",
+"Soft Interior: Gentle lining to prevent marks on your screen and body.",
+"Slim Design: Doesn’t add bulk — easy to slip in bags.",
+"Easy Access: Cutouts for camera, buttons, and ports.",
+"Material: Durable — often PU leather or premium TPU.",
+] 
+},
+"fold3-pouch":{
+            brand: "Samsung",
+name:"Fold3 Pouch & Glass",
+price:12,
+image:"accessories/Fold3 pouch & glass.webp",
+description:"A protection combo for your Fold3 — keeps your foldable phone safe from scratches, drops, impacts, and everyday wear.",
+specs:[
+"Precise Fit: Made for Galaxy Z Fold3 shape and hinge",
+"Protection: Shields front/back from scratches & bumps",
+"Soft Lining: Gentle interior to protect screen & body",
+"Slim & Stylish: Adds protection without bulk",
+"Easy Access: Cutouts for buttons, camera & ports",
+"9H Hardness: Strong surface resists scratches & everyday marks",
+"9H Hardness: Strong surface resists scratches & everyday marks",
+"Touch-Friendly: Keeps original smooth feel of screens",
+"Fits Fold3 Inner/Outer Displays: Designed for Fold3 dual screens (if specified)"
+] 
+},
+"fold4-pouch":{
+brand: "Samsung",
+name:"Fold4 Pouch",
+price:12,
+image:"accessories/fold4-pouch.webp",
+description:"A protective sleeve/case designed specifically for the Fold4 — keeps your foldable phone safe from scratches, bumps, and daily wear while staying slim and stylish.",
+specs:[
+"Precise Fit: Tailored for Galaxy Z Fold4 dimensions and hinge",
+"Protection: Guards against scratches, dust, and light impacts",
+"Soft Inner Lining: Helps prevent marks and scuffs on the device",
+"Slim & Lightweight: Easy to carry without adding bulk",
+"Easy Access: Cutouts for buttons, cameras, and ports",
+"Material: Durable — usually PU leather, fabric, or soft TPU",
+] 
+},
+"952bt":{
+brand: "JBL",
+name:"JBL 952bt",
+price:12,
+image:"accessories/952bt Headset.jfif",
+description:"A wireless Bluetooth over-ear headphone with rich JBL sound, comfy design, and multipoint connectivity — great for music, calls, and everyday use.",
+specs:[
+"Bluetooth Wireless: Easy pairing with phones, tablets & laptops",
+"JBL Pure Bass Sound: Deep, punchy audio signature",
+"Multipoint Connection: Connects 2 devices at once (switch seamlessly)",
+"Battery Life: Long playtime — often ~40 hrs+ on a full charge",
+"Fast Charge: Quick power-up in minutes",
+"Comfort: Soft earpads for long listening sessions",
+"Controls & Mic: On-ear buttons + built-in mic for hands-free calls",
+]   
+},
+"bh-headset":{
+  brand: "Earphones-Headphones",
+name:"Bh Headset",
+price:12,
+image:"accessories/Bh headset.webp",
+description:"A noise-cancelling headset that keeps your calls and music crystal clear, blocks unwanted noise, and stays comfortable all day.",
+specs:[
+"Noise Reduction: ~23 dB passive NR",
+"Comfort: Soft padded headband & silicone gel ear seals",
+"Mic: Noise‑cancelling boom, 270° rotation",
+"Audio: Dual independent L/R volume",
+"Plugs: Dual GA aviation plugs",
+"Weight: ~468 g",
+]  
+},
+"sn-81":{
+    brand: "Earphones-Headphones",
+name:"JBL Sn-81",
+price:12,
+image:"accessories/Sn-81 Headset.webp",
+description:"Lightweight, foldable wireless Bluetooth headphones with rich bass, hands‑free calls, voice assistant support, long playtime, and multi‑connection options.",
+specs:[
+"Bluetooth wireless with wired option",
+"Hands‑free calls & voice assistant control",
+"Pure bass sound",
+"Long battery playtime (~16 h)",
+"Multi‑point connection + detachable cable",
+"USB‑C charging",
+"Foldable & lightweight design"
+] 
+},
+"trans-headset":{
+      brand: "Earphones-Headphones",
+name:"Trans headset",
+price:12,
+image:"accessories/Trans headset.jfif",
+description:"Lightweight true wireless earbuds with active noise reduction, long battery life, Bluetooth 5.0, touch controls, and water‑resistant design.",
+specs:[
+"Active Noise Reduction (ANC) — reduces background noise (~28 dB)",
+"Playtime: up to ~25 h total (ANC on) / ~30 h (ANC off)",
+"Bluetooth 5.0 for stable wireless connection",
+"IP54 dust & water resistance",
+"Touch controls & auto pairing",
+"Supports voice assistants (Siri / Google)",
+// "Foldable & lightweight design"
+] 
 }
 };
 

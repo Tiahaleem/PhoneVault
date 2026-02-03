@@ -1,16 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const products = Array.from(document.querySelectorAll(".item_display_product"));
-  const filterButtons = document.querySelectorAll(".product_bth button");
-  const sortSelect = document.getElementById("sortProducts");
-  const searchInput = document.getElementById("searchProducts");
-  const itemsCount = document.getElementById("items-count");
-  const noResults = document.querySelector(".no_results");
-  const grid = document.querySelector(".items_display_grid");
+  const section = document.querySelector("section"); // phone OR accessories
+
+  const products = Array.from(
+    section.querySelectorAll(".item_display_product")
+  );
+  const filterButtons = section.querySelectorAll(".product_bth button");
+  const sortSelect = section.querySelector(".sortProducts");
+  const searchInput = section.querySelector(".searchProducts");
+  const itemsCount = section.querySelector(".items-count");
+  const noResults = section.querySelector(".no_results");
+  const grid = section.querySelector(".items_display_grid");
 
   let activeBrand = "all";
   let searchTerm = "";
 
-  /* ---------------- DEBOUNCE ---------------- */
+  /* ---------- DEBOUNCE ---------- */
   function debounce(fn, delay = 300) {
     let timer;
     return (...args) => {
@@ -19,69 +23,65 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 
-  /* ---------------- CORE FILTER ---------------- */
+  /* ---------- FILTER ---------- */
   function applyFilters() {
-    let visibleProducts = [];
+    let visible = [];
 
     products.forEach(product => {
       const details = product.querySelector(".phone_details");
       const brand = details.dataset.brand.toLowerCase();
-      const titleText = product.querySelector("h3").innerText.toLowerCase();
+      const name = details.dataset.name.toLowerCase();
 
       const brandMatch = activeBrand === "all" || brand === activeBrand;
       const searchMatch =
-        titleText.includes(searchTerm) || brand.includes(searchTerm);
+        name.includes(searchTerm) || brand.includes(searchTerm);
 
       if (brandMatch && searchMatch) {
         product.hidden = false;
-        visibleProducts.push(product);
+        visible.push(product);
       } else {
         product.hidden = true;
       }
     });
 
-    sortProducts(visibleProducts);
-    updateUI(visibleProducts.length);
+    sortProducts(visible);
+    updateUI(visible.length);
   }
 
-  /* ---------------- SORT ---------------- */
-  function sortProducts(visibleProducts) {
-    const value = sortSelect.value;
-    if (value === "default") return;
+  /* ---------- SORT ---------- */
+  function sortProducts(list) {
+    if (sortSelect.value === "default") return;
 
-    visibleProducts.sort((a, b) => {
-      const priceA = +a.querySelector(".phone_details").dataset.price;
-      const priceB = +b.querySelector(".phone_details").dataset.price;
-      return value === "low-high" ? priceA - priceB : priceB - priceA;
+    list.sort((a, b) => {
+      const aPrice = +a.querySelector(".phone_details").dataset.price;
+      const bPrice = +b.querySelector(".phone_details").dataset.price;
+      return sortSelect.value === "low-high"
+        ? aPrice - bPrice
+        : bPrice - aPrice;
     });
 
-    visibleProducts.forEach(p => grid.appendChild(p));
+    list.forEach(p => grid.appendChild(p));
   }
 
-  /* ---------------- UI ---------------- */
+  /* ---------- UI ---------- */
   function updateUI(count) {
     itemsCount.textContent = count;
-    noResults.hidden = count !== 0;
+    if (noResults) noResults.hidden = count !== 0;
   }
 
-  /* ---------------- EVENTS ---------------- */
+  /* ---------- EVENTS ---------- */
 
-  // Brand filter
   filterButtons.forEach(btn => {
     btn.addEventListener("click", () => {
       activeBrand = btn.dataset.brand.toLowerCase();
-
       filterButtons.forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
-
       applyFilters();
     });
   });
 
-  // Sort
   sortSelect.addEventListener("change", applyFilters);
 
-  // Search (debounced)
   searchInput.addEventListener(
     "input",
     debounce(e => {
@@ -90,6 +90,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 300)
   );
 
-  // Initial load
   applyFilters();
 });
