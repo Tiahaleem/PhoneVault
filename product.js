@@ -2823,7 +2823,7 @@ specs:[
 ]
 },
 "trans-type-c-charger":{
-  brand: "Charger",
+  brand: "Chargers-Cables",
 name:"Trans Type C Charger",
 price:12,
 image:"accessories/Trans type c charger.webp",
@@ -2839,7 +2839,7 @@ specs:[
 ]
 },
 "trans-iPhone-charger":{
-  brand: "Charger",
+  brand: "Chargers-Cables",
 name:"Trans IPhone Charger",
 price:12,
 image:"accessories/Trans iPhone charger.webp",
@@ -3023,6 +3023,62 @@ specs:[
 "Compact & Travel-Friendly: Lightweight and easy to carry",
 ]
 },
+"phone-stand":{
+  brand: "Others",
+name:"Phone Stand",
+price:12,
+image:"accessories/Phone stand.webp",
+description:"A sturdy phone stand that holds your device securely, perfect for hands-free viewing, video calls, and gaming.",
+specs:[
+"Hands-Free Use: Watch videos, make calls, or follow recipes easily",
+"Stable & Secure: Prevents your phone from slipping or tipping",
+"Adjustable Angles: Find the perfect viewing angle",
+"Portable Design: Lightweight and easy to carry",
+"Universal Compatibility: Fits most smartphones and small tablets",
+]
+},
+"iphone-cord":{
+    brand: "Chargers-Cables",
+name:"Iphone Cord",
+price:12,
+image:"accessories/iPhone cord.webp",
+description:"A durable iPhone cord for fast charging and reliable data transfer, keeping your device powered and connected.",
+specs:[
+"Fast Charging & Syncing: Powers your iPhone quickly while transferring data",
+"Durable Build: Reinforced cable resists bending and fraying",
+"Universal Compatibility: Works with Lightning iPhones and iPads",
+"Portable & Flexible: Easy to carry and use anywhere",
+"Reliable Connection: Stable charging and data transfer every time",
+]
+},
+"type-c-cord":{
+brand: "Chargers-Cables",
+name:"Type C Cord",
+price:12,
+image:"accessories/Type c cord.webp",
+description:"A fast and durable USB‑C cord for charging and data transfer, compatible with smartphones, tablets, and other devices.",
+specs:[
+"Fast Charging & Data Sync: Powers devices quickly and transfers data reliably",
+"Durable Design: Reinforced cable resists bending and fraying",
+"Wide Compatibility: Works with USB‑C phones, tablets, and accessories",
+"Portable & Flexible: Easy to carry and use anywhere",
+"Stable Connection: Ensures consistent charging and data transfer",
+]
+},
+"android-cord":{
+brand: "Chargers-Cables",
+name:"Android Cord",
+price:12,
+image:"accessories/Android cord.jpg",
+description:"A reliable Android cord for fast charging and seamless data transfer, keeping your phone powered and connected.",
+specs:[
+"Fast Charging & Sync: Powers your Android device quickly and transfers data efficiently",
+"Durable Build: Reinforced to resist bending, fraying, and wear",
+"Wide Compatibility: Works with most Android phones, tablets, and accessories",
+"Portable & Flexible: Easy to carry and use on the go",
+"Stable Connection: Ensures consistent charging and data transfer",
+]
+}
 };
 
 // Read ID from URL
