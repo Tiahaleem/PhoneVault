@@ -2741,7 +2741,288 @@ specs:[
 "Supports voice assistants (Siri / Google)",
 // "Foldable & lightweight design"
 ] 
-}
+},
+"sudo-headset":{
+        brand: "Earphones-Headphones",
+name:"Sodo headset ",
+price:12,
+image:"accessories/Sodo headset.webp",
+description:"Sodo is a brand known for budget-friendly audio gear — typically wired or wireless headphones/earbuds with decent sound and basic features for everyday listening, calls, and casual use.",
+specs:[
+"Sound: Clear audio with balanced bass for music & video",
+"Connectivity: Bluetooth wireless (or wired with 3.5 mm depending on the model)",
+"Battery (if wireless): Long playtime — often 8–20 hrs on a full charge",
+"Mic: Built-in mic for hands-free calls",
+"Comfort: Soft earpads / ergonomic earbuds",
+"Controls: On-ear or inline buttons for volume/play/pause/calls",
+// "Foldable & lightweight design"
+] 
+},
+"oraimo-clipper":{
+          brand: "Others",
+name:"Oraimo Clipper",
+price:12,
+image:"accessories/Oraimo clipper.webp",
+description:"A cordless electric hair clipper/trimmer designed for easy home grooming — cuts hair, trims beards, and shapes edges with comfortable handling.",
+specs:[
+"Cordless Operation: Rechargeable battery for portable use",
+"Adjustable Cutting Lengths: Multiple guard combs for different hair lengths",
+"Sharp Blades: Stainless steel or precision blades for smooth cuts",
+"Comfort Grip: Ergonomic design for easy handling",
+"Battery Life: Long runtime on a single charge",
+"LED Indicator: Shows charge status (on some models)",
+// "Foldable & lightweight design"
+] 
+},
+"oraimo-necklaces":{
+          brand: "Earphones-Headphones",
+name:"Oraimo Necklaces",
+price:12,
+image:"accessories/Oraimo necklaces.webp",
+description:"Stylish smart wearable accessories from Oraimo that blend fashion with tech — often featuring a built-in audio cable or Bluetooth connectivity for music, calls, and on-the-go convenience.",
+specs:[
+"Design: Trendy necklace/neckband style — looks good while being functional",
+"Connectivity: Bluetooth (wireless models) or built-in audio cable (wired models)",
+"Audio: Speakers or earbuds integrated into necklace design for music & calls",
+"Comfort: Lightweight & wearable around the neck",
+"Controls: Easy inline buttons for volume/play/pause/calls",
+"Battery: Long playtime on wireless versions",
+// "Foldable & lightweight design"
+]
+},
+"wireless-mouse":{
+          brand: "Others",
+name:"Wireless Mouse",
+price:12,
+image:"accessories/Wireless mouse.webp",
+description:"A cordless computer mouse that connects via Bluetooth or USB dongle — gives you smooth cursor control without cables, perfect for laptops, desktops, and travel.",
+specs:[
+"Connection: Bluetooth or 2.4 GHz USB receiver (depends on model)",
+"Buttons: Left + right click + scroll wheel (some with extra side buttons)",
+"Sensor: Optical tracking — smooth movement on most surfaces",
+"Battery: Long battery life — often weeks to months on a single charge/battery",
+"Ergonomics: Comfortable shape for everyday use",
+"Plug-and-play: No drivers needed on most systems",
+// "Foldable & lightweight design"
+]
+},
+"wireless-microphone":{
+brand: "Others",
+name:"Wireless Microphone",
+price:12,
+image:"accessories/Wireless microphone.jpg",
+description:"A cordless mic that sends your voice to a speaker, camera, phone, or recorder without a cable — ideal for singing, interviews, recording, presentations, and live streams.",
+specs:[
+"Wireless Connection: 2.4 GHz, UHF/VHF, or Bluetooth — no cable needed",
+"Transmitter & Receiver: Mic sends signal to a receiver plugged into speaker/phone/camera",
+"Battery Powered: Rechargeable or AA/AAA — portable use",
+"Range: Usually 10 m – 100 m depending on system",
+"Mic Types: Handheld / Lavalier (clip-on) / Headset",
+"Compatibility: Works with speakers, mixers, phones, cameras (with adapter)",
+// "Foldable & lightweight design"
+]
+},
+"trans-type-c-charger":{
+  brand: "Charger",
+name:"Trans Type C Charger",
+price:12,
+image:"accessories/Trans type c charger.webp",
+description:"A charger with a USB-C connector (also called USB-Type-C) — modern, fast, and compatible with most new phones, tablets, laptops, power banks, and accessories.",
+specs:[
+"Connector: USB-C output — reversible and universal modern port",
+"Power Delivery: Supports Fast Charging (e.g., 18 W, 30 W, 45 W, 60 W, 100 W depending on model)",
+"Input: Standard AC wall plug (100–240 V)",
+"Smart IC / PD: Adjusts power to device safely",
+"Compact: Small and travel-friendly designs available",
+"Compatibility: Works with Android, iPhone (with USB-C cable), tablets, laptops (higher wattage), earbuds, power banks",
+// "Foldable & lightweight design"
+]
+},
+"trans-iPhone-charger":{
+  brand: "Charger",
+name:"Trans IPhone Charger",
+price:12,
+image:"accessories/Trans iPhone charger.webp",
+description:"A charger with a USB-C output and an Apple-compatible connector (USB-C to Lightning) — made to charge iPhones quickly and safely.",
+specs:[
+"Connector: USB-C to Lightning — for modern iPhones (iPhone 8 and newer).",
+"Fast Charging: Supports 20 W (or higher) Power Delivery (PD) for up to ~50% charge in ~30 min (on supported iPhones).",
+"Safe Charging: Smart IC / protection against over-current, over-voltage, overheating.",
+"Compact: Small form factor — easy to carry for travel.",
+"Compatibility: Works with iPhone (8 → 17/17 Pro/Plus/Max/Air) and also charges AirPods/Power Banks with Lightning.",
+// "Foldable & lightweight design"
+]  
+},
+"sam-charger":{
+brand: "Chargers-Cables",
+name:"Sam charger",
+price:12,
+image:"accessories/samsung-charger.webp",
+description:"A power adapter made for Samsung phones and devices — often USB-C with fast charging support.",
+specs:[
+"Connector: USB-C output — modern reversible port",
+"Fast Charging: Supports Samsung Fast Charge / USB Power Delivery (PD) (typically 15 W, 25 W, 45 W, or higher depending on model)",
+"Smart Protection: Over-current, over-voltage, short-circuit safety",
+"Compact: Travel-friendly design",
+"Compatibility: Works with Samsung Galaxy phones/tablets and other USB-C devices",
+// "Foldable & lightweight design"
+] 
+},
+"infinix-charger":{
+  brand: "Chargers-Cables",
+name:"Infinix Charger",
+price:12,
+image:"accessories/Infinix charger.webp",
+description:"A USB-C power adapter made for Infinix phones and devices — delivers fast, safe charging for everyday use.",
+specs:[
+"Connector: USB-C output — modern reversible port",
+"Fast Charging: Supports fast charge (often 18 W–33 W) on compatible Infinix models",
+"Input: Standard AC wall plug (100–240 V)",
+"Safety: Built-in protection vs. over-current, over-voltage, over-heat",
+"Compatibility: Works with Infinix phones/tablets and other USB-C devices",
+// "Foldable & lightweight design"
+] 
+},
+"tecno-charger":{
+    brand: "Chargers-Cables",
+name:"Tecno Charger",
+price:12,
+image:"accessories/Tecno charger.webp",
+description:"A fast charging adapter that powers up your phone quickly, supports global voltage, and protects against over‑charge, over‑heat, and short circuits.",
+specs:[
+"18W Fast Charger: quick top‑ups for phones/tablets with Type‑C/USB‑A output.",
+"33W Fast Charger: more powerful rapid charging for newer devices.",
+"Universal Input: works on 100‑240 V AC worldwide.",
+"Built‑in Safety: guards against over‑current, over‑voltage, and short circuits",
+] 
+},
+"shplus-charger":{
+      brand: "Chargers-Cables",
+name:"SHplus Charger",
+price:12,
+image:"accessories/SHplus charger.jpg",
+description:"A fast USB charger that powers your devices quickly and safely with smart current detection and built‑in protections.",
+specs:[
+"Fast charging output (e.g., 25 W, 42 W, 45 W, 55 W or higher depending on model)",
+"Dual USB/Type‑C ports for charging two devices at once (model‑dependent)",
+"Safety protections against over‑voltage, over‑current & short circuits",
+"Universal USB compatibility — works with phones, tablets & other USB devices",
+"Compact & travel‑friendly design"
+] 
+},
+"iwatch-charger":{
+brand: "Chargers-Cables",
+name:"Iwatch Charger",
+price:12,
+image:"accessories/Iwatch charger.webp",
+description:"A magnetic fast charger for your Apple Watch — attaches by magnets and powers up your watch quickly and safely with USB‑C.",
+specs:[
+"Magnetic snap‑on charging: holds your watch in place automatically.",
+"Fast charging support (Series 7 & later up to ~80 % in ~45 min with the right adapter).",
+"USB‑C connection: works with compatible USB‑C power adapters.",
+"Safe & sealed design: no exposed contacts and built‑in protections.",
+] 
+},
+"iwatch-screen-guide":{
+  brand: "Chargers-Cables",
+name:"Iwatch Screen Guide",
+price:12,
+image:"accessories/Iwatch screen guard.webp",
+description:"A screen guard that keeps your Apple Watch safe from scratches, bumps, and everyday wear without affecting touch sensitivity.",
+specs:[
+"Scratch Resistant: Shields screen from keys, coins, and everyday wear",
+"Smudge & Fingerprint Proof: Keeps the display clean and clear",
+"Touch Sensitive: Maintains smooth, responsive touch",
+"Impact Protection: Guards against minor bumps and drops",
+"Perfect Fit: Designed for specific Apple Watch models",
+"Crystal Clear: Transparent with no color or clarity loss"
+] 
+},
+"iwatch-strap":{
+brand: "Chargers-Cables",
+name:"Iwatch Strap",
+price:12,
+image:"accessories/Iwatch strap.webp",
+description:"A stylish and comfortable Apple Watch strap that keeps your watch secure while adding a personal touch to your look.",
+specs:[
+"Variety of Colors & Styles: Match any outfit or occasion",
+"Comfortable Fit: Soft, breathable, and adjustable",
+"Secure & Durable: Keeps your Apple Watch safely on your wrist",
+"Easy to Clean: Water and sweat resistant",
+"Quick Swap: Easy to install and remove",
+// "Crystal Clear: Transparent with no color or clarity loss"
+]
+},
+"car-charger":{
+  brand: "Chargers-Cables",
+name:"Car Charger",
+price:12,
+image:"accessories/Car charger.jpg",
+description:"A fast, reliable car charger that powers your devices on the go, keeping you connected while driving",
+specs:[
+"Fast Charging: Quickly charges phones, tablets, and other USB devices",
+"Dual Ports (optional): Charge two devices at once",
+"Universal Compatibility: Works with most smartphones and tablets",
+"Built-in Safety: Protects against over-current, over-voltage, and short circuits",
+"Compact & Portable: Fits easily in any car socket",
+]
+},
+"itel-charger":{
+    brand: "Chargers-Cables",
+name:"Itel Charger",
+price:12,
+image:"accessories/Itel charger.jpg",
+description:"A fast and reliable Itel charger that powers your phone safely and efficiently wherever you are.",
+specs:[
+"Fast Charging: Quickly charges Itel phones and compatible devices",
+"Universal USB Compatibility: Works with USB‑A or Type‑C devices",
+"Safety Protections: Guards against over-current, over-voltage, and short circuits",
+"Global Voltage Support: Works with 100‑240 V power outlets",
+"Compact Design: Portable and travel-friendly",
+]
+},
+"itel-battery":{
+    brand: "Chargers-Cables",
+name:"Itel Battery",
+price:12,
+image:"accessories/Itel_ph_battey.avif",
+description:"A high-performance Itel battery that keeps your phone powered longer and runs safely throughout the day.",
+specs:[
+"Long-Lasting Power: Keeps your Itel phone running all day",
+"Safe & Reliable: Built-in protection against overcharge, overheating, and short circuits",
+"Easy Replacement: Fits perfectly in compatible Itel models",
+"Durable & Stable: Maintains consistent performance over time",
+"Travel-Friendly: Lightweight and portable",
+]  
+},
+"mtn-wifi":{
+      brand: "Routers",
+name:"MTN Wi-Fi",
+price:12,
+image:"accessories/MTN Wi-Fi.webp",
+description:"Stay connected anywhere with MTN Wi-Fi — fast, reliable internet for your devices on the go.",
+specs:[
+"Portable Internet: Connect multiple devices anywhere",
+"High-Speed 4G: Smooth browsing, streaming, and downloads",
+"Secure Connection: Password-protected Wi-Fi network",
+"Long Battery Life: Stay online for hours without recharging",
+"Compact & Travel-Friendly: Easy to carry and set up",
+] 
+},
+"airtel-wifi":{
+brand: "Routers",
+name:"Airtel Wi-Fi Pocket",
+price:12,
+image:"accessories/Airtel Wi-Fi pocket.webp",
+description:"Fast, portable Airtel Wi-Fi that keeps you connected anytime, anywhere, for all your devices.",
+specs:[
+"Portable Internet: Take your Wi-Fi wherever you go",
+"High-Speed 4G/LTE: Smooth streaming, browsing, and downloads",
+"Secure Network: Password-protected connection",
+"Long Battery Life: Stay online for hours on a single charge",
+"Compact & Travel-Friendly: Lightweight and easy to carry",
+]
+},
 };
 
 // Read ID from URL
