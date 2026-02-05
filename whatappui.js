@@ -64,7 +64,7 @@ function checkoutViaWhatsApp() {
   }
 
   // CHANGE THIS NUMBER to the owner's WhatsApp number
-  const phoneNumber = "2348136828054";
+  const phoneNumber = "2347030625157";
 
   const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
   window.open(whatsappURL, "_blank");
