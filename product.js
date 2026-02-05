@@ -1928,6 +1928,7 @@ specs:[
 ]
 },
 "Tecno-Spark-40-8-256":{
+  brand:"Tecno",
   name:"Tecno Spark 40 (8+256)",
 price:195000,
 image:"Tecno/Spark40.webp",
@@ -1943,7 +1944,8 @@ specs:[
 ]
 },
 "Tecno-Spark-40-8-128":{
-    name:"Tecno Spark 40 (8+128)",
+  brand:"Tecno",  
+  name:"Tecno Spark 40 (8+128)",
 price:155200,
 image:"Tecno/Spark40.webp",
 description:"A value‑oriented mid‑range Android smartphone with a large smooth display, long battery life, basic but capable cameras, and modern software — great for everyday use, social apps, media, and general tasks without premium pricing.",
@@ -1958,7 +1960,8 @@ specs:[
 ]
 },
 "Tecno-Spark-40-C-4-128":{
-      name:"Tecno Spark 40 C (4+128)",
+  brand:"Tecno",    
+  name:"Tecno Spark 40 C (4+128)",
 price:143000,
 image:"Tecno/Spark40C.webp",
 description:"A budget‑friendly Android smartphone with a large smooth screen, long battery life, simple cameras, and modern software — a solid pick for social apps, media, browsing, and everyday basics without a high price tag.",
@@ -1973,7 +1976,8 @@ specs:[
 ]
 },
 "Tecno-Pop-10-Pro-4-128":{
-        name:"Tecno Pop 10 Pro (4+128)",
+  brand:"Tecno",      
+  name:"Tecno Pop 10 Pro (4+128)",
 price:141500,
 image:"Tecno/Tecno-Pop-10-Pro-Noir_1024x1024.webp",
 description:"A budget‑friendly everyday Android smartphone with a large smooth display, long battery life, basic but capable cameras, and modern software — ideal for social apps, media, browsing, and daily tasks without paying premium flagship prices.",
@@ -1988,7 +1992,8 @@ specs:[
 ]
 },
 "Tecno-Pop-10-3-128":{
-          name:"Tecno Pop 10 (3+128)",
+brand:"Tecno",
+  name:"Tecno Pop 10 (3+128)",
 price:130500,
 image:"Tecno/tecno-pop-10-green-official-image.webp",
 description:"A budget‑friendly Android smartphone with a big display, solid battery, and basic cameras — ideal for everyday use like social media, browsing, videos, and messaging without spending much.",
@@ -2003,7 +2008,8 @@ specs:[
 ]
 },
 "Tecno-Pop-10-3-64":{
-            name:"Tecno Pop 10 (3+64)",
+brand:"Tecno",
+name:"Tecno Pop 10 (3+64)",
 price:114400,
 image:"Tecno/tecno-pop-10-green-official-image.webp",
 description:"A budget‑friendly Android smartphone with a big display, solid battery, and basic cameras — ideal for everyday use like social media, browsing, videos, and messaging without spending much.",
@@ -2018,6 +2024,7 @@ specs:[
 ]
 },
 "Tecno-Pop-10-C-2-64":{
+brand:"Tecno",
 name:"Tecno Pop 10 C (2+64)",
 price:108500,
 image:"Tecno/pop10c.jpg",

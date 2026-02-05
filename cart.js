@@ -25,7 +25,10 @@ function saveCart(cart) {
 
 function addItemToCart(product, qty = 1) {
   const cart = getCart();
-  const existing = cart.find(item => item.id === product.id);
+const existing = cart.find(
+  item => item.name === product.name && item.brand === product.brand
+);
+
 
   if (existing) {
     existing.quantity += qty;
