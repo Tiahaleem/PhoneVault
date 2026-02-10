@@ -2080,9 +2080,9 @@ specs:[
 ]
 },
 "play-station-5-pad":{
-    brand: "Games",
+brand:"games",
 name:"Play Station 5 Pad",
-price:12,
+price:100000,
 image:"accessories/ps_5pad.webp",
 description:"Official PS5 controller with haptic feedback, adaptive triggers, motion sensors, built-in mic & speaker, touchpad, and smooth wireless play. Works natively with all PS5 games — great all-around choice.",
 specs:[
@@ -2093,9 +2093,9 @@ specs:[
 ]
 },
 "play-station-4-pad":{
-      brand: "Games",
+      brand: "games",
 name:"Play Station 4 Pad",
-price:12,
+price:18000,
 image:"accessories/ps4_pad.webp",
 description:"The official PS4 pad with classic PlayStation layout",
 specs:[
@@ -2106,9 +2106,9 @@ specs:[
 ]
 },
 "play-station-3-pad":{
-        brand: "Games",
+        brand: "games",
 name:"Play Station 3 Pad Wired",
-price:12,
+price:8000,
 image:"accessories/PS3 pad_wired.webp",
 description:"A budget replacement wired controller with analog sticks, D-pad and vibration — work straight on PS3 via USB. Great for casual players and gaming sessions without charging hassles.",
 specs:[
@@ -2122,7 +2122,7 @@ specs:[
 "jbl-boombox3":{
 brand: "Earphones-Headphones",
 name:"JBL Boombox3",
-price:12,
+price:580000,
 image:"accessories/Boombox3.avif",
 description:"A premium portable Bluetooth speaker with big, powerful sound, long battery life, and rugged outdoor durability — perfect for parties, outdoor hangouts, and all-day music.",
 specs:[
@@ -2140,7 +2140,7 @@ specs:[
 "jbl-xtreme4":{
   brand: "Earphones-Headphones",
 name:"JBL Xtreme4",
-price:12,
+price: 370000,
 image:"accessories/Xtreme4.webp",
 description:"A powerful portable Bluetooth speaker with big JBL sound, long battery life, and rugged outdoor durability — perfect for parties, beach days, backyard fun, and all-around listening.",
 specs:[
@@ -2158,7 +2158,7 @@ specs:[
 "jbl-Charge6":{
     brand: "Earphones-Headphones",
 name:"JBL Charge 6",
-price:12,
+price:220000,
 image:"accessories/Charge 6 Jbl.webp",
 description:"A powerful portable Bluetooth speaker with big JBL sound, long battery life, and rugged outdoor durability — perfect for parties, beach days, backyard fun, and all-around listening.",
 specs:[
@@ -2173,7 +2173,7 @@ specs:[
 "jbl-Pulse5":{
       brand: "Earphones-Headphones",
 name:"JBL Pulse5",
-price:12,
+price:300000,
 image:"accessories/JBL_PULSE_5.jpg",
 description:"A portable Bluetooth speaker with an eye-catching 360° light show and bold JBL sound — perfect for parties, outdoor fun, or mood lighting with music",
 specs:[
@@ -2188,7 +2188,7 @@ specs:[
 "jbl-Pulse4":{
       brand: "Earphones-Headphones",
 name:"JBL Pulse4",
-price:12,
+price:250000,
 image:"accessories/JBL-Pulse-4-Black.jpg",
 description:"A portable Bluetooth speaker with an eye-catching 360° light show and bold JBL sound — perfect for parties, outdoor fun, or mood lighting with music",
 specs:[
@@ -2204,7 +2204,7 @@ specs:[
 "jbl-Flip6":{
         brand: "Earphones-Headphones",
 name:"JBL Flip6",
-price:12,
+price:160000,
 image:"accessories/Flip6 Jbl.webp",
 description:"A portable Bluetooth speaker with bold JBL sound, rugged waterproof build, and all‑day playtime — perfect for music anywhere you go.",
 specs:[
@@ -2219,7 +2219,7 @@ specs:[
 "zealots-S-98":{
           brand: "Earphones-Headphones",
 name:"Zealots S.98",
-price:12,
+price:220000,
 image:"accessories/Zealots_S98.jpg",
 description:"A large portable Bluetooth speaker from Zealot designed for powerful sound, long battery life, and outdoor/party use — not earbuds or a small accessory, but a big audio system.",
 specs:[
@@ -2234,7 +2234,7 @@ specs:[
 "zealots-S-85":{
             brand: "Earphones-Headphones",
 name:"Zealots S.85",
-price:12,
+price:65000,
 image:"accessories/Zealots S.85.jpg",
 description:"A portable Bluetooth speaker from Zealot with powerful sound, RGB lighting, long battery life, and outdoor durability — built for music at home, parties, or outdoors.",
 specs:[
@@ -2249,7 +2249,7 @@ specs:[
 "zealots-S-97":{
               brand: "Earphones-Headphones",
 name:"Zealots S.97",
-price:12,
+price:90000,
 image:"accessories/S.97 Zealots.webp",
 description:"A portable Bluetooth party speaker with powerful sound, long battery life, and versatile playback — great for indoor/outdoor music, gatherings, and parties.",
 specs:[
@@ -2264,7 +2264,7 @@ specs:[
 "zealots-S-66m":{
                brand: "Earphones-Headphones",
 name:"Zealots S.66m",
-price:12,
+price:50000,
 image:"accessories/S.66m Zealots.jpg",
 description:"A portable Bluetooth party speaker with lights and karaoke features — designed for loud sound, fun light effects, and versatile playback for home or outdoor music.",
 specs:[
@@ -2280,7 +2280,7 @@ specs:[
 "zealots-S-75":{
                  brand: "Earphones-Headphones",
 name:"Zealots S.75",
-price:12,
+price:75000,
 image:"accessories/S.75Zealots.webp",
 description:"A compact portable Bluetooth speaker from Zealot with solid sound, wireless play, and everyday convenience — perfect for music at home, outdoors, or travel.",
 specs:[
@@ -2295,9 +2295,9 @@ specs:[
 ]
 },
 "mini-starlink":{
-                   brand: "Stralinks",
+brand: "stralinks",
 name:"Mini starlink ",
-price:12,
+price:460000,
 image:"accessories/starlink-mini-now-widely-available-in-us-with-roam-download_ecr3.3840.webp",
 description:"A compact portable satellite internet terminal from SpaceX’s Starlink — designed to give you high‑speed internet anywhere there’s a clear view of the sky, especially in remote/off‑grid locations.",
 specs:[
@@ -2310,9 +2310,9 @@ specs:[
 ]
 },
 "camera-starlink":{
-brand: "Stralinks",
+brand: "stralinks",
 name:"Cameras Starlink",
-price:12,
+price:560000,
 image:"accessories/Cameras Starlink.webp",
 description:"Starlink has outdoor security cameras (Starlink Cameras) designed to work with your Starlink internet setup — ideal for home or property surveillance, easy installation, and remote monitoring.",
 specs:[
@@ -2326,9 +2326,9 @@ specs:[
 ]
 },
 "ai-solar-camera":{
-brand: "Stralinks",
+brand: "stralinks",
 name:"Ai solar camera",
-price:12,
+price:100000,
 image:"accessories/Ai solar camera.webp",
 description:"A solar‑powered smart outdoor security camera that uses artificial intelligence (AI) to detect real activity (like people, vehicles, or pets), send smart alerts, and record video — all without needing mains power.",
 specs:[
@@ -2341,9 +2341,9 @@ specs:[
 ]  
 },
 "mtn-router-5G":{
-brand: "Routers",
+brand:"routers",
 name:"MTN router 5G",
-price:12,
+price:100000,
 image:"accessories/MTN router 5G.jpeg",
 description:"A home/office broadband router that uses MTN’s 5G network to deliver super‑fast internet over Wi‑Fi.",
 specs:[
@@ -2357,9 +2357,9 @@ specs:[
 ] 
 },
 "airtel-router-5G":{
-  brand: "Routers",
+  brand: "routers",
 name:"Airtel router 5G ",
-price:12,
+price:100000,
 image:"accessories/Airtel router 5G.webp",
 description:"A 5G broadband Wi‑Fi router from Airtel (often called SmartConnect 5G ODU Router) that turns Airtel’s mobile network into fast home/office internet — great where fibre or fixed broadband isn’t available.",
 specs:[
@@ -2372,9 +2372,9 @@ specs:[
 ] 
 },
 "mtn-router-(cat4)":{
-   brand: "Routers",
+   brand: "routers",
 name:"MTN router (cat4)",
-price:12,
+price:40000,
 image:"accessories/MTN router (cat4).webp",
 description:"A 4G LTE broadband Wi‑Fi router that uses an MTN SIM to share mobile internet over Wi‑Fi — great for homes, offices, or small setups where fixed broadband isn’t available.",
 specs:[
@@ -2387,9 +2387,9 @@ specs:[
 ]  
 },
 "itel-pb-30000mah":{
-     brand: "Power Banks",
+     brand: "power-banks",
 name:"Itel Power Bank 30000mah",
-price:12,
+price:28000,
 image:"accessories/Itel pb 30000mah.webp",
 description:"A high‑capacity portable charger that keeps your phones, tablets, and devices powered for days without frequent recharging.",
 specs:[
@@ -2402,9 +2402,9 @@ specs:[
 ]  
 },
 "itel-pb-20000mah":{
-brand: "Power Banks",
+brand: "power-banks",
 name:"Itel Power Bank 20000mah",
-price:12,
+price:26000,
 image:"accessories/itel 20000mah.webp",
 description:"A large‑capacity portable charger that’s great for phones, tablets, and other USB devices — perfect for travel, long days out, or emergencies.",
 specs:[
@@ -2416,9 +2416,9 @@ specs:[
 ] 
 },
 "itel-pb-27000mah":{
-  brand: "Power Banks",
+  brand: "power-banks",
 name:"Itel Power Bank 27000mah",
-price:12,
+price:26000,
 image:"accessories/itel 27000mah.jpg",
 description:"A high‑capacity portable charger that keeps your phone, tablet, and USB devices powered through long days, travel, or power outages.",
 specs:[
@@ -2430,9 +2430,9 @@ specs:[
 ] 
 },
 "tecno-pb-30000mah":{
-brand: "Power Banks",
+brand: "power-banks",
 name:"Tecno Power Bank 30000mah",
-price:12,
+price:27000,
 image:"accessories/Tecno pb 30000mah.jpg",
 description:"A high‑capacity portable charger with LED display and fast charging — great for phones, tablets, earbuds, and multiple devices on long trips or power outages",
 specs:[
@@ -2445,9 +2445,9 @@ specs:[
 ] 
 },
 "tecno-pb-20000mah":{
-brand: "Power Banks",
+brand: "power-banks",
 name:"Tecno Power Bank 20000mah",
-price:12,
+price:15000,
 image:"accessories/Tecno Power Bank 20000mah.webp",
 description:"A high-capacity portable charger from Tecno that’s great for phones, tablets, and other USB gadgets on the go.",
 specs:[
@@ -2460,9 +2460,9 @@ specs:[
 ]   
 },
 "infinix-pb-30000mah":{
-brand: "Power Banks",
+brand: "power-banks",
 name:"Infinix Power Bank 30000mah",
-price:12,
+price:27000,
 image:"accessories/Infinix pb30000mah.webp",
 description:"A big-capacity portable charger that’s perfect for travel, long days out, emergencies, and powering multiple gadgets without frequent wall charging.",
 specs:[
@@ -2475,9 +2475,9 @@ specs:[
 ]    
 },
 "infinix-pb-20000mah":{
-  brand: "Power Banks",
+  brand: "power-banks",
 name:"Infinix Power Bank 20000mah",
-price:12,
+price:15000,
 image:"accessories/Infinix pb 20000mah.jpg",
 description:"A large-capacity portable charger that’s great for phones, tablets, earbuds, and other USB devices — ideal for travel, work, long outings, or when power’s scarce.",
 specs:[
@@ -2489,9 +2489,9 @@ specs:[
 ] 
 },
 "newage-pb-55000mah":{
-    brand: "Power Banks",
+    brand: "power-banks",
 name:"New age Power Bank 55000mah",
-price:12,
+price:50000,
 image:"accessories/New age pb 55000mah.webp",
 description:"A very high-capacity portable charger great for powering multiple phones, tablets, and USB devices on long trips, emergencies, or extended outages.",
 specs:[
@@ -2504,9 +2504,9 @@ specs:[
 ] 
 },
 "newage-pb-44000mah":{
-      brand: "Power Banks",
+      brand: "power-banks",
 name:"New age Power Bank 44000mah",
-price:12,
+price:40000,
 image:"accessories/New age pb 44000mah.webp",
 description:"A very high-capacity portable charger that’s built to keep multiple devices powered for days — great for long trips, power outages, or charging several gadgets at once.",
 specs:[
@@ -2519,9 +2519,9 @@ specs:[
 ] 
 },
 "newage-pb-33000mah":{
-      brand: "Power Banks",
+      brand: "power-banks",
 name:"New age Power Bank 33000mah",
-price:12,
+price:29000,
 image:"accessories/New age pb 33000mah.webp",
 description:"A high-capacity portable charger that keeps your phone, tablet, earbuds, and other USB-powered devices running through long days, travel, or outages.",
 specs:[
@@ -2534,9 +2534,9 @@ specs:[
 ]   
 },
 "newage-pb-22500mah":{
-brand: "Power Banks",
+brand: "power-banks",
 name:"New age Power Bank 22500mah",
-price:12,
+price:18000,
 image:"accessories/New age pb 22500mah.webp",
 description:"A large-capacity portable charger perfect for phones, tablets, earbuds, and other USB devices — ideal for travel, long days out, or power outages.",
 specs:[
@@ -2549,9 +2549,9 @@ specs:[
 ]  
 },
 "tecno-airPod":{
-  brand: "Airpod",
+  brand: "airpod",
 name:"Tecno Buds 2",
-price:12,
+price:27000,
 image:"accessories/Tecno AirPod.jpg",
 description:"A simple Tecno wireless earbud for calls, music, and daily use — affordable and reliable, AirPods-style but not Apple.",
 specs:[
@@ -2564,9 +2564,9 @@ specs:[
 ] 
 },
 "oriamo-airPod":{
-brand: "Airpod",
+brand: "airpod",
 name:"Oraimo AirPod Pro",
-price:12,
+price:35000,
 image:"accessories/Oraimo AirPod.webp",
 description:"Stylish true wireless earbuds from Oraimo with features similar to premium earbuds — great for music, calls, and everyday use.",
 specs:[
@@ -2579,9 +2579,9 @@ specs:[
 ] 
 },
 "infinix-smartwatch":{
-  brand: "Infinix",
+  brand: "watches",
 name:"Infinix Smartwatch",
-price:12,
+price:50000,
 image:"accessories/Infinix smartwatch.webp",
 description:"A stylish, budget-friendly smartwatch made for daily fitness tracking and smart notifications.",
 specs:[
@@ -2594,9 +2594,9 @@ specs:[
 ] 
 },
 "itel-smartwatch":{
-    brand: "Itel",
+    brand: "watches",
 name:"Itel Smartwatch",
-price:12,
+price:30000,
 image:"accessories/Itel smartwatch.webp",
 description:"A budget-friendly wearable that tracks your health, fitness, and notifications in a sleek, everyday style — perfect if you want smartwatch features without high cost.",
 specs:[
@@ -2609,9 +2609,9 @@ specs:[
 ] 
 },
 "tecno-smartwatch":{
-      brand: "Tecno",
+      brand: "watches",
 name:"Tecno Smartwatch",
-price:12,
+price:40000,
 image:"accessories/Tecno smartwatch.png",
 description:"A budget-friendly wearable that tracks your health, fitness, and notifications in a sleek, everyday style — perfect if you want smartwatch features without high cost.",
 specs:[
@@ -2639,9 +2639,9 @@ specs:[
 ] 
 },
 "fold6-pouch":{
-          brand: "Samsung",
+          brand: "phone-cases",
 name:"Fold6 Pouch",
-price:12,
+price:25000,
 image:"accessories/Fold6 pouch.webp",
 description:"A protective sleeve/case made to fit the Fold6 — guards against scratches, bumps, and daily wear while keeping the foldable slim and stylish.",
 specs:[
@@ -2654,9 +2654,9 @@ specs:[
 ] 
 },
 "fold3-pouch":{
-            brand: "Samsung",
+            brand: "phone-cases",
 name:"Fold3 Pouch & Glass",
-price:12,
+price:20000,
 image:"accessories/Fold3 pouch & glass.webp",
 description:"A protection combo for your Fold3 — keeps your foldable phone safe from scratches, drops, impacts, and everyday wear.",
 specs:[
@@ -2672,9 +2672,9 @@ specs:[
 ] 
 },
 "fold4-pouch":{
-brand: "Samsung",
+brand: "phone-cases",
 name:"Fold4 Pouch",
-price:12,
+price:20000,
 image:"accessories/fold4-pouch.webp",
 description:"A protective sleeve/case designed specifically for the Fold4 — keeps your foldable phone safe from scratches, bumps, and daily wear while staying slim and stylish.",
 specs:[
@@ -2687,9 +2687,9 @@ specs:[
 ] 
 },
 "952bt":{
-brand: "JBL",
+brand: "Earphones-Headphones",
 name:"JBL 952bt",
-price:12,
+price:20000,
 image:"accessories/952bt Headset.jfif",
 description:"A wireless Bluetooth over-ear headphone with rich JBL sound, comfy design, and multipoint connectivity — great for music, calls, and everyday use.",
 specs:[
@@ -2705,7 +2705,7 @@ specs:[
 "bh-headset":{
   brand: "Earphones-Headphones",
 name:"Bh Headset",
-price:12,
+price:18000,
 image:"accessories/Bh headset.webp",
 description:"A noise-cancelling headset that keeps your calls and music crystal clear, blocks unwanted noise, and stays comfortable all day.",
 specs:[
@@ -2720,7 +2720,7 @@ specs:[
 "sn-81":{
     brand: "Earphones-Headphones",
 name:"JBL Sn-81",
-price:12,
+price:20000,
 image:"accessories/Sn-81 Headset.webp",
 description:"Lightweight, foldable wireless Bluetooth headphones with rich bass, hands‑free calls, voice assistant support, long playtime, and multi‑connection options.",
 specs:[
@@ -2736,7 +2736,7 @@ specs:[
 "trans-headset":{
       brand: "Earphones-Headphones",
 name:"Trans headset",
-price:12,
+price:18000,
 image:"accessories/Trans headset.jfif",
 description:"Lightweight true wireless earbuds with active noise reduction, long battery life, Bluetooth 5.0, touch controls, and water‑resistant design.",
 specs:[
@@ -2752,7 +2752,7 @@ specs:[
 "sudo-headset":{
         brand: "Earphones-Headphones",
 name:"Sodo headset ",
-price:12,
+price:25000,
 image:"accessories/Sodo headset.webp",
 description:"Sodo is a brand known for budget-friendly audio gear — typically wired or wireless headphones/earbuds with decent sound and basic features for everyday listening, calls, and casual use.",
 specs:[
@@ -2766,9 +2766,9 @@ specs:[
 ] 
 },
 "oraimo-clipper":{
-          brand: "Others",
+brand: "others",
 name:"Oraimo Clipper",
-price:12,
+price:35000,
 image:"accessories/Oraimo clipper.webp",
 description:"A cordless electric hair clipper/trimmer designed for easy home grooming — cuts hair, trims beards, and shapes edges with comfortable handling.",
 specs:[
@@ -2784,7 +2784,7 @@ specs:[
 "oraimo-necklaces":{
           brand: "Earphones-Headphones",
 name:"Oraimo Necklaces",
-price:12,
+price:22000,
 image:"accessories/Oraimo necklaces.webp",
 description:"Stylish smart wearable accessories from Oraimo that blend fashion with tech — often featuring a built-in audio cable or Bluetooth connectivity for music, calls, and on-the-go convenience.",
 specs:[
@@ -2798,9 +2798,9 @@ specs:[
 ]
 },
 "wireless-mouse":{
-          brand: "Others",
+          brand: "others",
 name:"Wireless Mouse",
-price:12,
+price:8000,
 image:"accessories/Wireless mouse.webp",
 description:"A cordless computer mouse that connects via Bluetooth or USB dongle — gives you smooth cursor control without cables, perfect for laptops, desktops, and travel.",
 specs:[
@@ -2814,9 +2814,9 @@ specs:[
 ]
 },
 "wireless-microphone":{
-brand: "Others",
+brand: "others",
 name:"Wireless Microphone",
-price:12,
+price:15000,
 image:"accessories/Wireless microphone.jpg",
 description:"A cordless mic that sends your voice to a speaker, camera, phone, or recorder without a cable — ideal for singing, interviews, recording, presentations, and live streams.",
 specs:[
@@ -2830,9 +2830,9 @@ specs:[
 ]
 },
 "trans-type-c-charger":{
-  brand: "Chargers-Cables",
+  brand: "chargers-cables",
 name:"Trans Type C Charger",
-price:12,
+price:10000,
 image:"accessories/Trans type c charger.webp",
 description:"A charger with a USB-C connector (also called USB-Type-C) — modern, fast, and compatible with most new phones, tablets, laptops, power banks, and accessories.",
 specs:[
@@ -2846,9 +2846,9 @@ specs:[
 ]
 },
 "trans-iPhone-charger":{
-  brand: "Chargers-Cables",
+  brand: "chargers-cables",
 name:"Trans IPhone Charger",
-price:12,
+price:10000,
 image:"accessories/Trans iPhone charger.webp",
 description:"A charger with a USB-C output and an Apple-compatible connector (USB-C to Lightning) — made to charge iPhones quickly and safely.",
 specs:[
@@ -2861,9 +2861,9 @@ specs:[
 ]  
 },
 "sam-charger":{
-brand: "Chargers-Cables",
+brand: "chargers-cables",
 name:"Sam charger",
-price:12,
+price:8000,
 image:"accessories/samsung-charger.webp",
 description:"A power adapter made for Samsung phones and devices — often USB-C with fast charging support.",
 specs:[
@@ -2876,9 +2876,9 @@ specs:[
 ] 
 },
 "infinix-charger":{
-  brand: "Chargers-Cables",
+  brand: "chargers-cables",
 name:"Infinix Charger",
-price:12,
+price:7000,
 image:"accessories/Infinix charger.webp",
 description:"A USB-C power adapter made for Infinix phones and devices — delivers fast, safe charging for everyday use.",
 specs:[
@@ -2891,9 +2891,9 @@ specs:[
 ] 
 },
 "tecno-charger":{
-    brand: "Chargers-Cables",
+    brand: "chargers-cables",
 name:"Tecno Charger",
-price:12,
+price:7000,
 image:"accessories/Tecno charger.webp",
 description:"A fast charging adapter that powers up your phone quickly, supports global voltage, and protects against over‑charge, over‑heat, and short circuits.",
 specs:[
@@ -2904,7 +2904,7 @@ specs:[
 ] 
 },
 "shplus-charger":{
-      brand: "Chargers-Cables",
+      brand: "chargers-cables",
 name:"SHplus Charger",
 price:12,
 image:"accessories/SHplus charger.jpg",
@@ -2918,7 +2918,7 @@ specs:[
 ] 
 },
 "iwatch-charger":{
-brand: "Chargers-Cables",
+brand: "chargers-cables",
 name:"Iwatch Charger",
 price:12,
 image:"accessories/Iwatch charger.webp",
@@ -2931,7 +2931,7 @@ specs:[
 ] 
 },
 "iwatch-screen-guide":{
-  brand: "Chargers-Cables",
+  brand: "chargers-cables",
 name:"Iwatch Screen Guide",
 price:12,
 image:"accessories/Iwatch screen guard.webp",
@@ -2946,7 +2946,7 @@ specs:[
 ] 
 },
 "iwatch-strap":{
-brand: "Chargers-Cables",
+brand: "chargers-cables",
 name:"Iwatch Strap",
 price:12,
 image:"accessories/Iwatch strap.webp",
@@ -2961,7 +2961,7 @@ specs:[
 ]
 },
 "car-charger":{
-  brand: "Chargers-Cables",
+  brand: "chargers-cables",
 name:"Car Charger",
 price:12,
 image:"accessories/Car charger.jpg",
@@ -2975,7 +2975,7 @@ specs:[
 ]
 },
 "itel-charger":{
-    brand: "Chargers-Cables",
+    brand: "chargers-cables",
 name:"Itel Charger",
 price:12,
 image:"accessories/Itel charger.jpg",
@@ -2989,7 +2989,7 @@ specs:[
 ]
 },
 "itel-battery":{
-    brand: "Chargers-Cables",
+    brand: "chargers-cables",
 name:"Itel Battery",
 price:12,
 image:"accessories/Itel_ph_battey.avif",
@@ -3031,7 +3031,7 @@ specs:[
 ]
 },
 "phone-stand":{
-  brand: "Others",
+  brand: "others",
 name:"Phone Stand",
 price:12,
 image:"accessories/Phone stand.webp",
@@ -3045,7 +3045,7 @@ specs:[
 ]
 },
 "iphone-cord":{
-    brand: "Chargers-Cables",
+    brand: "chargers-cables",
 name:"Iphone Cord",
 price:12,
 image:"accessories/iPhone cord.webp",
@@ -3059,7 +3059,7 @@ specs:[
 ]
 },
 "type-c-cord":{
-brand: "Chargers-Cables",
+brand: "chargers-cables",
 name:"Type C Cord",
 price:12,
 image:"accessories/Type c cord.webp",
@@ -3073,7 +3073,7 @@ specs:[
 ]
 },
 "android-cord":{
-brand: "Chargers-Cables",
+brand: "chargers-cables",
 name:"Android Cord",
 price:12,
 image:"accessories/Android cord.jpg",
