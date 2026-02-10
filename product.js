@@ -2041,10 +2041,10 @@ specs:[
 ]
 },
 "mortal-combat-Ps3":{
-brand: "Games",
-name:"Mortal Combat",
-price:12,
-image:"accessories/MORTAL COMBAT Ps3.jpg",
+brand: "games",
+name:"Play Station 3 Games",
+price:150000,
+image:"accessories/play-station-3-games.jpg",
 description:"A PS3 disc game based on the popular Mortal Kombat 9 (2011) fighting title, released as the Komplete Edition with all major DLC included — extra characters, skins, and more.",
 specs:[
 "Genre: Fighting / Action",
@@ -2054,10 +2054,10 @@ specs:[
 ]
 },
 "mortal-combat-Ps4":{
-brand: "Games",
-name:"Mortal Combat Play Station 4",
-price:12,
-image:"accessories/mortal_combat ps4.webp",
+brand: "games",
+name:"Play Station 4 Games",
+price:300000,
+image:"accessories/play-stattion-4-games.png",
 description:"One of the most popular fighting games in the franchise with great graphics, deep story mode, and tons of characters. There’s also an Ultimate edition that includes all DLC characters and expansions like Aftermath and Kombat Packs — giving you the fullest PS4 Mortal Kombat experience.",
 specs:[
 "Genre: Fighting / Action",
@@ -2066,10 +2066,10 @@ specs:[
 ]
 },
 "mortal-combat-Ps5":{
-  brand: "Games",
-name:"Mortal Combat Play Station 5",
-price:12,
-image:"accessories/MORTAL COMBAT Ps5.webp",
+  brand: "games",
+name:"Play Station 5 Games",
+price:770000,
+image:"accessories/play-stattion-5-games.webp",
 description:"A brutal next-gen fighting game with stunning graphics, fast gameplay, iconic characters, and over-the-top Fatalities. Built to take advantage of PS5 performance for smoother combat and faster loading.",
 specs:[
 "Genre: Fighting / Action",
@@ -2906,7 +2906,7 @@ specs:[
 "shplus-charger":{
       brand: "chargers-cables",
 name:"SHplus Charger",
-price:12,
+price:8000,
 image:"accessories/SHplus charger.jpg",
 description:"A fast USB charger that powers your devices quickly and safely with smart current detection and built‑in protections.",
 specs:[
@@ -2920,7 +2920,7 @@ specs:[
 "iwatch-charger":{
 brand: "chargers-cables",
 name:"Iwatch Charger",
-price:12,
+price:10000,
 image:"accessories/Iwatch charger.webp",
 description:"A magnetic fast charger for your Apple Watch — attaches by magnets and powers up your watch quickly and safely with USB‑C.",
 specs:[
@@ -2933,7 +2933,7 @@ specs:[
 "iwatch-screen-guide":{
   brand: "chargers-cables",
 name:"Iwatch Screen Guide",
-price:12,
+price:2000,
 image:"accessories/Iwatch screen guard.webp",
 description:"A screen guard that keeps your Apple Watch safe from scratches, bumps, and everyday wear without affecting touch sensitivity.",
 specs:[
@@ -2948,7 +2948,7 @@ specs:[
 "iwatch-strap":{
 brand: "chargers-cables",
 name:"Iwatch Strap",
-price:12,
+price:5000,
 image:"accessories/Iwatch strap.webp",
 description:"A stylish and comfortable Apple Watch strap that keeps your watch secure while adding a personal touch to your look.",
 specs:[
@@ -2963,7 +2963,7 @@ specs:[
 "car-charger":{
   brand: "chargers-cables",
 name:"Car Charger",
-price:12,
+price:5000,
 image:"accessories/Car charger.jpg",
 description:"A fast, reliable car charger that powers your devices on the go, keeping you connected while driving",
 specs:[
@@ -2977,7 +2977,7 @@ specs:[
 "itel-charger":{
     brand: "chargers-cables",
 name:"Itel Charger",
-price:12,
+price:3500,
 image:"accessories/Itel charger.jpg",
 description:"A fast and reliable Itel charger that powers your phone safely and efficiently wherever you are.",
 specs:[
@@ -2991,7 +2991,7 @@ specs:[
 "itel-battery":{
     brand: "chargers-cables",
 name:"Itel Battery",
-price:12,
+price:2500,
 image:"accessories/Itel_ph_battey.avif",
 description:"A high-performance Itel battery that keeps your phone powered longer and runs safely throughout the day.",
 specs:[
@@ -3005,7 +3005,7 @@ specs:[
 "mtn-wifi":{
       brand: "Routers",
 name:"MTN Wi-Fi",
-price:12,
+price:22000,
 image:"accessories/MTN Wi-Fi.webp",
 description:"Stay connected anywhere with MTN Wi-Fi — fast, reliable internet for your devices on the go.",
 specs:[
@@ -3019,7 +3019,7 @@ specs:[
 "airtel-wifi":{
 brand: "Routers",
 name:"Airtel Wi-Fi Pocket",
-price:12,
+price:20000,
 image:"accessories/Airtel Wi-Fi pocket.webp",
 description:"Fast, portable Airtel Wi-Fi that keeps you connected anytime, anywhere, for all your devices.",
 specs:[
@@ -3047,7 +3047,7 @@ specs:[
 "iphone-cord":{
     brand: "chargers-cables",
 name:"Iphone Cord",
-price:12,
+price:2000,
 image:"accessories/iPhone cord.webp",
 description:"A durable iPhone cord for fast charging and reliable data transfer, keeping your device powered and connected.",
 specs:[
@@ -3061,7 +3061,7 @@ specs:[
 "type-c-cord":{
 brand: "chargers-cables",
 name:"Type C Cord",
-price:12,
+price:2000,
 image:"accessories/Type c cord.webp",
 description:"A fast and durable USB‑C cord for charging and data transfer, compatible with smartphones, tablets, and other devices.",
 specs:[
@@ -3075,7 +3075,7 @@ specs:[
 "android-cord":{
 brand: "chargers-cables",
 name:"Android Cord",
-price:12,
+price:2000,
 image:"accessories/Android cord.jpg",
 description:"A reliable Android cord for fast charging and seamless data transfer, keeping your phone powered and connected.",
 specs:[
